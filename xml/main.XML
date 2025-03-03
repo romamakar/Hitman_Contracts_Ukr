@@ -1,0 +1,3142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HitmanLOC xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MainPart name="AllLevels">
+    <Item name="Actions">
+      <Item name="Activate">Активувати</Item>
+      <Item name="BalconyJump">Стрибнути на балкон</Item>
+      <Item name="Basement">Підвал</Item>
+      <Item name="CallAgency">Визвати аґенцію</Item>
+      <Item name="CallElevator">Визвати ліфт</Item>
+      <Item name="CallTrain">Визвати поїзд</Item>
+      <Item name="ChangeClothes">Змінити одяг</Item>
+      <Item name="ClimbOverWall">Перелізти через стіну</Item>
+      <Item name="ClimbThroughWindow">Перелізти через вікно</Item>
+      <Item name="Close">Закрити</Item>
+      <Item name="CloseCabinet">Закрити шафу</Item>
+      <Item name="CloseDoor">Закрити двері</Item>
+      <Item name="CloseWindow">Закрити вікно</Item>
+      <Item name="Deactivate">Деактивувати</Item>
+      <Item name="DeactivateLaser">Деактивувати лазер</Item>
+      <Item name="Drag">Тягнути</Item>
+      <Item name="DropBody">Кинути тіло</Item>
+      <Item name="DropItemDownChute">Кинути предмет у шахту</Item>
+      <Item name="FirstBasement">Підвал 1</Item>
+      <Item name="FirstFloor">Поверх 1</Item>
+      <Item name="Holster">Кобура</Item>
+      <Item name="Mansion">Маєток</Item>
+      <Item name="NotEquipped" />
+      <Item name="Open">Відкрити</Item>
+      <Item name="OpenCabinet">Відкрити шафу</Item>
+      <Item name="OpenDoor">Відкрити двері</Item>
+      <Item name="OpenWindow">Відкрити вікно</Item>
+      <Item name="PeekHole">Глянути через замок</Item>
+      <Item name="PickLock">Відімкнути замок</Item>
+      <Item name="Pickup">Взяти %s</Item>
+      <Item name="Place">Покласти</Item>
+      <Item name="PlaceBomb">Покласти бомбу</Item>
+      <Item name="PlaceDNDSign">Повісити знак</Item>
+      <Item name="PlaceItem">Покласти предмет</Item>
+      <Item name="PlaceX">Покласти %s</Item>
+      <Item name="Poison">Отруїти</Item>
+      <Item name="PoisonTarget">Отруїти ціль</Item>
+      <Item name="PoisonTea">Отруїти чай</Item>
+      <Item name="PoisonWater">Отруїти воду</Item>
+      <Item name="PoisonWhiskey">Отруїти віскі</Item>
+      <Item name="PowerOffFuseBox">Перемкнути перемикач напруги</Item>
+      <Item name="PressButton">Натиснути кнопку</Item>
+      <Item name="RetrieveWeapon">Взяти зброю</Item>
+      <Item name="RunToggle">Перемкнути біг</Item>
+      <Item name="SecondBasement">Підвал 2</Item>
+      <Item name="SecondFloor">Поверх 2</Item>
+      <Item name="SecondFloorVIP">Поверх 2 (особливий)</Item>
+      <Item name="Show202Key">Показати ключ до номеру 202</Item>
+      <Item name="Show301Key">Показати ключ до номеру 301</Item>
+      <Item name="StartTrain">Запустити поїзд</Item>
+      <Item name="SwitchOffMD">Вимкнути металошукачі</Item>
+      <Item name="SwitchOnMD">Увімкнути металошукачі</Item>
+      <Item name="TakeClothes">Одягнутися</Item>
+      <Item name="Talk">Поговорити</Item>
+      <Item name="ThirdFloor">Поверх 3</Item>
+      <Item name="Title">ДІЯ</Item>
+      <Item name="ToggleGenerator">Перемкнути генератор</Item>
+      <Item name="TurnHandle">Повернути ручку</Item>
+    </Item>
+    <Item name="Buttons">
+      <Item name="Action">Виконати дію</Item>
+      <Item name="Aim">Прицілитися</Item>
+      <Item name="AimMove">Цілитися/Рухатися</Item>
+      <Item name="Crouch">Повзти</Item>
+      <Item name="CycleBinocular">Взяти бінокль</Item>
+      <Item name="CycleCloseCombat">Взяти зброю ближнього бою</Item>
+      <Item name="CycleLighter">Взяти запальничку</Item>
+      <Item name="CycleLockpick">Взяти відмичку</Item>
+      <Item name="CycleNVG">Взяти темновізор</Item>
+      <Item name="CyclePistols">Взяти пістолет</Item>
+      <Item name="CycleRifles">Взяти рушницю</Item>
+      <Item name="CycleSMG">Взяти пістолет-кулемет</Item>
+      <Item name="DefaultMapping">Стандартне управління</Item>
+      <Item name="Drop">Кинути предмет</Item>
+      <Item name="Equip">Взяти предмет</Item>
+      <Item name="FireWeapon">Стріляти</Item>
+      <Item name="GC">
+        <Item name="A">Кнопка А</Item>
+        <Item name="B">Кнопка В</Item>
+        <Item name="DirectionalButtons">Подушка керування</Item>
+        <Item name="HoldL">(Тримати) Кнопка L</Item>
+        <Item name="LeftAnalog">Лівий стік</Item>
+        <Item name="R">Кнопка R</Item>
+        <Item name="RightAnalog">Правий стік</Item>
+        <Item name="Start">Старт/Пауза</Item>
+        <Item name="TapL">(Натиснути) Кнопка L</Item>
+        <Item name="ToggleCam">Подвійне натиснення Вгору чи Вниз Подушкою керування</Item>
+        <Item name="X">Кнопка Х</Item>
+        <Item name="Y">Кнопка Y</Item>
+        <Item name="Z">Кнопка Z</Item>
+      </Item>
+      <Item name="HolsterUnholster">Вийняти/Сховати</Item>
+      <Item name="Inventory">Відкрити інвентарій</Item>
+      <Item name="Lean">Нахилитися</Item>
+      <Item name="LeanLeft">Нахилитися вліво</Item>
+      <Item name="LeanRight">Нахилитися вправо</Item>
+      <Item name="LeftHandMapping">Ліворуке керування</Item>
+      <Item name="LookStrafe">Огляд/Бічний рух</Item>
+      <Item name="MapBriefing">Відкрити мапу і завдання</Item>
+      <Item name="MouseButtons">
+        <Item name="Button1">Ліва кнопка миші</Item>
+        <Item name="Button10">Миша вправо</Item>
+        <Item name="Button11">Миша вліво</Item>
+        <Item name="Button2">Права кнопка миші</Item>
+        <Item name="Button3">Середня кнопка миші</Item>
+        <Item name="Button4">4 кнопка миші</Item>
+        <Item name="Button5">5 кнопка миші</Item>
+        <Item name="Button6">Колесо миші вгору</Item>
+        <Item name="Button7">Колесо миші вниз</Item>
+        <Item name="Button8">Миша вгору</Item>
+        <Item name="Button9">Миша вниз</Item>
+      </Item>
+      <Item name="MoveBackward">Рух назад</Item>
+      <Item name="MoveForward">Рух вперед</Item>
+      <Item name="MoveLeft">Рух вліво</Item>
+      <Item name="Movement">Рух</Item>
+      <Item name="MoveRight">Рух вправо</Item>
+      <Item name="PS2">
+        <Item name="Circle"></Item>
+        <Item name="Cross"></Item>
+        <Item name="DirectionalButtons">Кнопки напрямку</Item>
+        <Item name="L1">Кнопка L1</Item>
+        <Item name="L2">Кнопка L2</Item>
+        <Item name="L3">Кнопка L3</Item>
+        <Item name="LeftAnalog">Лівий джойстик</Item>
+        <Item name="R1">Кнопка R1</Item>
+        <Item name="R2">Кнопка R2</Item>
+        <Item name="R3">Кнопка R3</Item>
+        <Item name="RightAnalog">Правий джойстик</Item>
+        <Item name="SelectButton">Кнопка SЕLЕСТ</Item>
+        <Item name="Square"></Item>
+        <Item name="StartButton">Кнопка SТАRТ</Item>
+        <Item name="Triangle"></Item>
+      </Item>
+      <Item name="QuickInventory">Сховати/Інвентарій</Item>
+      <Item name="ReloadWeapon">Перезарядити</Item>
+      <Item name="Run">Бігти</Item>
+      <Item name="RunToggle">Постійний біг</Item>
+      <Item name="Screenshot">Зняти скріншот</Item>
+      <Item name="ShowBriefing">Відкрити завдання</Item>
+      <Item name="ShowMap">Відкрити мапу</Item>
+      <Item name="ShowMenu">Пауза</Item>
+      <Item name="SimplifiedMapping">Спрощене керування</Item>
+      <Item name="SlowAim">Точне прицілювання</Item>
+      <Item name="Sneak">Крастися</Item>
+      <Item name="ToggleCamera">Змінити камеру</Item>
+      <Item name="Xbox">
+        <Item name="A"></Item>
+        <Item name="B"></Item>
+        <Item name="BackButton">Кнопка ВАСК</Item>
+        <Item name="BlackButton">Чорна кнопка</Item>
+        <Item name="ClickLeftThumb">Натиснути лівий джойстик</Item>
+        <Item name="ClickRightThumb">Натиснути правий джойстик</Item>
+        <Item name="DirectionalButtons">Подушка керування</Item>
+        <Item name="DirectionalDown">Подушка керування вниз</Item>
+        <Item name="DirectionalLeft">Подушка керування вліво</Item>
+        <Item name="DirectionalRight">Подушка керування вправо</Item>
+        <Item name="DirectionalUp">Подушка керування вгору</Item>
+        <Item name="LeftAnalog">Лівий джойстик</Item>
+        <Item name="LeftThumbButton">Кнопка лівого джойстика</Item>
+        <Item name="LeftTrigger">Лівий трігер</Item>
+        <Item name="RightAnalog">Правий джойстик</Item>
+        <Item name="RightThumbButton">Кнопка правого джойстика</Item>
+        <Item name="RightTrigger">Правий трігер</Item>
+        <Item name="start">Кнопка SТАRТ</Item>
+        <Item name="WhiteButton">Біла кнопка</Item>
+        <Item name="X"></Item>
+        <Item name="Y"></Item>
+      </Item>
+      <Item name="Zoom">Наближення</Item>
+      <Item name="ZoomIn">Наблизити</Item>
+      <Item name="ZoomOut">Віддалити</Item>
+    </Item>
+    <Item name="Civilians">
+      <Item name="Chinese">
+        <Item name="HitmanPickingLock">
+          <Item name="Female01">
+            <Item name="All_C_HMPL_01F1">Гей, дружок, тобі не треба цього робити.</Item>
+            <Item name="All_C_HMPL_02F1">Ти думаєш, що ти робиш? Гей! Гей!</Item>
+            <Item name="All_C_HMPL_03F1">Зупинись! Або я покличу на поміч!</Item>
+          </Item>
+          <Item name="Male01">
+            <Item name="All_C_HMPL_01M1">Гей, дружок, тобі не треба цього робити.</Item>
+            <Item name="All_C_HMPL_02M1">Ти думаєш, що ти робиш? Гей! Гей!</Item>
+            <Item name="All_C_HMPL_03M1">Зупинись! Або я покличу на поміч!</Item>
+          </Item>
+        </Item>
+        <Item name="NearDeath">
+          <Item name="Female01">
+            <Item name="All_C_ND_01F1">О мій боже... ооо мій боже... Я поранений... Хто-небудь допоможіть...  Будь ласка...</Item>
+          </Item>
+        </Item>
+        <Item name="RunAwayForHelp">
+          <Item name="Female01">
+            <Item name="All_C_RAFH_01F1">Допомога! Хто-небудь! Допоможіть!</Item>
+            <Item name="All_C_RAFH_02F1">Ааа! Допоможіііть!</Item>
+            <Item name="All_C_RAFH_03F1">Допоможіть! Хто-небудь! На поміч!</Item>
+          </Item>
+          <Item name="Female02">
+            <Item name="All_C_RAFH_01F2">Допомога! Хто-небудь! Допоможіть!</Item>
+            <Item name="All_C_RAFH_02F2">Ааа! Допоможіііть!</Item>
+            <Item name="All_C_RAFH_03F2">Допоможіть! Хто-небудь! На поміч!</Item>
+          </Item>
+          <Item name="Male01">
+            <Item name="All_C_RAFH_01M1">Допомога! Хто-небудь! Допомога!</Item>
+          </Item>
+          <Item name="Male02">
+            <Item name="All_C_RAFH_01M2">Допомога! Хто-небудь! Допомога!</Item>
+            <Item name="All_C_RAFH_02M2">Ааа! Допоможіііть!</Item>
+          </Item>
+        </Item>
+        <Item name="SeeDeadBody">
+          <Item name="Female01">
+            <Item name="All_C_SDB_01F1">З вами все гаразд? Агов? О, боже...! Допоможіть! Поліція!</Item>
+          </Item>
+          <Item name="Female02">
+            <Item name="All_C_SDB_01F2">О боже, він мертвий! Допоможіть! Хто-небудь, допоможіть!</Item>
+            <Item name="All_C_SDB_02F2">З вами все гаразд? Агов? О, боже...! Допоможіть! Поліція!</Item>
+          </Item>
+          <Item name="Male01">
+            <Item name="All_C_SDB_01M1">О боже, він мертвий! Допоможіть! Хто-небудь, допоможіть!</Item>
+          </Item>
+          <Item name="Male02">
+            <Item name="All_C_SDB_01M2">О боже, він мертвий! Допоможіть! Хто-небудь, допоможіть!</Item>
+            <Item name="All_C_SDB_02M2">З вами все гаразд? Агов? О, боже...! Допоможіть! Поліція!</Item>
+          </Item>
+        </Item>
+        <Item name="SmallTalk">
+          <Item name="Male01">
+            <Item name="All_C_ST_01M1" />
+          </Item>
+          <Item name="Male02">
+            <Item name="All_C_ST_01M2" />
+          </Item>
+          <Item name="Male03">
+            <Item name="All_C_ST_01M3" />
+            <Item name="All_C_ST_02M3" />
+            <Item name="All_C_ST_03M3" />
+          </Item>
+          <Item name="Male04">
+            <Item name="All_C_ST_01M4" />
+            <Item name="All_C_ST_02M4" />
+            <Item name="All_C_ST_03M4" />
+          </Item>
+          <Item name="Male05">
+            <Item name="All_C_ST_01M5" />
+            <Item name="All_C_ST_02M5" />
+            <Item name="All_C_ST_03M5" />
+          </Item>
+        </Item>
+      </Item>
+      <Item name="Dutch">
+        <Item name="HitmanPickingLock">
+          <Item name="Female01">
+            <Item name="All_D_HMPL_01F1">Гей, дружок, тобі не треба цього робити.</Item>
+            <Item name="All_D_HMPL_02F1">Ти думаєш, що ти робиш? Гей! Гей!</Item>
+            <Item name="All_D_HMPL_03F1">Зупинись! Або я покличу на поміч!</Item>
+          </Item>
+          <Item name="Male01">
+            <Item name="All_D_HMPL_01M1">Гей, дружок, тобі не треба цього робити.</Item>
+            <Item name="All_D_HMPL_02M1">Ти думаєш, що ти робиш? Гей! Гей!</Item>
+            <Item name="All_D_HMPL_03M1">Зупинись! Або я покличу на поміч!</Item>
+          </Item>
+          <Item name="Male02">
+            <Item name="All_D_HMPL_01M2">Гей, дружок, тобі не треба цього робити.</Item>
+            <Item name="All_D_HMPL_02M2">Ти думаєш, що ти робиш? Гей! Гей!</Item>
+            <Item name="All_D_HMPL_03M2">Зупинись! Або я покличу на поміч!</Item>
+          </Item>
+        </Item>
+        <Item name="NearDeath">
+          <Item name="Female01">
+            <Item name="All_D_ND_01F1">Ооох. Ні... уххх... нііі... Я не хочу помирати... Це так боляче... Дідько...</Item>
+          </Item>
+          <Item name="Male02">
+            <Item name="All_D_ND_01M2">Ооох. Ні... уххх... нііі... Я не хочу помирати... Це так боляче... Дідько...</Item>
+          </Item>
+        </Item>
+        <Item name="RunAwayForHelp">
+          <Item name="Female01">
+            <Item name="All_D_RAFH_01F1">Допомога! Хто-небудь! Допоможіть!</Item>
+            <Item name="All_D_RAFH_02F1">Ааа! Допоможіііть!</Item>
+            <Item name="All_D_RAFH_03F1">Допоможіть! Хто-небудь! На поміч!</Item>
+          </Item>
+          <Item name="Male01">
+            <Item name="All_D_RAFH_01M1">Допомога! Хто-небудь! Допоможіть!</Item>
+            <Item name="All_D_RAFH_02M1">Ааа! Допоможіііть!</Item>
+            <Item name="All_D_RAFH_03M1">Допоможіть! Хто-небудь! На поміч!</Item>
+          </Item>
+          <Item name="Male02">
+            <Item name="All_D_RAFH_01M2">Допомога! Хто-небудь! Допоможіть!</Item>
+            <Item name="All_D_RAFH_02M2">Ааа! Допоможіііть!</Item>
+            <Item name="All_D_RAFH_03M2">Допоможіть! Хто-небудь! На поміч!</Item>
+          </Item>
+        </Item>
+        <Item name="SeeDeadBody">
+          <Item name="Female01">
+            <Item name="All_D_SDB_01F1">О боже, він мертвий! Допоможіть! Хто-небудь, допоможіть!</Item>
+          </Item>
+          <Item name="Male01">
+            <Item name="All_D_SDB_01M1">О боже, він мертвий! Допоможіть! Хто-небудь, допоможіть!</Item>
+          </Item>
+          <Item name="Male02">
+            <Item name="All_D_SDB_01M2">О боже, він мертвий! Допоможіть! Хто-небудь, допоможіть!</Item>
+            <Item name="All_D_SDB_02M2">З вами все гаразд? Агов? О, боже...! Допоможіть! Поліція!</Item>
+          </Item>
+        </Item>
+      </Item>
+      <Item name="English">
+        <Item name="HitmanPickingLock">
+          <Item name="Female01">
+            <Item name="All_E_HMPL_01F1">Гей, дружок, тобі не треба цього робити.</Item>
+            <Item name="All_E_HMPL_02F1">Ти думаєш, що ти робиш? Гей! Гей!</Item>
+            <Item name="All_E_HMPL_03F1">Зупинись! Або я покличу на поміч!</Item>
+          </Item>
+          <Item name="Male02">
+            <Item name="All_E_HMPL_01M2">Гей, дружок, тобі не треба цього робити.</Item>
+            <Item name="All_E_HMPL_02M2">Ти думаєш, що ти робиш? Гей! Гей!</Item>
+            <Item name="All_E_HMPL_03M2">Зупинись! Або я покличу на поміч!</Item>
+          </Item>
+          <Item name="Male03">
+            <Item name="All_E_HMPL_01M3">Гей, дружок, тобі не треба цього робити.</Item>
+            <Item name="All_E_HMPL_02M3">Ти думаєш, що ти робиш? Гей! Гей!</Item>
+            <Item name="All_E_HMPL_03M3">Зупинись! Або я покличу на поміч!</Item>
+          </Item>
+        </Item>
+        <Item name="NearDeath">
+          <Item name="Female01">
+            <Item name="All_E_ND_01F1">Ооох. Ні... уххх... нііі... Я не хочу помирати... Це так боляче... Дідько...</Item>
+          </Item>
+          <Item name="Male03">
+            <Item name="All_E_ND_01M3">Ооох. Ні... уххх... нііі... Я не хочу помирати... Це так боляче... Дідько...</Item>
+          </Item>
+        </Item>
+        <Item name="RunAwayForHelp">
+          <Item name="Female01">
+            <Item name="All_E_RAFH_03F1">Допоможіть! Хто-небудь! На поміч!</Item>
+          </Item>
+          <Item name="Male01">
+            <Item name="All_E_RAFH_01M1">Допомога! Хто-небудь! Допоможіть!</Item>
+          </Item>
+          <Item name="Male02">
+            <Item name="All_E_RAFH_01M2">Допомога! Хто-небудь! Допоможіть!</Item>
+            <Item name="All_E_RAFH_02M2">Ааа! Допоможіііть!</Item>
+            <Item name="All_E_RAFH_03M2">Допоможіть! Хто-небудь! На поміч!</Item>
+          </Item>
+        </Item>
+        <Item name="SeeDeadBody">
+          <Item name="Female01">
+            <Item name="All_E_SDB_01F1">О боже, він мертвий! Допоможіть! Хто-небудь, допоможіть!</Item>
+            <Item name="All_E_SDB_02F1">З вами все гаразд? Агов? О, боже...! Допоможіть! Поліція!</Item>
+          </Item>
+          <Item name="Male01">
+            <Item name="All_E_SDB_01M1">О боже, він мертвий! Допоможіть! Хто-небудь, допоможіть!</Item>
+            <Item name="All_E_SDB_02M1">З вами все гаразд? Агов? О, боже...! Допоможіть! Поліція!</Item>
+            <Item name="All_E_SDB_03M1">Люди! Цей хлопець зпікся. Поліція! Поліція!</Item>
+          </Item>
+          <Item name="Male02">
+            <Item name="All_E_SDB_01M2">О боже, він мертвий! Допоможіть! Хто-небудь, допоможіть!</Item>
+            <Item name="All_E_SDB_02M2">З вами все гаразд? Агов? О, боже...! Допоможіть! Поліція!</Item>
+          </Item>
+        </Item>
+      </Item>
+      <Item name="French">
+        <Item name="RunAwayForHelp">
+          <Item name="Male01">
+            <Item name="All_F_RAFH_01M1">Допомога! Хто-небудь! Допоможіть!</Item>
+            <Item name="All_F_RAFH_02M1">Ааа! Допоможіііть!</Item>
+            <Item name="All_F_RAFH_03M1">Допоможіть! Хто-небудь! На поміч!</Item>
+          </Item>
+        </Item>
+        <Item name="SeeDeadBody">
+          <Item name="Male01">
+            <Item name="All_F_SDB_01M1">О боже, він мертвий! Допоможіть! Хто-небудь, допоможіть!</Item>
+            <Item name="All_F_SDB_02M1">З вами все гаразд? Агов? О, боже...! Допоможіть! Поліція!</Item>
+          </Item>
+        </Item>
+      </Item>
+      <Item name="Hungarian">
+        <Item name="HitmanPickingLock">
+          <Item name="Female01">
+            <Item name="All_H_HMPL_01F1">Гей, дружок, тобі не треба цього робити.</Item>
+            <Item name="All_H_HMPL_02F1">Ти думаєш, що ти робиш? Гей! Гей!</Item>
+            <Item name="All_H_HMPL_03F1">Зупинись! Або я покличу на поміч!</Item>
+          </Item>
+          <Item name="Male01">
+            <Item name="All_H_HMPL_01M1">Гей, дружок, тобі не треба цього робити.</Item>
+            <Item name="All_H_HMPL_02M1">Ти думаєш, що ти робиш? Гей! Гей!</Item>
+            <Item name="All_H_HMPL_03M1">Зупинись! Або я покличу на поміч!</Item>
+          </Item>
+          <Item name="Male02">
+            <Item name="All_H_HMPL_01M2">Гей, дружок, тобі не треба цього робити.</Item>
+            <Item name="All_H_HMPL_02M2">Ти думаєш, що ти робиш? Гей! Гей!</Item>
+            <Item name="All_H_HMPL_03M2">Зупинись! Або я покличу на поміч!</Item>
+          </Item>
+        </Item>
+        <Item name="NearDeath">
+          <Item name="Female01">
+            <Item name="All_H_ND_01F1">Ооох. Ні... уххх... нііі... Я не хочу помирати... Це так боляче... Дідько...</Item>
+          </Item>
+        </Item>
+        <Item name="RunAwayForHelp">
+          <Item name="Female01">
+            <Item name="All_H_RAFH_01F1">Допомога! Хто-небудь! Допоможіть!</Item>
+            <Item name="All_H_RAFH_02F1">Ааа! Допоможіііть!</Item>
+            <Item name="All_H_RAFH_03F1">Допоможіть! Хто-небудь! На поміч!</Item>
+          </Item>
+          <Item name="Male01">
+            <Item name="All_H_RAFH_01M1">Допомога! Хто-небудь! Допоможіть!</Item>
+            <Item name="All_H_RAFH_02M1">Ааа! Допоможіііть!</Item>
+            <Item name="All_H_RAFH_03M1">Допоможіть! Хто-небудь! На поміч!</Item>
+          </Item>
+          <Item name="Male02">
+            <Item name="All_H_RAFH_01M2">Допомога! Хто-небудь! Допоможіть!</Item>
+            <Item name="All_H_RAFH_02M2">Ааа! Допоможіііть!</Item>
+            <Item name="All_H_RAFH_03M2">Допоможіть! Хто-небудь! На поміч!</Item>
+          </Item>
+        </Item>
+        <Item name="SeeDeadBody">
+          <Item name="Female01">
+            <Item name="All_H_SDB_01F1">З вами все гаразд? Агов? О, боже...! Допоможіть! Поліція!</Item>
+          </Item>
+          <Item name="Male01">
+            <Item name="All_H_SDB_01M1">З вами все гаразд? Агов? О, боже...! Допоможіть! Поліція!</Item>
+          </Item>
+          <Item name="Male02">
+            <Item name="All_H_SDB_01M2">З вами все гаразд? Агов? О, боже...! Допоможіть! Поліція!</Item>
+          </Item>
+        </Item>
+      </Item>
+      <Item name="Rumanian">
+        <Item name="HitmanPickingLock">
+          <Item name="Female01">
+            <Item name="All_Rum_HMPL_01F1">Гей, дружок, тобі не треба цього робити.</Item>
+            <Item name="All_Rum_HMPL_02F1">Ти думаєш, що ти робиш? Гей! Гей!</Item>
+            <Item name="All_Rum_HMPL_03F1">Зупинись! Або я покличу на поміч!</Item>
+          </Item>
+        </Item>
+        <Item name="NearDeath">
+          <Item name="Female01">
+            <Item name="All_Rum_ND_01F1">Ооох. Ні... уххх... нііі... Я не хочу помирати... Це так боляче... Дідько...</Item>
+          </Item>
+        </Item>
+        <Item name="RunAwayForHelp">
+          <Item name="Female01">
+            <Item name="All_Rum_RAFH_01F1">Допомога! Хто-небудь! Допоможіть!</Item>
+            <Item name="All_Rum_RAFH_02F1">Ааа! Допоможіііть!</Item>
+            <Item name="All_Rum_RAFH_03F1">Допоможіть! Хто-небудь! На поміч!</Item>
+          </Item>
+          <Item name="Male01">
+            <Item name="All_Rum_RAFH_01M1">Допомога! Хто-небудь! Допоможіть!</Item>
+            <Item name="All_Rum_RAFH_02M1">Ааа! Допоможіііть!</Item>
+            <Item name="All_Rum_RAFH_03M1">Допоможіть! Хто-небудь! На поміч!</Item>
+          </Item>
+        </Item>
+        <Item name="SeeDeadBody">
+          <Item name="Female01">
+            <Item name="All_Rum_SDB_01F1">З вами все гаразд? Агов? О, боже...! Допоможіть! Поліція!</Item>
+          </Item>
+          <Item name="Male01">
+            <Item name="All_Rum_SDB_01M1">З вами все гаразд? Агов? О, боже...! Допоможіть! Поліція!</Item>
+          </Item>
+        </Item>
+      </Item>
+      <Item name="Russian">
+        <Item name="HitmanPickingLock">
+          <Item name="Male01">
+            <Item name="All_R_HMPL_01M1">Гей, дружок, тобі не треба цього робити.</Item>
+            <Item name="All_R_HMPL_02M1">Ти думаєш, що ти робиш? Гей! Гей!</Item>
+            <Item name="All_R_HMPL_03M1">Зупинись! Або я покличу на поміч!</Item>
+          </Item>
+          <Item name="Male02">
+            <Item name="All_R_HMPL_01M2">Гей, дружок, тобі не треба цього робити.</Item>
+            <Item name="All_R_HMPL_02M2">Ти думаєш, що ти робиш? Гей! Гей!</Item>
+            <Item name="All_R_HMPL_03M2">Зупинись! Або я покличу на поміч!</Item>
+          </Item>
+        </Item>
+        <Item name="NearDeath">
+          <Item name="Male02">
+            <Item name="All_R_ND_01M2">Ооох. Ні... уххх... нііі... Я не хочу помирати... Це так боляче... Дідько...</Item>
+          </Item>
+        </Item>
+        <Item name="RunAwayForHelp">
+          <Item name="Male01">
+            <Item name="All_R_RAFH_01M1">Допомога! Хто-небудь! Допоможіть!</Item>
+            <Item name="All_R_RAFH_02M1">Ааа! Допоможіііть!</Item>
+          </Item>
+          <Item name="Male02">
+            <Item name="All_R_RAFH_01M2">Допомога! Хто-небудь! Допоможіть!</Item>
+          </Item>
+        </Item>
+        <Item name="SeeDeadBody">
+          <Item name="Male01">
+            <Item name="All_R_SDB_01M1">О боже, він мертвий! Допоможіть! Хто-небудь, допоможіть!</Item>
+          </Item>
+          <Item name="Male02">
+            <Item name="All_R_SDB_01M2">З вами все гаразд? Агов? О, боже...! Допоможіть! Поліція!</Item>
+          </Item>
+        </Item>
+      </Item>
+    </Item>
+    <Item name="Equip">
+      <Item name="AvailableWeapons">Наявна зброя</Item>
+      <Item name="Continue">Продовжити</Item>
+      <Item name="Equipped">Взято</Item>
+      <Item name="EquippedWeapons">Взята зброя</Item>
+      <Item name="Quit">Вийти</Item>
+    </Item>
+    <Item name="ExtraCharacters">
+      <Item name="ExtraCharacters">&lt;_&gt;Х+</Item>
+    </Item>
+    <Item name="Guards">
+      <Item name="Chinese">
+        <Item name="Attacking">
+          <Item name="Male01">
+            <Item name="All_C_Att_01M1">Я тебе зараз дістану.</Item>
+            <Item name="All_C_Att_02M1">Помри виродок. Помри.</Item>
+            <Item name="All_C_Att_03M1">Ось що... Ти труп.</Item>
+          </Item>
+          <Item name="Male03">
+            <Item name="All_C_Att_01M3">Я тебе зараз дістану.</Item>
+            <Item name="All_C_Att_02M3">Помри виродок. Помри.</Item>
+            <Item name="All_C_Att_03M3">Ось що... Ти труп.</Item>
+            <Item name="All_C_Att_04M3">У нього зброя!</Item>
+            <Item name="All_C_Att_05M3">Я тебе вб'ю!</Item>
+          </Item>
+        </Item>
+        <Item name="CheckIDSequence">
+          <Item name="Male01">
+            <Item name="All_C_CIDS_Check01M1">Мені треба бачити якийсь ІД, пане.</Item>
+            <Item name="All_C_CIDS_Check02M1">Мені потрібен ІД, пане!</Item>
+            <Item name="All_C_CIDS_Check03M1">Кажу востаннє. Покажіть мені дійсний ІД!</Item>
+            <Item name="All_C_CIDS_CheckBadM1">Цей ІД підроблений! Порушник!</Item>
+          </Item>
+          <Item name="Male03">
+            <Item name="All_C_CIDS_Check01M3">Мені треба бачити якийсь ІД, пане.</Item>
+            <Item name="All_C_CIDS_Check02M3">Мені потрібен ІД, пане!</Item>
+            <Item name="All_C_CIDS_Check03M3">Кажу востаннє. Покажіть мені дійсний ІД!</Item>
+            <Item name="All_C_CIDS_CheckBadM3">Цей ІД підроблений! Порушник!</Item>
+          </Item>
+        </Item>
+        <Item name="DontDoThat">
+          <Item name="Sequence1">
+            <Item name="Female01">
+              <Item name="All_C_DDT_S1_01F1">Припиніть!</Item>
+              <Item name="All_C_DDT_S1_02F1">Вам було сказано - вгамуватися!</Item>
+              <Item name="All_C_DDT_S1_03F1">Зупинися або пожалкуєш!</Item>
+            </Item>
+            <Item name="Male01">
+              <Item name="All_C_DDT_S1_01M1">Припиніть!</Item>
+              <Item name="All_C_DDT_S1_02M1">Вам було сказано - вгамуватися!</Item>
+              <Item name="All_C_DDT_S1_03M1">Зупинися або пожалкуєш!</Item>
+            </Item>
+            <Item name="Male02">
+              <Item name="All_C_DDT_S1_01M2">Припиніть!</Item>
+              <Item name="All_C_DDT_S1_02M2">Вам було сказано - вгамуватися!</Item>
+              <Item name="All_C_DDT_S1_03M2">Зупинися або пожалкуєш!</Item>
+            </Item>
+            <Item name="Male03">
+              <Item name="All_C_DDT_S1_01M3">Припиніть!</Item>
+              <Item name="All_C_DDT_S1_02M3">Вам було сказано - вгамуватися!</Item>
+              <Item name="All_C_DDT_S1_03M3">Зупинися або пожалкуєш!</Item>
+            </Item>
+          </Item>
+        </Item>
+        <Item name="DoorSequence">
+          <Item name="Male01">
+            <Item name="All_C_DS_Door01M1">Вибачте, пане, входу немає.</Item>
+            <Item name="All_C_DS_Door02M1">Як я вже казав, ви не можете пройти.</Item>
+            <Item name="All_C_DS_Door03M1">Досить! Забирайся к бісу, клоун.</Item>
+            <Item name="All_C_DS_DoorOKM1">Вітаю, пане, ви можете зайти.</Item>
+          </Item>
+          <Item name="Male03">
+            <Item name="All_C_DS_Door01M3">Вибачте, пане, входу немає.</Item>
+            <Item name="All_C_DS_Door02M3">Як я вже казав, ви не можете пройти.</Item>
+            <Item name="All_C_DS_Door03M3">Досить! Забирайся к бісу, клоун.</Item>
+            <Item name="All_C_DS_DoorOKM3">Вітаю, пане, ви можете зайти.</Item>
+          </Item>
+        </Item>
+        <Item name="FriskSequence">
+          <Item name="Male01">
+            <Item name="All_C_FS_Frisk01M1">Будь ласка зупиніться, пане.</Item>
+            <Item name="All_C_FS_Frisk02M1">Вам потрібно зупинитися.</Item>
+            <Item name="All_C_FS_Frisk03M1">Що я тобі сказав? Стій!</Item>
+            <Item name="All_C_FS_FriskBADM1">Що за... Тривога!</Item>
+            <Item name="All_C_FS_FriskOKM1">Дякую, пане, все гаразд. Можете йти.</Item>
+          </Item>
+          <Item name="Male03">
+            <Item name="All_C_FS_Frisk01M3">Будь ласка зупиніться, пане.</Item>
+            <Item name="All_C_FS_Frisk02M3">Вам потрібно зупинитися.</Item>
+            <Item name="All_C_FS_Frisk03M3">Що я тобі сказав? Стій!</Item>
+            <Item name="All_C_FS_FriskBADM3">Що за... Тривога!</Item>
+            <Item name="All_C_FS_FriskOKM3">Дякую, пане, все гаразд. Можете йти.</Item>
+          </Item>
+        </Item>
+        <Item name="KeepMoving">
+          <Item name="Male03">
+            <Item name="All_C_KM_01M3">Гей, дружок, давай шарпай.</Item>
+            <Item name="All_C_KM_02M3">А ну давай, лисий, пішов.</Item>
+            <Item name="All_C_KM_03M3">Зникни, поки дупа ціла.</Item>
+          </Item>
+        </Item>
+        <Item name="LeaveMe">
+          <Item name="Sequence2">
+            <Item name="Male03">
+              <Item name="All_C_LM_S2_01M3">Мені потрібно трошки простору, якщо ви не проти.</Item>
+              <Item name="All_C_LM_S2_02M3">Я буду дуже вдячний, якщо ви припините тиснути на мене, пане.</Item>
+              <Item name="All_C_LM_S2_03M3">Я кажу тобі - відчепись!</Item>
+            </Item>
+          </Item>
+        </Item>
+        <Item name="NearDeath">
+          <Item name="Male03">
+            <Item name="All_C_GND_01M3">Ооох. Ні... уххх... нііі... Я не хочу помирати... Це так боляче... Дідько...</Item>
+          </Item>
+        </Item>
+        <Item name="WarnTooClose">
+          <Item name="Sequence1">
+            <Item name="Female01">
+              <Item name="All_C_WTC_S1_01F1">Проходьте, будь ласка.</Item>
+              <Item name="All_C_WTC_S1_02F1">Я серйозно, пане, будь ласка, проходьте.</Item>
+              <Item name="All_C_WTC_S1_03F1">Останнє попередження, пане - проходьте.</Item>
+            </Item>
+            <Item name="Male01">
+              <Item name="All_C_WTC_S1_01M1">Проходьте, будь ласка.</Item>
+              <Item name="All_C_WTC_S1_02M1">Я серйозно, пане, будь ласка, проходьте.</Item>
+              <Item name="All_C_WTC_S1_03M1">Останнє попередження, пане - проходьте.</Item>
+            </Item>
+            <Item name="Male02">
+              <Item name="All_C_WTC_S1_01M2">Проходьте, будь ласка.</Item>
+              <Item name="All_C_WTC_S1_02M2">Я серйозно, пане, будь ласка, проходьте.</Item>
+              <Item name="All_C_WTC_S1_03M2">Останнє попередження, пане - проходьте.</Item>
+            </Item>
+          </Item>
+        </Item>
+        <Item name="WarnTrespassing">
+          <Item name="Sequence1">
+            <Item name="Male03">
+              <Item name="All_C_WT_S1_01M3">Приватна власність.</Item>
+              <Item name="All_C_WT_S1_02M3">Як я сказав, приватна власність.</Item>
+              <Item name="All_C_WT_S1_03M3">Яку частину ти не зрозумів? Забирайся звідси.</Item>
+            </Item>
+          </Item>
+        </Item>
+      </Item>
+      <Item name="Dutch">
+        <Item name="Attacking">
+          <Item name="Male01">
+            <Item name="All_D_Att_01M1">Я тебе зараз дістану.</Item>
+            <Item name="All_D_Att_02M1">Помри виродок. Помри.</Item>
+            <Item name="All_D_Att_03M1">Ось що... Ти труп.</Item>
+          </Item>
+          <Item name="Male02">
+            <Item name="All_D_Att_01M2">Я тебе зараз дістану.</Item>
+            <Item name="All_D_Att_02M2">Помри виродок. Помри.</Item>
+            <Item name="All_D_Att_03M2">Ось що... Ти труп.</Item>
+            <Item name="All_D_Att_05M2">Я тебе вб'ю!</Item>
+          </Item>
+        </Item>
+        <Item name="CheckIDSequence">
+          <Item name="Male01">
+            <Item name="All_D_CIDS_Check01M1">Мені треба бачити якийсь ІД, пане.</Item>
+            <Item name="All_D_CIDS_Check02M1">Мені потрібен ІД, пане!</Item>
+            <Item name="All_D_CIDS_Check03M1">Кажу востаннє. Покажіть мені дійсний ІД!</Item>
+          </Item>
+          <Item name="Male02">
+            <Item name="All_D_CIDS_Check01M2">Мені треба бачити якийсь ІД, пане.</Item>
+            <Item name="All_D_CIDS_Check02M2">Мені потрібен ІД, пане!</Item>
+            <Item name="All_D_CIDS_Check03M2">Кажу востаннє. Покажіть мені дійсний ІД!</Item>
+            <Item name="All_D_CIDS_CheckBadM2">Цей ІД підроблений! Порушник!</Item>
+          </Item>
+        </Item>
+        <Item name="DontDoThat">
+          <Item name="Sequence1">
+            <Item name="Male01">
+              <Item name="All_D_DDT_S1_01M1">Припиніть!</Item>
+              <Item name="All_D_DDT_S1_02M1">Вам було сказано - вгамуватися!</Item>
+              <Item name="All_D_DDT_S1_03M1">Зупинися або пожалкуєш!</Item>
+            </Item>
+            <Item name="Male02">
+              <Item name="All_D_DDT_S1_01M2">Припиніть!</Item>
+              <Item name="All_D_DDT_S1_02M2">Вам було сказано - вгамуватися!</Item>
+              <Item name="All_D_DDT_S1_03M2">Зупинися або пожалкуєш!</Item>
+            </Item>
+          </Item>
+        </Item>
+        <Item name="DoorSequence">
+          <Item name="Male01">
+            <Item name="All_D_DS_Door01M1">Вибачте, пане, входу немає.</Item>
+            <Item name="All_D_DS_Door02M1">Як я вже казав, ви не можете пройти.</Item>
+            <Item name="All_D_DS_Door03M1">Досить! Забирайся к бісу, клоун.</Item>
+            <Item name="All_D_DS_DoorOKM1">Вітаю, пане, ви можете зайти.</Item>
+          </Item>
+          <Item name="Male02">
+            <Item name="All_D_DS_Door01M2">Вибачте, пане, входу немає.</Item>
+            <Item name="All_D_DS_Door02M2">Як я вже казав, ви не можете пройти.</Item>
+            <Item name="All_D_DS_Door03M2">Досить! Забирайся к бісу, клоун.</Item>
+            <Item name="All_D_DS_DoorOKM2">Вітаю, пане, ви можете зайти.</Item>
+          </Item>
+        </Item>
+        <Item name="FriskSequence">
+          <Item name="Male01">
+            <Item name="All_D_FS_Frisk01M1">Будь ласка зупиніться, пане.</Item>
+            <Item name="All_D_FS_Frisk02M1">Вам потрібно зупинитися.</Item>
+            <Item name="All_D_FS_Frisk03M1">Що я тобі сказав? Стій!</Item>
+            <Item name="All_D_FS_FriskBADM1">Що за... Тривога!</Item>
+            <Item name="All_D_FS_FriskOKM1">Дякую, пане, все гаразд. Можете йти.</Item>
+          </Item>
+          <Item name="Male02">
+            <Item name="All_D_FS_Frisk01M2">Будь ласка зупиніться, пане.</Item>
+            <Item name="All_D_FS_Frisk02M2">Вам потрібно зупинитися.</Item>
+            <Item name="All_D_FS_Frisk03M2">Що я тобі сказав? Стій!</Item>
+            <Item name="All_D_FS_FriskBADM2">Що за... Тривога!</Item>
+            <Item name="All_D_FS_FriskOKM2">Дякую, пане, все гаразд. Можете йти.</Item>
+          </Item>
+        </Item>
+        <Item name="KeepMoving">
+          <Item name="Male02">
+            <Item name="All_D_KM_01M2">Гей, дружок, давай шарпай.</Item>
+            <Item name="All_D_KM_02M2">А ну давай, лисий, пішов.</Item>
+            <Item name="All_D_KM_03M2">Зникни, поки дупа ціла.</Item>
+          </Item>
+        </Item>
+        <Item name="LeaveMe">
+          <Item name="Sequence1">
+            <Item name="Male01">
+              <Item name="All_D_LM_S1_01M1">Будь ласка, залиште мене, пане.</Item>
+              <Item name="All_D_LM_S1_02M1">Не замало місця, пане?</Item>
+              <Item name="All_D_LM_S1_03M1">Відійди, урод, бо матимеш неприємності.</Item>
+            </Item>
+          </Item>
+        </Item>
+      </Item>
+      <Item name="English">
+        <Item name="Attacking">
+          <Item name="Male02">
+            <Item name="All_E_Att_01M2">Я тебе зараз дістану.</Item>
+            <Item name="All_E_Att_02M2">Помри виродок. Помри.</Item>
+            <Item name="All_E_Att_03M2">Ось що... Ти труп.</Item>
+            <Item name="All_E_Att_04M2">У нього зброя!</Item>
+          </Item>
+          <Item name="Male03">
+            <Item name="All_E_Att_01M3">Я тебе зараз дістану.</Item>
+            <Item name="All_E_Att_02M3">Помри виродок. Помри.</Item>
+            <Item name="All_E_Att_03M3">Ось що... Ти труп.</Item>
+            <Item name="All_E_Att_04M3">У нього зброя!</Item>
+            <Item name="All_E_Att_05M3">Я тебе вб'ю!</Item>
+            <Item name="All_E_Att_06M3">Починай молитись!</Item>
+          </Item>
+        </Item>
+        <Item name="CheckIDSequence">
+          <Item name="Male02">
+            <Item name="All_E_CIDS_Check01M2">Мені треба бачити якийсь ІД, пане.</Item>
+            <Item name="All_E_CIDS_Check02M2">Мені потрібен ІД, пане!</Item>
+            <Item name="All_E_CIDS_Check03M2">Кажу востаннє. Покажіть мені дійсний ІД!</Item>
+          </Item>
+          <Item name="Male03">
+            <Item name="All_E_CIDS_Check01M3">Мені треба бачити якийсь ІД, пане.</Item>
+            <Item name="All_E_CIDS_Check02M3">Мені потрібен ІД, пане!</Item>
+            <Item name="All_E_CIDS_Check03M3">Кажу востаннє. Покажіть мені дійсний ІД!</Item>
+            <Item name="All_E_CIDS_CheckBadM3">Цей ІД підроблений! Порушник!</Item>
+          </Item>
+        </Item>
+        <Item name="DontDoThat">
+          <Item name="Sequence1">
+            <Item name="Male01">
+              <Item name="All_E_DDT_S1_01M1">Припиніть!</Item>
+              <Item name="All_E_DDT_S1_02M1">Вам було сказано - вгамуватися!</Item>
+              <Item name="All_E_DDT_S1_03M1">Зупинися або пожалкуєш!</Item>
+            </Item>
+            <Item name="Male02">
+              <Item name="All_E_DDT_S1_01M2">Припиніть!</Item>
+              <Item name="All_E_DDT_S1_02M2">Вам було сказано - вгамуватися!</Item>
+              <Item name="All_E_DDT_S1_03M2">Зупинися або пожалкуєш!</Item>
+            </Item>
+          </Item>
+          <Item name="Sequence3">
+            <Item name="Male01">
+              <Item name="All_E_DDT_S3_01M1">Не роби цього.</Item>
+            </Item>
+          </Item>
+        </Item>
+        <Item name="DoorSequence">
+          <Item name="Male02">
+            <Item name="All_E_DS_Door01M2">Вибачте, пане, входу немає.</Item>
+            <Item name="All_E_DS_Door02M2">Як я вже казав, ви не можете пройти.</Item>
+            <Item name="All_E_DS_Door03M2">Досить! Забирайся к бісу, клоун.</Item>
+            <Item name="All_E_DS_DoorOKM2">Вітаю, пане, ви можете зайти.</Item>
+          </Item>
+          <Item name="Male03">
+            <Item name="All_E_DS_Door01M3">Вибачте, пане, входу немає.</Item>
+            <Item name="All_E_DS_Door02M3">Як я вже казав, ви не можете пройти.</Item>
+            <Item name="All_E_DS_Door03M3">Досить! Забирайся к бісу, клоун.</Item>
+            <Item name="All_E_DS_DoorOKM3">Вітаю, пане, ви можете зайти.</Item>
+          </Item>
+        </Item>
+        <Item name="LeaveMe">
+          <Item name="Sequence1">
+            <Item name="Male02">
+              <Item name="All_E_LM_S1_01M2">Будь ласка, залиште мене, пане.</Item>
+              <Item name="All_E_LM_S1_02M2">Не замало місця, пане?</Item>
+              <Item name="All_E_LM_S1_03M2">Відійди, урод, бо матимеш неприємності.</Item>
+            </Item>
+          </Item>
+        </Item>
+        <Item name="NearDeath" />
+        <Item name="WarnTrespassing">
+          <Item name="Sequence1">
+            <Item name="Male02">
+              <Item name="All_E_WT_S1_01M2">Приватна власність.</Item>
+              <Item name="All_E_WT_S1_02M2">Як я сказав, приватна власність.</Item>
+              <Item name="All_E_WT_S1_03M2">Яку частину ти не зрозумів? Забирайся звідси.</Item>
+            </Item>
+            <Item name="Male03">
+              <Item name="All_E_WT_S1_01M3">Приватна власність.</Item>
+              <Item name="All_E_WT_S1_02M3">Як я сказав, приватна власність.</Item>
+              <Item name="All_E_WT_S1_03M3">Яку частину ти не зрозумів? Забирайся звідси.</Item>
+            </Item>
+          </Item>
+        </Item>
+      </Item>
+      <Item name="French">
+        <Item name="Attacking">
+          <Item name="Male01">
+            <Item name="All_F_Att_01M1">Я тебе зараз дістану.</Item>
+            <Item name="All_F_Att_02M1">Помри виродок. Помри.</Item>
+            <Item name="All_F_Att_03M1">Ось що... Ти труп.</Item>
+            <Item name="All_F_Att_04M1">Я тебе вб'ю!</Item>
+          </Item>
+          <Item name="Male02">
+            <Item name="All_F_Att_01M2">Я тебе зараз дістану.</Item>
+            <Item name="All_F_Att_02M2">Помри виродок. Помри.</Item>
+            <Item name="All_F_Att_03M2">Ось що... Ти труп.</Item>
+          </Item>
+        </Item>
+        <Item name="CheckIDSequence">
+          <Item name="Male01">
+            <Item name="All_F_CIDS_Check01M1">Мені треба бачити якийсь ІД, пане.</Item>
+            <Item name="All_F_CIDS_Check02M1">Мені потрібен ІД, пане!</Item>
+            <Item name="All_F_CIDS_Check03M1">Кажу востаннє. Покажіть мені дійсний ІД!</Item>
+            <Item name="All_F_CIDS_CheckBadM1">Цей ІД підроблений! Порушник!</Item>
+          </Item>
+        </Item>
+        <Item name="DontDoThat">
+          <Item name="Sequence1">
+            <Item name="Male02">
+              <Item name="All_F_DDT_S1_01M2">Припиніть!</Item>
+              <Item name="All_F_DDT_S1_02M2">Вам було сказано - вгамуватися!</Item>
+              <Item name="All_F_DDT_S1_03M2">Зупинися або пожалкуєш!</Item>
+            </Item>
+          </Item>
+          <Item name="Sequence2">
+            <Item name="Male01">
+              <Item name="All_F_DDT_S2_01M1">Ти думаєш що ти робиш?</Item>
+              <Item name="All_F_DDT_S2_02M1">Перестань, дружок!</Item>
+              <Item name="All_F_DDT_S2_03M1">Останнє попередження! Зупинися!</Item>
+            </Item>
+          </Item>
+        </Item>
+        <Item name="FriskSequence">
+          <Item name="Male01">
+            <Item name="All_F_FS_Frisk01M1">Будь ласка зупиніться, пане.</Item>
+            <Item name="All_F_FS_FriskBADM1">Що за... Тривога!</Item>
+            <Item name="All_F_FS_FriskOKM1">Дякую, пане, все гаразд. Можете йти.</Item>
+          </Item>
+        </Item>
+        <Item name="KeepMoving">
+          <Item name="Male01">
+            <Item name="All_F_KM_01M1">А ну давай, лисий, пішов.</Item>
+          </Item>
+        </Item>
+        <Item name="WarnTooClose">
+          <Item name="Sequence2">
+            <Item name="Male02">
+              <Item name="All_F_WTC_S2_01M2">Тут немає нічого цікавого, пане.</Item>
+              <Item name="All_F_WTC_S2_02M2">Будь ласка, пане, проходьте.</Item>
+              <Item name="All_F_WTC_S2_03M2">Я не питатиму більше, пане. Йдіть собі.</Item>
+            </Item>
+          </Item>
+        </Item>
+      </Item>
+      <Item name="German">
+        <Item name="Attacking">
+          <Item name="Male01">
+            <Item name="All_G_Att_01M1">Я тебе зараз дістану.</Item>
+            <Item name="All_G_Att_02M1">Помри виродок. Помри.</Item>
+            <Item name="All_G_Att_03M1">Ось що... Ти труп.</Item>
+            <Item name="All_G_Att_04M1">У нього зброя!</Item>
+          </Item>
+        </Item>
+        <Item name="DontDoThat">
+          <Item name="Sequence1">
+            <Item name="Male01">
+              <Item name="All_G_DDT_S1_01M1">Припиніть!</Item>
+              <Item name="All_G_DDT_S1_02M1">Вам було сказано - вгамуватися!</Item>
+              <Item name="All_G_DDT_S1_03M1">Зупинися або пожалкуєш!</Item>
+            </Item>
+          </Item>
+        </Item>
+        <Item name="DoorSequence">
+          <Item name="Male01">
+            <Item name="All_G_DS_Door01M1">Вибачте, пане, входу немає.</Item>
+          </Item>
+        </Item>
+        <Item name="LeaveMe">
+          <Item name="Sequence1">
+            <Item name="Male01">
+              <Item name="All_G_LM_S1_01M1">Будь ласка, залиште мене, пане.</Item>
+              <Item name="All_G_LM_S1_02M1">Не замало місця, пане?</Item>
+              <Item name="All_G_LM_S1_03M1">Відійди, урод, бо матимеш неприємності.</Item>
+            </Item>
+          </Item>
+        </Item>
+        <Item name="NearDeath">
+          <Item name="Male01">
+            <Item name="All_G_GND_01M1">Ооох. Ні... уххх... нііі... Я не хочу помирати... Це так боляче... Дідько...</Item>
+          </Item>
+        </Item>
+        <Item name="WarnTooClose">
+          <Item name="Sequence1">
+            <Item name="Male01">
+              <Item name="All_G_WTC_S1_01M1">Проходьте, будь ласка.</Item>
+              <Item name="All_G_WTC_S1_02M1">Я серйозно, пане, будь ласка, проходьте.</Item>
+              <Item name="All_G_WTC_S1_03M1">Останнє попередження, пане - проходьте.</Item>
+            </Item>
+          </Item>
+        </Item>
+      </Item>
+      <Item name="Hungarian">
+        <Item name="Attacking">
+          <Item name="Male01">
+            <Item name="All_H_Att_01M1">Я тебе зараз дістану.</Item>
+            <Item name="All_H_Att_02M1">Помри виродок. Помри.</Item>
+            <Item name="All_H_Att_03M1">Ось що... Ти труп.</Item>
+            <Item name="All_H_Att_04M1">У нього зброя!</Item>
+            <Item name="All_H_Att_05M1">Я тебе вб'ю!</Item>
+          </Item>
+          <Item name="Male02">
+            <Item name="All_H_Att_01M2">Я тебе зараз дістану.</Item>
+            <Item name="All_H_Att_02M2">Помри виродок. Помри.</Item>
+            <Item name="All_H_Att_03M2">Ось що... Ти труп.</Item>
+            <Item name="All_H_Att_05M2">Я тебе вб'ю!</Item>
+          </Item>
+        </Item>
+        <Item name="CheckIDSequence">
+          <Item name="Male01">
+            <Item name="All_H_CIDS_Check01M1">Мені треба бачити якийсь ІД, пане.</Item>
+            <Item name="All_H_CIDS_Check02M1">Мені потрібен ІД, пане!</Item>
+            <Item name="All_H_CIDS_Check03M1">Кажу востаннє. Покажіть мені дійсний ІД!</Item>
+          </Item>
+          <Item name="Male02">
+            <Item name="All_H_CIDS_Check01M2">Мені треба бачити якийсь ІД, пане.</Item>
+            <Item name="All_H_CIDS_Check02M2">Мені потрібен ІД, пане!</Item>
+            <Item name="All_H_CIDS_Check03M2">Кажу востаннє. Покажіть мені дійсний ІД!</Item>
+          </Item>
+        </Item>
+        <Item name="DontDoThat">
+          <Item name="Sequence1">
+            <Item name="Male01">
+              <Item name="All_H_DDT_S1_01M1">Припиніть!</Item>
+              <Item name="All_H_DDT_S1_02M1">Вам було сказано - вгамуватися!</Item>
+              <Item name="All_H_DDT_S1_03M1">Зупинися або пожалкуєш!</Item>
+            </Item>
+          </Item>
+          <Item name="Sequence2">
+            <Item name="Male02">
+              <Item name="All_H_DDT_S2_01M2">Ти думаєш що ти робиш?</Item>
+              <Item name="All_H_DDT_S2_02M2">Перестань, дружок!</Item>
+              <Item name="All_H_DDT_S2_03M2">Останнє попередження! Зупинися!</Item>
+            </Item>
+          </Item>
+        </Item>
+        <Item name="DoorSequence">
+          <Item name="Male01">
+            <Item name="All_H_DS_Door01M1">Вибачте, пане, входу немає.</Item>
+            <Item name="All_H_DS_Door02M1">Як я вже казав, ви не можете пройти.</Item>
+            <Item name="All_H_DS_Door03M1">Досить! Забирайся к бісу, клоун.</Item>
+            <Item name="All_H_DS_DoorOKM1">Вітаю, пане, ви можете зайти.</Item>
+          </Item>
+          <Item name="Male02">
+            <Item name="All_H_DS_Door01M2">Вибачте, пане, входу немає.</Item>
+            <Item name="All_H_DS_Door02M2">Як я вже казав, ви не можете пройти.</Item>
+            <Item name="All_H_DS_Door03M2">Досить! Забирайся к бісу, клоун.</Item>
+            <Item name="All_H_DS_DoorOKM2">Вітаю, пане, ви можете зайти.</Item>
+          </Item>
+        </Item>
+        <Item name="FriskSequence">
+          <Item name="Male01">
+            <Item name="All_H_FS_Frisk01M1">Будь ласка зупиніться, пане.</Item>
+            <Item name="All_H_FS_Frisk02M1">Вам потрібно зупинитися.</Item>
+            <Item name="All_H_FS_FriskBADM1">Що за... Тривога!</Item>
+            <Item name="All_H_FS_FriskOKM1">Дякую, пане, все гаразд. Можете йти.</Item>
+          </Item>
+        </Item>
+        <Item name="KeepMoving">
+          <Item name="Male02">
+            <Item name="All_H_KM_01M2">Гей, дружок, давай шарпай.</Item>
+            <Item name="All_H_KM_02M2">А ну давай, лисий, пішов.</Item>
+            <Item name="All_H_KM_03M2">Зникни, поки дупа ціла.</Item>
+          </Item>
+        </Item>
+        <Item name="LeaveMe">
+          <Item name="Sequence1">
+            <Item name="Male01">
+              <Item name="All_H_LM_S1_01M1">Будь ласка, залиште мене, пане.</Item>
+              <Item name="All_H_LM_S1_02M1">Не замало місця, пане?</Item>
+              <Item name="All_H_LM_S1_03M1">Відійди, урод, бо матимеш неприємності.</Item>
+            </Item>
+          </Item>
+        </Item>
+        <Item name="NearDeath">
+          <Item name="Male01">
+            <Item name="All_H_GND_01M1">Ооох. Ні... уххх... нііі... Я не хочу помирати... Це так боляче... Дідько...</Item>
+          </Item>
+        </Item>
+        <Item name="WarnTrespassing">
+          <Item name="Sequence1">
+            <Item name="Male01">
+              <Item name="All_H_WT_S1_01M1">Приватна власність.</Item>
+              <Item name="All_H_WT_S1_02M1">Як я сказав, приватна власність.</Item>
+              <Item name="All_H_WT_S1_03M1">Яку частину ти не зрозумів? Забирайся звідси.</Item>
+            </Item>
+          </Item>
+        </Item>
+      </Item>
+      <Item name="Rumanian">
+        <Item name="Attacking">
+          <Item name="Male01">
+            <Item name="All_Rum_Att_01M1">Я тебе зараз дістану.</Item>
+            <Item name="All_Rum_Att_02M1">Помри виродок. Помри.</Item>
+            <Item name="All_Rum_Att_03M1">Ось що... Ти труп.</Item>
+            <Item name="All_Rum_Att_04M1">У нього зброя!</Item>
+            <Item name="All_Rum_Att_05M1">Я тебе вб'ю!</Item>
+          </Item>
+        </Item>
+        <Item name="CheckIDSequence">
+          <Item name="Male01">
+            <Item name="All_Rum_CIDS_Check01M1">Мені треба бачити якийсь ІД, пане.</Item>
+          </Item>
+        </Item>
+        <Item name="DontDoThat">
+          <Item name="Sequence1">
+            <Item name="Male01">
+              <Item name="All_Rum_DDT_S1_01M1">Припиніть!</Item>
+              <Item name="All_Rum_DDT_S1_02M1">Вам було сказано - вгамуватися!</Item>
+              <Item name="All_Rum_DDT_S1_03M1">Зупинися або пожалкуєш!</Item>
+            </Item>
+          </Item>
+        </Item>
+        <Item name="DoorSequence">
+          <Item name="Male01">
+            <Item name="All_Rum_DS_Door01M1">Вибачте, пане, входу немає.</Item>
+            <Item name="All_Rum_DS_Door02M1">Як я вже казав, ви не можете пройти.</Item>
+            <Item name="All_Rum_DS_Door03M1">Досить! Забирайся к бісу, клоун.</Item>
+            <Item name="All_Rum_DS_DoorOKM1">Вітаю, пане, ви можете зайти.</Item>
+          </Item>
+        </Item>
+        <Item name="NearDeath">
+          <Item name="Male01">
+            <Item name="All_Rum_GND_01M1">Ооох. Ні... уххх... нііі... Я не хочу помирати... Це так боляче... Дідько...</Item>
+          </Item>
+        </Item>
+        <Item name="WarnTrespassing">
+          <Item name="Male01">
+            <Item name="Sequence1">
+              <Item name="All_Rum_WT_S1_01M1">Приватна власність.</Item>
+              <Item name="All_Rum_WT_S1_02M1">Як я сказав, приватна власність.</Item>
+              <Item name="All_Rum_WT_S1_03M1">Яку частину ти не зрозумів? Забирайся звідси.</Item>
+            </Item>
+          </Item>
+        </Item>
+      </Item>
+      <Item name="Russian">
+        <Item name="Attacking">
+          <Item name="Male01">
+            <Item name="All_R_Att_01M1">Я тебе зараз дістану.</Item>
+            <Item name="All_R_Att_02M1">Помри виродок. Помри.</Item>
+            <Item name="All_R_Att_03M1">Ось що... Ти труп.</Item>
+          </Item>
+          <Item name="Male02">
+            <Item name="All_R_Att_01M2">Я тебе зараз дістану.</Item>
+            <Item name="All_R_Att_02M2">Помри виродок. Помри.</Item>
+            <Item name="All_R_Att_03M2">Ось що... Ти труп.</Item>
+            <Item name="All_R_Att_04M2">У нього зброя!</Item>
+          </Item>
+        </Item>
+        <Item name="CheckIDSequence">
+          <Item name="Male01">
+            <Item name="All_R_CIDS_Check01M1">Мені треба бачити якийсь ІД, пане.</Item>
+            <Item name="All_R_CIDS_Check02M1">Мені потрібен ІД, пане!</Item>
+            <Item name="All_R_CIDS_Check03M1">Кажу востаннє. Покажіть мені дійсний ІД!</Item>
+          </Item>
+          <Item name="Male02">
+            <Item name="All_R_CIDS_Check01M2">Мені треба бачити якийсь ІД, пане.</Item>
+            <Item name="All_R_CIDS_Check02M2">Мені потрібен ІД, пане!</Item>
+            <Item name="All_R_CIDS_Check03M2">Кажу востаннє. Покажіть мені дійсний ІД!</Item>
+          </Item>
+        </Item>
+        <Item name="DontDoThat">
+          <Item name="Sequence1">
+            <Item name="Male01">
+              <Item name="All_R_DDT_S1_01M1">Припиніть!</Item>
+              <Item name="All_R_DDT_S1_02M1">Вам було сказано - вгамуватися!</Item>
+              <Item name="All_R_DDT_S1_03M1">Зупинися або пожалкуєш!</Item>
+            </Item>
+            <Item name="Male02">
+              <Item name="All_R_DDT_S1_01M2">Припиніть!</Item>
+              <Item name="All_R_DDT_S1_02M2">Вам було сказано - вгамуватися!</Item>
+              <Item name="All_R_DDT_S1_03M2">Зупинися або пожалкуєш!</Item>
+            </Item>
+          </Item>
+        </Item>
+        <Item name="DoorSequence">
+          <Item name="Male01">
+            <Item name="All_R_DS_Door01M1">Вибачте, пане, входу немає.</Item>
+            <Item name="All_R_DS_Door02M1">Як я вже казав, ви не можете пройти.</Item>
+            <Item name="All_R_DS_Door03M1">Досить! Забирайся к бісу, клоун.</Item>
+            <Item name="All_R_DS_DoorOKM1">Вітаю, пане, ви можете зайти.</Item>
+          </Item>
+          <Item name="Male02">
+            <Item name="All_R_DS_Door01M2">Вибачте, пане, входу немає.</Item>
+            <Item name="All_R_DS_Door02M2">Як я вже казав, ви не можете пройти.</Item>
+            <Item name="All_R_DS_Door03M2">Досить! Забирайся к бісу, клоун.</Item>
+            <Item name="All_R_DS_DoorOKM2">Вітаю, пане, ви можете зайти.</Item>
+          </Item>
+        </Item>
+        <Item name="FriskSequence">
+          <Item name="Male01">
+            <Item name="All_R_FS_Frisk01M1">Будь ласка зупиніться, пане.</Item>
+            <Item name="All_R_FS_Frisk02M1">Вам потрібно зупинитися.</Item>
+            <Item name="All_R_FS_Frisk03M1">Що я тобі сказав? Стій!</Item>
+            <Item name="All_R_FS_FriskBADM1">Що за... Тривога!</Item>
+            <Item name="All_R_FS_FriskOKM1">Дякую, пане, все гаразд. Можете йти.</Item>
+          </Item>
+        </Item>
+        <Item name="KeepMoving">
+          <Item name="Male01">
+            <Item name="All_R_KM_01M1">Гей, дружок, давай шарпай.</Item>
+            <Item name="All_R_KM_02M1">А ну давай, лисий, пішов.</Item>
+            <Item name="All_R_KM_03M1">Зникни, поки дупа ціла.</Item>
+          </Item>
+        </Item>
+        <Item name="LeaveMe">
+          <Item name="Sequence1">
+            <Item name="Male02">
+              <Item name="All_R_LM_S1_01M2">Будь ласка, залиште мене, пане.</Item>
+              <Item name="All_R_LM_S1_02M2">Не замало місця, пане?</Item>
+              <Item name="All_R_LM_S1_03M2">Відійди, урод, бо матимеш неприємності.</Item>
+            </Item>
+          </Item>
+        </Item>
+        <Item name="NearDeath">
+          <Item name="Male01">
+            <Item name="All_R_GND_01M1">Ооох. Ні... уххх... нііі... Я не хочу помирати... Це так боляче... Дідько...</Item>
+          </Item>
+        </Item>
+        <Item name="WarnTooClose">
+          <Item name="Sequence1">
+            <Item name="Male02">
+              <Item name="All_R_WTC_S1_01M2">Проходьте, будь ласка.</Item>
+              <Item name="All_R_WTC_S1_02M2">Я серйозно, пане, будь ласка, проходьте.</Item>
+              <Item name="All_R_WTC_S1_03M2">Останнє попередження, пане - проходьте.</Item>
+            </Item>
+          </Item>
+        </Item>
+        <Item name="WarnTrespassing">
+          <Item name="Male01">
+            <Item name="All_R_WT_01M1">Гей, дружок, давай шарпай.</Item>
+            <Item name="All_R_WT_02M1">А ну давай, лисий, пішов.</Item>
+            <Item name="All_R_WT_03M1">Зникни, поки дупа ціла.</Item>
+          </Item>
+        </Item>
+      </Item>
+    </Item>
+    <Item name="Info">
+      <Item name="BombHasBeenArmed">Бомба була озброєна</Item>
+      <Item name="BonusSave">Тебе нагородили додатковим збереженням</Item>
+      <Item name="CanNotUnpackSniper">Не можна розпаковувати снайперку в цьому місці</Item>
+      <Item name="CivilianHasWarnedGuards">Цивільний попередив охоронця</Item>
+      <Item name="ContainerItemNotFit">Предмет не поміщається в контейнер</Item>
+      <Item name="Cover_Blown">Твоє прикриття викрито</Item>
+      <Item name="deadbody">Охоронці знайшли труп</Item>
+      <Item name="DoorLocked">Двері замкнені</Item>
+      <Item name="FoundDeadDress">
+        <Item name="BikerBabe_01">Охорона знайшла труп подруги байкерів</Item>
+        <Item name="BikerBabe_02">Охорона знайшла труп подруги байкерів</Item>
+        <Item name="BikerGuardBig_01">Охорона знайшла труп байкера</Item>
+        <Item name="BikerMember_01">Охорона знайшла труп байкера</Item>
+        <Item name="BikerMember_02">Охорона знайшла труп байкера</Item>
+        <Item name="BikerPresident_01">Охорона знайшла труп голови байкерів</Item>
+        <Item name="BikerProspect_01">Охорона знайшла труп кандидата байкерів</Item>
+        <Item name="BikerProspect_02">Охорона знайшла труп кандидата байкерів</Item>
+        <Item name="BombWorker_01">Охорона знайшла труп бомбороба</Item>
+        <Item name="Butcher_01">Охорона знайшла труп м'ясника</Item>
+        <Item name="Chef">Охорона знайшла труп шеф-кухаря</Item>
+        <Item name="ChefJapanese">Охорона знайшла труп шеф-кухаря</Item>
+        <Item name="CivilianRussian_01">Охорона знайшла труп цивільного</Item>
+        <Item name="CommanderBjarkhov_01">Охорона знайшла труп командира Бярхова</Item>
+        <Item name="Concubine">Охорона знайшла труп коханки</Item>
+        <Item name="default">Охорона знайшла труп</Item>
+        <Item name="DeliveryBoy">Охорона знайшла труп розносника</Item>
+        <Item name="DentistCoat_01">Охорона знайшла труп дантиста</Item>
+        <Item name="FabianFuchs_01">Охорона знайшла труп Фабіана Фукса</Item>
+        <Item name="FemaleWhore_01">Охорона знайшла труп повії</Item>
+        <Item name="FuchsBodyguard_01">Охорона знайшла труп тілоохоронця</Item>
+        <Item name="Guard_01">Охорона знайшла труп охоронця</Item>
+        <Item name="LimoDriver_01">Охорона знайшла труп водія лімузину</Item>
+        <Item name="Maid">Охорона знайшла труп покоївки</Item>
+        <Item name="MaleGuest_01">Охорона знайшла труп гостя</Item>
+        <Item name="MeatKing_01">Охорона знайшла труп м'ясного короля</Item>
+        <Item name="MeatKingBrother_01">Охорона знайшла труп брата м'ясного короля</Item>
+        <Item name="MeatKingLawyer_01">Охорона знайшла труп адвоката</Item>
+        <Item name="MeiLing">Охорона знайшла труп Меі Лінґ</Item>
+        <Item name="OpiumWaiter_01">Охорона знайшла труп розносника опію</Item>
+        <Item name="RussianAgent_01">Охорона знайшла труп цивільного</Item>
+        <Item name="RussianSoldierArctic_01">Охорона знайшла труп солдата</Item>
+        <Item name="RussianSoldierBodyguard_01">Охорона знайшла труп солдата</Item>
+        <Item name="SleazyBartender_01">Охорона знайшла труп бармена</Item>
+        <Item name="SleazyReporter_01">Охорона знайшла труп репортера</Item>
+        <Item name="Waiter">Охорона знайшла труп офіціанта</Item>
+      </Item>
+      <Item name="FriskSearchWeaponsRemoved">Зброю було забрано під час обшуку</Item>
+      <Item name="FullAmmo">Не можна нести більше цих набоїв</Item>
+      <Item name="GuardsAlert">Охоронці попереджені</Item>
+      <Item name="HeadForExit">Прямуй до точки виходу</Item>
+      <Item name="Hint">Порада</Item>
+      <Item name="HotelAccessGranted">Охоронець прийняв картку ІД</Item>
+      <Item name="Information">Інформація</Item>
+      <Item name="KeyReceived">Отримано ключ до номеру 301</Item>
+      <Item name="MapUpdated">Мапу оновлено. Натисни $Мар.</Item>
+      <Item name="NearByGuardsAlarmed">Ближні охоронці стривожені</Item>
+      <Item name="ObjectiveCancelled">Завдання скасоване</Item>
+      <Item name="ObjectiveNotComplete">Завдання не завершене</Item>
+      <Item name="PoisonNeeded">Потрібно знайти отруту</Item>
+      <Item name="ReceivedItem">Отримано предмет:</Item>
+      <Item name="SaveSuccess">Гра збережена успішно</Item>
+      <Item name="SecurityWarning">Охоронці будуть попереджені якщо напруга не відновиться</Item>
+      <Item name="Sniper">Снайпер отримав ціль</Item>
+      <Item name="SpottedBomb">Тебе помітили з бомбою</Item>
+      <Item name="SurveilanceDisabled">Спостереження відключене</Item>
+      <Item name="SuspectBehaviour">
+        <Item name="AsianBodyguard_01_HMas">Охорона шукає підозрілого охоронця</Item>
+        <Item name="AsianBodyguard_01_MHas">Охорона шукає підозрілого охоронця</Item>
+        <Item name="AsianChef_01_HMas">Охорона шукає підозрілого шеф-кухаря</Item>
+        <Item name="bellboy_01_HMas">Охорона шукає підозрілого посильного</Item>
+        <Item name="BikerMember_01_HMas">Охорона шукає підозрілого байкера</Item>
+        <Item name="BikerMember_02_HMas">Охорона шукає підозрілого байкера</Item>
+        <Item name="BikerProspect_01_HMas">Охорона шукає підозрілого кандидата байкерів</Item>
+        <Item name="BikerProspect_02_HMas">Охорона шукає підозрілого кандидата байкерів</Item>
+        <Item name="BlueLotusMember_01_HMas">Охорона шукає підозрілого члена Синього Лотоса</Item>
+        <Item name="BlueLotusMember_01_LOD_HMas">Охорона шукає підозрілого члена Синього Лотоса</Item>
+        <Item name="BlueLotusMember_01_LOD_MHas">Охорона шукає підозрілого члена Синього Лотоса</Item>
+        <Item name="BlueLotusMember_01_MHas">Охорона шукає підозрілого члена Синього Лотоса</Item>
+        <Item name="BlueLotusNegotiator_01_HMas">Охорона шукає підозрілого перемовника Синього Лотоса</Item>
+        <Item name="BlueLotusNegotiator_01_MHas">Охорона шукає підозрілого перемовника Синього Лотоса</Item>
+        <Item name="BombWorker_01_HMas">Охорона шукає підозрілого бомбороба</Item>
+        <Item name="BorisCrew_01_HMAS">Охорона шукає підозрілого моряка</Item>
+        <Item name="Butcher_01_HMas">Охорона шукає підозрілого м'ясника</Item>
+        <Item name="Butler_01_HMas">Охорона шукає підозрілого дворецького</Item>
+        <Item name="Chef_HMas">Охорона шукає підозрілого шеф-кухаря</Item>
+        <Item name="ChefJapanese_HMas">Охорона шукає підозрілого шеф-кухаря</Item>
+        <Item name="CivilianRussian_01_HMas">Охорона шукає підозрілого цивільного</Item>
+        <Item name="DeliveryBoy_HMas">Охорона шукає підозрілого розносника</Item>
+        <Item name="DriverLimo_HMas">Охорона шукає підозрілого водія лімузину</Item>
+        <Item name="EstateGuardInside_01_HMas">Охорона шукає підозрілого внутрішнього охоронця</Item>
+        <Item name="EstateGuardOutside_01_HMas">Охорона шукає підозрілого зовнішнього охоронця</Item>
+        <Item name="FabianFuchs_01_HMas">Охорона шукає підозрілого Фабіана Фукса</Item>
+        <Item name="FuchsBodyguard">Охорона шукає підозрілого тілоохоронця</Item>
+        <Item name="FuchsBodyguard_01_HMas">Охорона шукає підозрілого тілоохоронця</Item>
+        <Item name="Gardener_01_HMas">Охорона шукає підозрілого садівника</Item>
+        <Item name="Gardener_01_MHas">Охорона шукає підозрілого садівника</Item>
+        <Item name="Guard_01_HMas">Охорона шукає підозрілого охоронця</Item>
+        <Item name="Guard_01_HMas_VIP">Охорона шукає підозрілого охоронця важливої особи</Item>
+        <Item name="HarborPolice_01_HMAS">Охорона шукає підозрілого портового полісмена</Item>
+        <Item name="Hitman">Охорона шукає підозрілу лису особу</Item>
+        <Item name="Hitman2">Охорона шукає підозрілу лису особу</Item>
+        <Item name="HotelStaff_01_HMas">Охорона шукає підозрілого працівника</Item>
+        <Item name="HuntingPartyMember_01_HMas">Охорона шукає підозрілого учасника полювання</Item>
+        <Item name="HuntingPartyMember_01_Nude_HMas">Охорона шукає підозрілого учасника полювання</Item>
+        <Item name="HuntingPartyMember_02_HMas">Охорона шукає підозрілого учасника полювання</Item>
+        <Item name="HuntingPartyMember_02_Nude_HMas">Охорона шукає підозрілого учасника полювання</Item>
+        <Item name="LimoDriver_01_HMas">Охорона шукає підозрілого водія лімузину</Item>
+        <Item name="MaleGuest_01_HMas">Охорона шукає підозрілого гостя</Item>
+        <Item name="OpiumWaiter_01_HMas">Охорона шукає підозрілого розносника опію</Item>
+        <Item name="Police_Officer_01_HMas">Охорона шукає підозрілого офіцера поліції</Item>
+        <Item name="Police_SWAT_01_HMas">Охорона шукає підозрілого члена спецзагону</Item>
+        <Item name="PoliceSecurityForces_01_HMas">Охорона шукає підозрілого офіцера поліції</Item>
+        <Item name="RedDragonMember_01_HMas">Охорона шукає підозрілого члена Червоного Дракона</Item>
+        <Item name="RedDragonMember_01_MHas">Охорона шукає підозрілого члена Червоного Дракона</Item>
+        <Item name="RedDragonNegotiator_01_HMas">Охорона шукає підозрілого перемовника Червоного Дракона</Item>
+        <Item name="RedDragonNegotiator_01_MHas">Охорона шукає підозрілого перемовника Червоного Дракона</Item>
+        <Item name="RussianSoldierArctic_01_HMas">Охорона шукає підозрілого солдата</Item>
+        <Item name="RussianSoldierBodyguard_01_HMas">Охорона шукає підозрілого солдата</Item>
+        <Item name="SleazyBartender_01_HMas">Охорона шукає підозрілого бармена</Item>
+        <Item name="SleazyReporter_01_HMas">Охорона шукає підозрілого репортера</Item>
+        <Item name="Stable_Boy_01_HMas">Охорона шукає підозрілого конюха</Item>
+        <Item name="Swat_01_HMAS">Охорона шукає підозрілого члена спецзагону</Item>
+        <Item name="Swat_Tutorial_01_HMas">Охорона шукає підозрілого члена спецзагону</Item>
+        <Item name="TerroristGuard_01_HMas">Охорона шукає підозрілого тілоохоронця</Item>
+        <Item name="TerroristGuard_01_MHas">Охорона шукає підозрілого тілоохоронця</Item>
+        <Item name="Waiter_HMas">Охорона шукає підозрілого офіціанта</Item>
+        <Item name="Worker_01_HMAS">Охорона шукає підозрілого портового працівника</Item>
+      </Item>
+      <Item name="SwitchOffMD">Металошукачі вимкнені</Item>
+      <Item name="SwitchOnMD">Металошукачі увімкнені</Item>
+      <Item name="TechnicianAlert">Технік попередив охорону</Item>
+      <Item name="TechnicianArrive">Технік піднімається в пентхаус на ліфті</Item>
+      <Item name="UnconsciousBody">Охорона знайшла несвідому особу</Item>
+      <Item name="Warning">Попередження</Item>
+      <Item name="YouBeenSpotted">Тебе помітили</Item>
+    </Item>
+    <Item name="Interface">
+      <Item name="3DSound">3D звук</Item>
+      <Item name="Accept">ПРИЙНЯТИ</Item>
+      <Item name="AdjustScreen">Підлаштувати екран</Item>
+      <Item name="AdjustScreenMessage">Використовуйте правий джойстик щоб підлаштувати позицію екрану</Item>
+      <Item name="AmmoLeft">Залишилось набоїв</Item>
+      <Item name="Anisotropic">Анізотропна</Item>
+      <Item name="AntiAliasing">Згладжування</Item>
+      <Item name="Back">Назад</Item>
+      <Item name="BackCaps">НАЗАД</Item>
+      <Item name="Bilinear">Білінійна</Item>
+      <Item name="BlocksNeeded">Потрібно блоків: %d</Item>
+      <Item name="Blood">Кров</Item>
+      <Item name="BonusWeapon">За досягнення звання Тихий Вбивця, вас нагороджено бонусною зброєю:</Item>
+      <Item name="Caliber">Калібр</Item>
+      <Item name="Cancel">Скасувати</Item>
+      <Item name="CantSaveNow">Не можна зберегти гру зараз. Знайдіть тихе місце і спробуйте знову.</Item>
+      <Item name="ClipCapacity">Ємність магазину</Item>
+      <Item name="ClipsLeft">Залишилось магазинів</Item>
+      <Item name="CloseCombat">БЛИЖНІЙ БІЙ</Item>
+      <Item name="Concealable">Приховувальність</Item>
+      <Item name="Confirmation">Ви впевнені?</Item>
+      <Item name="ConfirmationDashboard">Ваш Хвох не має достатньо вільних блоків для збереження гри.
+Ви маєте %d вільних блоків на жорсткому диску і потрібно ще %d блоків.
+Виберіть Так щоб продовжити без зберігання чи Ні щоб звільнити блоки.</Item>
+      <Item name="ConfirmationDelete">Це видалить збережену гру.
+Ви впевнені?</Item>
+      <Item name="ConfirmationLoad">Це призведе до втрати прогресу гри якщо ви не зберігались недавно. Ви впевнені?</Item>
+      <Item name="ConfirmationOverwrite">Це перепише збережену гру.
+Ви впевнені?</Item>
+      <Item name="Continue">Продовжити</Item>
+      <Item name="ControlSetup">Керування</Item>
+      <Item name="Credits">Автори</Item>
+      <Item name="CreditsText">&lt;WІDТН 320&gt;&lt;СОLОR ffffff&gt;
+Нітмаn Соnтrастs був продукований
+(в алфавітному порядку)
+
+&lt;САLІGN&gt;&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;ІО Іnтеrастіvе&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;/САLІGN&gt;&lt;вr&gt;
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Програмісти&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Єнс Бо Альбретсен
+  Мартін Амор
+  Браян Мейдел Андерсен
+  Марсел Бараняй
+  Рун Брінкмеєр
+  Бо Кордес
+  Девід Ґульдбрандсен
+  Петер Малнай
+  Асґер Манґаард
+  Пітер Врає Маріно
+  Шандор Няко
+  Ларс Піестер
+  Гакон Стейньо
+  Торстен К'єар Сьоренсен
+  Єроен М. Ваґенаар
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Скриптери&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Єспер Доніс
+  Йонас Лінд
+  Якоб Мікелсен
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Додаткові програмісти&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Йорген Ларсен
+  Расмус Сіґсґаард
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Художники&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Ісрафел Абаінза
+  Якоб Андерсен
+  Пітер Флекенстейн
+  Джеймі Бенсон
+  Міхал Бендтсен
+  Марек Богдан
+  Мортен Крістіан Брамсен
+  Свенд Крістенсен
+  Тор Фройліш
+  Девід Жіро
+  Мартін Краме Ґульдбек
+  Ален Гансен
+  Генрік Гансен
+  Расмус Гоєнґаард
+  Том Ісаксен
+  Сорен Б. Єнсен
+  Лукас Євцак
+  Єспер Ворсголт Йорґенсен
+  Расмус К'єар
+  Себастіан Ліндоф
+  Пітер фон Лінстов
+  Стефан Нілссон
+  Медс Г. Пейтерсен
+  Єспер К. Пітерсен
+  Пітер Ейде Паулсен
+  Асі Сіменсгауз
+  Томес Сторм
+  Деніел Віндфелд Шмідт
+  Йорґен Орберґ
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Додаткові художники&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Тобіас Бігл
+  Торе Блистад
+  Міклош Буте
+  Тімоті Евісон
+  Бо Геіделберґ
+  Міхаель Геілеман
+  Балаш Кіс
+  Оскар Лундквіст
+  Ріана Мьолер
+  Єремі С. Петреман
+  Медс Прагм
+  Трей Тернер
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Аніматори&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Барбара Бернєд
+  Фредерік Будолф Ларсен
+  Ґабор Хорват
+  Єнс Пітер Куруп
+  Мартін Поульсен
+  Кім Зол
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Додаткові аніматори&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Карстен Лунд
+  Фредерік Пор'є
+  Томес П. Теіде
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Звук&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Іван Брандт
+  Сімон Гольм
+  Томас "Томзен" Діетл
+  Міхаель Зіґлер
+&lt;/RАLІGN&gt;  
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Контроль якості&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Петронела Шімпоесу
+  Г'ю Ґрімлі
+  Клавс Кофод
+  Крістіан Райс
+  Якоб Ройд
+  Янус Рау
+  Мікаель Берн
+  Олівер Віндінґ
+  Ольґа Маслава
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Координатор проекту&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Гелле Марійніссен
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Сценарій&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Ґреґ Наґан
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Музика&lt;/DВL&gt;&lt;/СОLОR&gt;
+  Музика написана та виконана
+&lt;RАLІGN&gt;Єспер Кюд
+&lt;/RАLІGN&gt;
+  Додаткова обробка звуку
+&lt;RАLІGN&gt;Юн Мізумачі
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Програмісти двигуна&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Мірче Маргідану
+  Мортен Мікельсен
+  Карстен Гвідберґ
+  Мартін Полас
+  Йон Рокатіс
+  Генінґ Семлер
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Додаткові програмісти двигуна&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Томес Якобсен
+  Мікель Бах Єнсен
+  Єнс Скінеруп
+  Андреас Томсен
+  Стефен Токсвіґ
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Керівництво ІОІ&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Мортен Борум
+  Янос Флюсер
+  Томес Говалт
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Підтримка&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Ені Ґ. Андерсен
+  Ельсе Андерсен
+  Мікаель Андерсен
+  Фредерік Екс
+  Шарлот Делран
+  Кріс Едґар
+  Деніел Флюсер
+  Фредерік Фусаґер
+  Ула Ґольдберґ
+  Сьорен Реінголд Єнсен
+  Нільс Йорґенсен
+  Крістофер Кей
+  Ульф Мааґаард
+  Руне Нільсен
+  Мартін Шрьодер
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Озвучення&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Девід Бетесон
+  Уле Бйорн Бенґтссон
+  Юст Александер Ван Дер Берґ
+  Барбара Бернад
+  Майкл Буф
+  Томас Чейнінґ
+  Чун Го Чюнґ
+  Мук Вінґ Чюнґ
+  Сан Тай Чюнґ
+  Петронела Чімпоесу
+  Жан Клод Фламан
+  Беті Ґлостед
+  Франсуа Ерік Ґроден
+  Ґабор Хорват
+  Дженіфер Ксяо Бао Гуанґ
+  Ноа Лазарус
+  Руні Леверіса
+  Роберт Наґі
+  Петер Малнаі
+  Мірча Маргідану
+  Вів'єн Маккі
+  Ніколай Пападук
+  Владімір Пінчевскій
+  Овідіо Романеску
+  Скот Фарел Стрічен
+  С'ю Гансен Стаілс
+  Ендрю Томсон
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Захоплення руху&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Маріа Еволтер
+  Тіна Робінсон Гансен
+  Бо Томас
+&lt;/RАLІGN&gt;
+
+
+&lt;САLІGN&gt;&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Еіdоs Lімітеd&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;/САLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Старший продюсер&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Ніл Донел
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Виконавчий продюсер&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Ед Беінбрідж
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Керівник бренду&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Кетрин Клементс
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Директор бренду&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Рік Віліамс
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Керівник продажів у Великобританії&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Керолин Лондон
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Керівник комунікації&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Стів Старвіс
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Керівник публічних відносин&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Марк Ален
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Помічник керівника публічних відносин&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Роксана Данешманд
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Веб продюсер&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Крістоф Тадеі
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Веб дизайнер&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Лей Кірван
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Керівник локалізації&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Алекс Буш
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Керівник групи локалізації&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Керолайн Саймон
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Директор контролю якості&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Кріс Роулі
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Помічник керівника&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Джон Рі
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Координатори тестування продукту&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Адам Лей
+  Стів Манерс
+  Тоні Петеркен
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Помічники координаторів тестування продукту&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Лінус Домінік
+  Марк Веб
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Техніки контролю якості&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;
+  Адам Філіпс
+  Алекс Голройд
+  Елісон Арчер
+  Карл Ловіт
+  Кріс Брукс
+  Кріс Ґардінер
+  Клайв Сауфорд
+  Деніел Оферел
+  Девід Гадон
+  Девід Гоукінс-Фа
+  Джеймс Гінчліф
+  Джеймс Вікер
+  Джейсон Ріед
+  Джулі Пейн
+  Маркус Смікл
+  Майкл Клеф
+  Майкл Ганлі
+  Пол Гарісон
+  Пол Мулкер
+  Річард Ебот
+  Річард Ачеркі
+  Річард Дангем
+  Річард Едбарі
+  Шамс Вагід
+  Стів Едіс
+  Вінсент Бун
+  Ворен Бекет
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Оволодіння і сумісність&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Джейсон Вокер
+  Філ Спенсер
+  Рей Мулен
+  Ґордон Ґрем
+  Скот Сатерленд
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Наглядач контролю якості локалізації&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Марко Вернеті
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Керівник контролю якості локалізації&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Арнауд Месеґер
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Помічник керівника контролю якості локалізації&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Андреас Ґшварі
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;Тестери контролю якості локалізації&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Анжело Рока
+  Корін Калуіс
+  Даріо Шімоне
+  Фаусто Тревісан
+  Іан Віловс
+  Жак Ґалон
+  Жоакін де Прадо
+  Лор Діет
+  Матью Шоле
+  Пабло Тренадо
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;&lt;DВL&gt;ПЗ третіх сторін&lt;/DВL&gt;&lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Ехратрр
+  Frеетyре
+  Оgg Vоrвіs
+  Zlів
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;Ліцензована музика &lt;/СОLОR&gt;
+&lt;RАLІGN&gt;і10Q
+&lt;/RАLІGN&gt;
+
+&lt;СОLОR а0а0а0а0&gt;Трейлери &lt;/СОLОR&gt;
+&lt;RАLІGN&gt;Рlаsтіс Wах
+&lt;/RАLІGN&gt;</Item>
+      <Item name="CurrentGame">Поточна гра</Item>
+      <Item name="Decision">Тільки для японської версії, що означає "згоду" на виконання послідовності.</Item>
+      <Item name="DeleteFailed">Не можу видалити збереження</Item>
+      <Item name="DeleteSaveGames">Видалити</Item>
+      <Item name="Details">Деталі</Item>
+      <Item name="Disabled">Відключено</Item>
+      <Item name="DiskError">Проблема з вашим диском. Можливо, він брудний чи пошкоджений.</Item>
+      <Item name="DiskFull">Диск заповнений. Видаліть кілька збережень щоб мати вільне місце.</Item>
+      <Item name="DrawDistance">Видимість</Item>
+      <Item name="DXT">DХТ компресія</Item>
+      <Item name="Easy">Нормал</Item>
+      <Item name="EAX">ЕАХ</Item>
+      <Item name="EMBM">Карти нерівностей</Item>
+      <Item name="Enabled">Включено</Item>
+      <Item name="Equipment">ОБЛАДНАННЯ</Item>
+      <Item name="Extras">Додаткові фільми</Item>
+      <Item name="FactorySettings">Скинути</Item>
+      <Item name="Far">Далеко</Item>
+      <Item name="FreeBlocks">Вільних блоків: %s</Item>
+      <Item name="Gamma">Корекція гами</Item>
+      <Item name="GraphicsOptions">Графіка</Item>
+      <Item name="Guns">ПІСТОЛЕТИ</Item>
+      <Item name="Hard">Професіонал</Item>
+      <Item name="High">Високо</Item>
+      <Item name="HMCVideo">Нітмаn Соnтrастs Тrаіlеr</Item>
+      <Item name="InvertMouse">Інвертування Y-вісі миші</Item>
+      <Item name="Items">Предмети</Item>
+      <Item name="KeyboardSetup">Конфігурування клавіш</Item>
+      <Item name="Length">Довжина</Item>
+      <Item name="LevelOfDetail">Детальність</Item>
+      <Item name="Load">Завантажити</Item>
+      <Item name="LoadFailed">Не можу завантажити збереження, збереження пошкоджене.</Item>
+      <Item name="Loading">Завантаження</Item>
+      <Item name="Low">Низько</Item>
+      <Item name="Machineguns">КУЛЕМЕТИ</Item>
+      <Item name="Map">
+        <Item name="Exit">Вихід</Item>
+        <Item name="Exit_PS2">Вихід</Item>
+        <Item name="Exit_Xbox">Вихід</Item>
+        <Item name="Icons">
+          <Item name="Animal">Тварина</Item>
+          <Item name="AnimalDead">Мертва тварина</Item>
+          <Item name="Elevator">Ліфт</Item>
+          <Item name="Enemy">Ворог</Item>
+          <Item name="EnemyDead">Труп ворога</Item>
+          <Item name="ExitPoint">Точка виходу</Item>
+          <Item name="Helicopter">Гелікоптер</Item>
+          <Item name="Hero">Хітмен</Item>
+          <Item name="Ladder">Драбина</Item>
+          <Item name="Neutral">Цивільний</Item>
+          <Item name="NeutralDead">Труп цивільного</Item>
+          <Item name="OtherPeople">Інші люди</Item>
+          <Item name="Pickup">Точка підбору</Item>
+          <Item name="PointOfInterest">Точка інтересу</Item>
+          <Item name="Police">Поліція</Item>
+          <Item name="PowerSwitch">Перемикач напруги</Item>
+          <Item name="SewerHole">Люк каналізації</Item>
+          <Item name="Stairs">Сходи</Item>
+          <Item name="Target">Ціль</Item>
+          <Item name="TargetDead">Труп цілі</Item>
+          <Item name="Vehicle">Транспорт</Item>
+          <Item name="VIP">Важлива особа</Item>
+        </Item>
+        <Item name="Legend">Легенда</Item>
+        <Item name="Legend_PS2">Легенда</Item>
+        <Item name="Legend_Xbox">Легенда</Item>
+        <Item name="Map">Мапа</Item>
+        <Item name="Map_PS2">Мапа</Item>
+        <Item name="Map_Xbox">Мапа</Item>
+        <Item name="Pan">Переміщення</Item>
+        <Item name="Zoom">Наближення</Item>
+      </Item>
+      <Item name="Medium">Експерт</Item>
+      <Item name="MediumOptions">Середньо</Item>
+      <Item name="MemoryCard">
+        <Item name="0">Недостатньо місця на картці пам'яті (8МВ) (для РlаySтатіоn®2). Вставте картку пам'яті (8МВ) (для РlаySтатіоn®2) з принаймні (х)КВ вільного місця, чи очистіть місце за допомогою внутрішнього переглядача консолі.</Item>
+        <Item name="1">Обережно! Якщо ви хочете зберегти дані гри, вставте картку пам'яті (8МВ) (для РlаySтатіоn®2) з принаймні (х)КВ вільного місця чи натисніть (іnsеrт аррrорrіате вuттоn) щоб продовжити без зберігання.</Item>
+        <Item name="10">Зберегти не вдалося! Перевірте картку пам'яті (8МВ) (для РlаySтатіоn®2) і спробуйте ще.</Item>
+        <Item name="11">Зберегти не вдалося! Помилка картки пам'яті (8МВ) (для РlаySтатіоn®2) у слоті 1!</Item>
+        <Item name="12">Зберігання даних на картку пам'яті (8МВ) (для РlаySтатіоn®2) у слоті 1. Не виймайте картку пам'яті (8МВ) (для РlаySтатіоn®2), не перевантажуйте, не вимикайте консоль.</Item>
+        <Item name="13">Файл вже існує. Створити новий чи перезаписати дані?</Item>
+        <Item name="14">Зберегти вдалося</Item>
+        <Item name="15">Скасувати зберігання? Так чи Ні</Item>
+        <Item name="16">Збереження Нітмаn 2 відсутні на картці пам'яті (8МВ) (для РlаySтатіоn®2) у слоті 1.</Item>
+        <Item name="17">Завантажити не вдалося! Перевірте картку пам'яті (8МВ) (для РlаySтатіоn®2) у слоті 1 і спробуйте ще.</Item>
+        <Item name="18">Завантажити не вдалося! Помилка картки пам'яті (8МВ) (для РlаySтатіоn®2) у слоті (n)!</Item>
+        <Item name="19">Завантажити вдалося</Item>
+        <Item name="2">Обережно! (ххх) використовує Автозберігання. Дані на картці пам'яті (8МВ) (для РlаySтатіоn®2) вставленій після цієї миті можуть бути перезаписані.</Item>
+        <Item name="20">Скасувати завантаження? Так чи Ні</Item>
+        <Item name="21">Перевірка картки пам'яті (8МВ) (для РlаySтатіоn®2) у слоті 1. Не виймайте картку пам'яті (8МВ) (для РlаySтатіоn®2), не перевантажуйте, не вимикайте консоль.</Item>
+        <Item name="22">Помилка картки пам'яті (8МВ) (для РlаySтатіоn®2) у слоті (n)! Перевірте картку пам'яті (8МВ) (для РlаySтатіоn®2) і спробуйте ще.</Item>
+        <Item name="23">Помилка картки пам'яті (8МВ) (для РlаySтатіоn®2) у слоті (n)! Можливо, дані пошкоджені.</Item>
+        <Item name="24">Ви впевнені, що хочете форматувати картку пам'яті (8МВ) (для РlаySтатіоn®2) у слоті (n)?</Item>
+        <Item name="25">Форматування картки пам'яті (8МВ) (для РlаySтатіоn®2) у слоті 1. Не виймайте картку пам'яті (8МВ) (для РlаySтатіоn®2), не перевантажуйте, не вимикайте консоль.</Item>
+        <Item name="26">Скасувати форматування?</Item>
+        <Item name="27">Форматування вдалося</Item>
+        <Item name="28">Форматування не далося! Перевірте картку пам'яті (8МВ) (для РlаySтатіоn®2) і спробуйте ще.</Item>
+        <Item name="29">Виберіть збереження для видалення.</Item>
+        <Item name="3">Виберіть слот картки пам'яті.</Item>
+        <Item name="30">Видалити збереження?</Item>
+        <Item name="31">Скасувати видалення?</Item>
+        <Item name="32">Видалення даних. Не виймайте картку пам'яті (8МВ) (для РlаySтатіоn®2), не перевантажуйте, не вимикайте консоль.</Item>
+        <Item name="33">Видалення вдалося</Item>
+        <Item name="34">Виберіть збереження для перезапису.</Item>
+        <Item name="35">Перезаписати збереження?</Item>
+        <Item name="36">Перезаписування даних. Не виймайте картку пам'яті (8МВ) (для РlаySтатіоn®2), не перевантажуйте, не вимикайте консоль.</Item>
+        <Item name="37">Перезаписування вдалося</Item>
+        <Item name="38">(8МВ) (для РlаySтатіоn®2)</Item>
+        <Item name="4">Картка пам'яті (8МВ) (для РlаySтатіоn®2) у слоті (n) не форматована. Форматувати картку пам'яті (8МВ) (для РlаySтатіоn®2)?</Item>
+        <Item name="5">Недостатньо місця на картці пам'яті (8МВ) (для РlаySтатіоn®2) у слоті 1. Нітмаn 2 потребує %dКВ вільного місця для запису даних.</Item>
+        <Item name="6">Недостатньо місця на картці пам'яті (8МВ) (для РlаySтатіоn®2) у слоті (n). (ххх) потребує (х)КВ вільного місця для запису даних. Бажаєте перезаписати попередні (ххх) дані?</Item>
+        <Item name="7">Не вставлено картку пам'яті (8МВ) (для РlаySтатіоn®2) у слот 1.</Item>
+        <Item name="8">Автозберігання даних на картку пам'яті (8МВ) (для РlаySтатіоn®2) у слоті (n). Не виймайте картку пам'яті (8МВ) (для РlаySтатіоn®2), не перевантажуйте, не вимикайте консоль.</Item>
+        <Item name="9">Дані на картці пам'яті (8МВ) (для РlаySтатіоn®2) у слоті (n) змінилися. Перезаписати попередні (ххх) дані Так чи Ні?</Item>
+        <Item name="BootNoMCHeader">Не знайдена картка пам'яті (8МВ) (для РlаySтатіоn®2)</Item>
+        <Item name="BootNoMCMessage">Картка пам'яті (8МВ) (для РlаySтатіоn®2) не вставлена. Принаймні %d КВ потрібно щоб зберегти дані гри.
+Вставте картку пам'яті (8МВ) (для РlаySтатіоn®2) у слот 1.</Item>
+        <Item name="BootNoSpaceHeader">Не достатньо місця</Item>
+        <Item name="BootNoSpaceMessage">Не достатньо місця на картці пам'яті (8МВ) (для РlаySтатіоn®2). Принаймні %d КВ потрібно щоб зберегти дані гри.</Item>
+        <Item name="CancelSaveConfirmation">Скасувати зберігання?</Item>
+        <Item name="CannotCreateNew">Не достатньо місця на картці пам'яті (8МВ) (для РlаySтатіоn®2) у слоті 1 щоб створити нове збереження. Вам доведеться перезаписати існуюче збереження.</Item>
+        <Item name="Continue">Продовжити</Item>
+        <Item name="CorruptedSaveGame">Пошкоджене збереження</Item>
+        <Item name="CreateConfirmation">Створити нове збереження?</Item>
+        <Item name="DeleteFailed">Видалення не вдалося! Перевірте картку пам'яті (8МВ) (для РlаySтатіоn®2) і спробуйте ще.</Item>
+        <Item name="Format">Форматування</Item>
+        <Item name="FormatConfirmation">Форматувати?</Item>
+        <Item name="InsertMC">Вставте картку пам'яті (8МВ) (для РlаySтатіоn®2) у слот 1.</Item>
+        <Item name="InternalError">Внутрішня помилка. Перевірте картку пам'яті (8МВ) (для РlаySтатіоn®2) і спробуйте ще.</Item>
+        <Item name="LoadConfirmation">Завантажити збереження?</Item>
+        <Item name="Loading">Завантаження даних з картки пам'яті (8МВ) (для РlаySтатіоn®2) у слоті 1. Не виймайте картку пам'яті (8МВ) (для РlаySтатіоn®2), не перевантажуйте, не вимикайте консоль.</Item>
+        <Item name="OverwriteFailed">Перезапис не вдався! Перевірте картку пам'яті (8МВ) (для РlаySтатіоn®2) і спробуйте ще.</Item>
+        <Item name="Overwriting">Перезапис даних на картці пам'яті (8МВ) (для РlаySтатіоn®2) у слоті 1. Не виймайте картку пам'яті (8МВ) (для РlаySтатіоn®2), не перевантажуйте, не вимикайте консоль.</Item>
+        <Item name="Retry">Повторити</Item>
+        <Item name="SaveProgress">Зберегти гру?</Item>
+        <Item name="UnformattedMC">Картка пам'яті (8МВ) (для РlаySтатіоn®2) у слоті 1 не форматована.</Item>
+      </Item>
+      <Item name="MemoryCard_GC">
+        <Item name="0">Недостатньо вільного місця на картці пам'яті в слоті А. Щоб зберегти Нітмаn 2 вам потрібно 1 вільний файл і 59 вільних блоків.</Item>
+        <Item name="1">Обережно! Якщо ви хочете зберегти гру, вставте картку пам'яті з принаймні 1 вільним файлом і 59 вільними блоками в слот А чи натисніть кнопку А щоб продовжити без зберігання.</Item>
+        <Item name="10">Зберегти не вдалося! Перевірте картку пам'яті в слоті А і спробуйте ще.</Item>
+        <Item name="11">Зберегти не вдалося! Перевірте картку пам'яті в слоті А і спробуйте ще.</Item>
+        <Item name="12">Зберігання даних на картку пам'яті у слоті А. Не займайте картку пам'яті чи кнопку живлення.</Item>
+        <Item name="13">Файл вже існує. Створити новий чи перезаписати дані?</Item>
+        <Item name="14">Зберегти вдалося</Item>
+        <Item name="15">Скасувати зберігання? Так чи Ні</Item>
+        <Item name="16">Збереження Нітмаn 2 відсутні на картці пам'яті у слоті А.</Item>
+        <Item name="17">Завантажити не вдалося! Перевірте картку пам'яті у слоті А і спробуйте ще.</Item>
+        <Item name="18">Завантажити не вдалося! Перевірте картку пам'яті у слоті А і спробуйте ще.</Item>
+        <Item name="19">Завантажити вдалося</Item>
+        <Item name="2">Обережно! (ххх) використовує Автозберігання. Дані на картці пам'яті вставленій після цієї миті можуть бути перезаписані.</Item>
+        <Item name="20">Скасувати завантаження? Так чи Ні</Item>
+        <Item name="21">Перевірка картки пам'яті у слоті А. Не займайте картку пам'яті чи кнопку живлення.</Item>
+        <Item name="22">Помилка картки пам'яті у слоті А! Перевірте картку пам'яті і спробуйте ще.</Item>
+        <Item name="23">Помилка картки пам'яті у слоті А! Можливо, дані пошкоджені.</Item>
+        <Item name="24">Форматування картки пам'яті у слоті А зітре всі раніше збережені дані.
+Ви бажаєте форматувати?</Item>
+        <Item name="25">Форматування картки пам'яті у слоті А. Не займайте картку пам'яті чи кнопку живлення.</Item>
+        <Item name="26">Скасувати форматування?</Item>
+        <Item name="27">Форматування вдалося</Item>
+        <Item name="28">Форматування не далося! Картка пам'яті (чи пристрій) у слоті А не може бути використана.</Item>
+        <Item name="29">Виберіть збереження для видалення.</Item>
+        <Item name="3">Виберіть картку пам'яті у слоті А.</Item>
+        <Item name="30">Видалити збереження?</Item>
+        <Item name="31">Скасувати видалення?</Item>
+        <Item name="32">Видалення даних. Не займайте картку пам'яті у слоті А чи кнопку живлення.</Item>
+        <Item name="33">Видалення вдалося</Item>
+        <Item name="34">Виберіть збереження для перезапису.</Item>
+        <Item name="35">Перезаписати збереження?</Item>
+        <Item name="36">Перезаписування даних. Не займайте картку пам'яті у слоті А чи кнопку живлення.</Item>
+        <Item name="37">Перезаписування вдалося</Item>
+        <Item name="38">(8МВ) (fоr РlаySтатіоn®2)</Item>
+        <Item name="4">Картка пам'яті у слоті А не форматована. Форматувати картку пам'яті?</Item>
+        <Item name="5">Недостатньо місця на картці пам'яті у слоті А. Нітмаn 2 потребує 1 вільний файл і 59 вільних блоків. Вставте іншу картку пам'яті у слот А для запису даних.</Item>
+        <Item name="6">Недостатньо місця на картці пам'яті у слоті А. Нітмаn 2 потребує 1 вільний файл і 59 вільних блоків. Вставте іншу картку пам'яті у слот А для запису даних.</Item>
+        <Item name="7">Не знайдено картки пам'яті у слоті А.</Item>
+        <Item name="8">Автозберігання даних на картку пам'яті у слоті А. Не займайте картку пам'яті у слоті А чи кнопку живлення.</Item>
+        <Item name="9">Дані на картці пам'яті у слоті А змінилися. Перезаписати попередні (ххх) дані Так чи Ні?</Item>
+        <Item name="BootBrokenCardHeader">Картка пам'яті у слоті А пошкоджена.</Item>
+        <Item name="BootBrokenCardMessage">Картка пам'яті у слоті А пошкоджена і не може бути використана. Вставте працюючу картку пам'яті у слот А якщо хочете мати змогу зберігати гру.</Item>
+        <Item name="BootNoMCHeader">Не знайдено картки пам'яті у слоті А.</Item>
+        <Item name="BootNoMCMessage">Вставте картку пам'яті у слот А. Принаймні 1 вільний файл і 59 вільних блоків потрібно щоб зберегти гру.</Item>
+        <Item name="BootNoSpaceHeader">Недостатньо місця на картці пам'яті.</Item>
+        <Item name="BootNoSpaceMessage">Недостатньо місця на картці пам'яті у слоті А. Нітмаn 2 потребує 1 вільний файл і 59 вільних блоків.
+Щоб керувати вмістом вашої картки пам'яті, використовуйте екран картки пам'яті.</Item>
+        <Item name="BootUnformattedMCHeader">Картка пам'яті у слоті А пошкоджена.</Item>
+        <Item name="BootUnformattedMCMessage">Картку пам'яті потрібно відформатувати перед використанням.
+Щоб відформатувати вашу картку пам'яті, використовуйте екран картки пам'яті.</Item>
+        <Item name="BootWrongDeviceHeader">Невідомий пристрій у слоті А.</Item>
+        <Item name="BootWrongDeviceMessage">Пристрій у слоті А не є справною карткою пам'яті. Вставте картку пам'яті якщо хочете зберігати гру.</Item>
+        <Item name="BrokenCard">Картка пам'яті у слоті А пошкоджена і не може бути використана.</Item>
+        <Item name="CancelSaveConfirmation">Скасувати зберігання?</Item>
+        <Item name="CannotCreateNew">Не достатньо місця на картці пам'яті у слоті А щоб створити нове збереження. Вам доведеться перезаписати існуюче збереження.</Item>
+        <Item name="Continue">Продовжити</Item>
+        <Item name="ContinueWithoutSaving">Продовжити без зберігання</Item>
+        <Item name="CorruptedSaveGame">Пошкоджене збереження</Item>
+        <Item name="CreateConfirmation">Створити нове збереження?</Item>
+        <Item name="DeleteCorrupted">Це збереження пошкоджене і повинно бути видалене. Бажаєте видалити його?</Item>
+        <Item name="DeleteFailed">Видалення не вдалося! Перевірте картку пам'яті у слоті А і спробуйте ще.</Item>
+        <Item name="Format">Форматування</Item>
+        <Item name="FormatConfirmation">Форматування картки пам'яті зітре всі раніше збережені дані. Ви бажаєте форматувати?</Item>
+        <Item name="InsertMC">Вставте картку пам'яті у слот А.</Item>
+        <Item name="InternalError">Внутрішня помилка. Перевірте картку пам'яті і спробуйте ще.</Item>
+        <Item name="LoadConfirmation">Завантажити збереження?</Item>
+        <Item name="Loading">Завантаження даних з картки пам'яті у слоті А. Не займайте картку пам'яті у слоті А чи кнопку живлення.</Item>
+        <Item name="OverwriteFailed">Перезапис не вдався! Перевірте картку пам'яті у слоті А і спробуйте ще.</Item>
+        <Item name="Overwriting">Перезапис даних на картці пам'яті у слоті А. Не займайте картку пам'яті у слоті А чи кнопку живлення.</Item>
+        <Item name="Retry">Повторити</Item>
+        <Item name="SaveProgress">Зберегти прогрес?</Item>
+        <Item name="UnformattedMC">Картка пам'яті у слоті А пошкоджена і повинна бути відформатована.</Item>
+        <Item name="WrongDevice">Невідомий пристрій у слоті А. Вставте картку пам'яті.</Item>
+      </Item>
+      <Item name="MissingController">Перепідключіть контролер (DUАLSНОСК®2) і натисніть кнопку SТАRТ щоб продовжити</Item>
+      <Item name="MissingController_Xbox">Перепідключіть контролер і натисніть кнопку SТАRТ щоб продовжити</Item>
+      <Item name="ModeSelect">Налаштування ТВ</Item>
+      <Item name="ModeSelectConfirmation">Якщо ця картинка кольорова, то ваш ТВ підтримує режим 60 Гц.</Item>
+      <Item name="MoreOptions">Інше</Item>
+      <Item name="MouseSpeed">Швидкість миші</Item>
+      <Item name="MusicVolume">Музика</Item>
+      <Item name="Near">Близько</Item>
+      <Item name="New">Створити</Item>
+      <Item name="NewGame">Нова гра</Item>
+      <Item name="No">Ні</Item>
+      <Item name="NoMoreSaves">У вас немає більше збережень</Item>
+      <Item name="Normal">Середньо</Item>
+      <Item name="NoSaveFiles">Збереження відсутні</Item>
+      <Item name="NTSC">60 Гц</Item>
+      <Item name="NumberVoices">Кількість голосів</Item>
+      <Item name="Options">Опції</Item>
+      <Item name="PAL">50 Гц</Item>
+      <Item name="PatchSubDiv">N-патчі</Item>
+      <Item name="PlayCutscene">Переглянути врізку</Item>
+      <Item name="PleaseWaitLoading">Завантаження. Зачекайте...</Item>
+      <Item name="PleaseWaitSaving">Зберігання. Зачекайте...</Item>
+      <Item name="PostFilterLOD">Постфільтр</Item>
+      <Item name="PressButton">Натисніть нову кнопку</Item>
+      <Item name="Quit">Вийти</Item>
+      <Item name="Resolution">Резолюція</Item>
+      <Item name="RestartMission">Почати знову</Item>
+      <Item name="RestoreDefaults">Скинути</Item>
+      <Item name="ReturnToMain">Повернутися в головне меню</Item>
+      <Item name="Rifles">ГВИНТІВКИ</Item>
+      <Item name="Save">Зберегти</Item>
+      <Item name="SaveFailed">Не вдалося зберегти гру</Item>
+      <Item name="SaveGameMaxReached">Неможливо зберегти гру. Досягнуто максимальної кількості збережень. 
+Будь ласка, видаліть чи перезапишіть існуюче збереження.</Item>
+      <Item name="SaveProgress_Xbox">Зберегти прогрес?</Item>
+      <Item name="SavesLeft">Залишилось збережень: %d</Item>
+      <Item name="SaveSuccess">Зберегти вдалося</Item>
+      <Item name="Saving">Зачекайте поки гра збережеться.</Item>
+      <Item name="Saving_Xbox">Зберігання гри.
+Не вимикайте вашу Хвох консоль.</Item>
+      <Item name="ScreenDepth">Глибина кольору</Item>
+      <Item name="ScreenResolution">Резолюція</Item>
+      <Item name="SelectDifficulty">Виберіть складність</Item>
+      <Item name="SfxVolume">Ефекти</Item>
+      <Item name="Shadows">Тіні</Item>
+      <Item name="Shotguns">РУШНИЦІ</Item>
+      <Item name="ShotsLeft">Залишилось знімків</Item>
+      <Item name="Smg">ПІСТОЛЕТ-КУЛЕМЕТИ</Item>
+      <Item name="Snipers">СНАЙПЕРСЬКІ ГВИНТІВКИ</Item>
+      <Item name="SoundOptions">Звук</Item>
+      <Item name="SpecialItems">СПЕЦПРЕДМЕТИ</Item>
+      <Item name="Specifications">СПЕЦИФІКАЦІЇ</Item>
+      <Item name="SpeechVolume">Розмови</Item>
+      <Item name="Start">Почати</Item>
+      <Item name="Subtitles">Субтитри</Item>
+      <Item name="TestNTSC">Тест</Item>
+      <Item name="TextureDepth">Глибина кольору текстур</Item>
+      <Item name="TextureFilter">Фільтрація текстур</Item>
+      <Item name="TextureResolution">Резолюція текстур</Item>
+      <Item name="Training">Тренуватися</Item>
+      <Item name="TRAODVideo">Томв Rаіdеr: Аngеl Оf Dаrкnеss</Item>
+      <Item name="Trilinear">Трилінійна</Item>
+      <Item name="TS2Video">Тімеsрlіттеrs 2</Item>
+      <Item name="TurnSensitivity">Чутливість</Item>
+      <Item name="TurnSensitivityX">Горизонтальна чутливість</Item>
+      <Item name="TurnSensitivityY">Вертикальна чутливість</Item>
+      <Item name="Twohanded">Дворучність</Item>
+      <Item name="VeryLow">Дуже низько</Item>
+      <Item name="VeryNear">Дуже близько</Item>
+      <Item name="VibrationMode">Вібрація</Item>
+      <Item name="VibrationMode_GC">Вібрація</Item>
+      <Item name="VibrationMode_PS2">Вібрація</Item>
+      <Item name="Weapons">Інвентар</Item>
+      <Item name="WeatherEffects">Погодні ефекти</Item>
+      <Item name="Weight">Вага</Item>
+      <Item name="Yes">Так</Item>
+    </Item>
+    <Item name="Items">
+      <Item name="Details">
+        <Item name="Bomb_Remote">
+          <Item name="FreeText">
+            <Item name="1">Не стійте надто близько до цього обладнання.</Item>
+            <Item name="2">Щоб задіяти бомбу потрібен дистанційний пульт.</Item>
+          </Item>
+          <Item name="Type">Дистанційна бомба</Item>
+        </Item>
+        <Item name="BombRemoteControl">
+          <Item name="FreeText">
+            <Item name="1">Використовуйте для задіяння дистанційної бомби.</Item>
+          </Item>
+          <Item name="Type">Пульт для дистанційної бомби</Item>
+        </Item>
+        <Item name="BombRemoteSmall">
+          <Item name="FreeText">
+            <Item name="1">Не стійте надто близько до цього обладнання.</Item>
+            <Item name="2">Озбройте бомбу тримаючи її і натиснувши 'вогонь'.</Item>
+            <Item name="3">Щоб задіяти бомбу потрібен дистанційний пульт.</Item>
+          </Item>
+          <Item name="Type">Дистанційна бомба</Item>
+        </Item>
+        <Item name="CC_BoltGun_01">
+          <Item name="FreeText">
+            <Item name="1">Ударний інструмент м'ясників.</Item>
+            <Item name="2">Вбиває одразу.</Item>
+          </Item>
+          <Item name="Type">Забійна зброя</Item>
+        </Item>
+        <Item name="CC_CardboardTube_01">
+          <Item name="FreeText">
+            <Item name="1">Зроблено з 6 мм ультращільного, </Item>
+            <Item name="2">обробленого вручну картону Мусасі.</Item>
+          </Item>
+          <Item name="Type">Смертельна паперова зброя</Item>
+        </Item>
+        <Item name="CC_CueStick_01">
+          <Item name="FreeText">
+            <Item name="1">Зроблено з палісандрової і кленової деревини.</Item>
+          </Item>
+          <Item name="Type">Більярдний кий</Item>
+        </Item>
+        <Item name="CC_FiberWire_01">
+          <Item name="FreeText">
+            <Item name="1">Не задіює металошукачі.</Item>
+          </Item>
+          <Item name="Type">Шнур для удушення</Item>
+        </Item>
+        <Item name="CC_FirePoker_01">
+          <Item name="FreeText">
+            <Item name="1">Швейцарська ручна якість.</Item>
+          </Item>
+          <Item name="Type">Коцюба</Item>
+        </Item>
+        <Item name="CC_Knife_Kitchen_01">
+          <Item name="FreeText">
+            <Item name="1">Стандартний кухонний багатоцільовий ріжучий інструмент.</Item>
+          </Item>
+          <Item name="Type">Кухонний ніж</Item>
+        </Item>
+        <Item name="CC_Knife_MeatCleaver_01">
+          <Item name="FreeText">
+            <Item name="1">Стандартний інструмент м'ясника.</Item>
+          </Item>
+          <Item name="Type">М'ясний сікач</Item>
+        </Item>
+        <Item name="CC_MeatHook_01">
+          <Item name="FreeText">
+            <Item name="1">Якщо хочеш гарний соковитий стейк,</Item>
+            <Item name="2">ця високоякісна нержавійка</Item>
+            <Item name="3">те що потрібно.</Item>
+          </Item>
+          <Item name="Type">М'ясний гак</Item>
+        </Item>
+        <Item name="CC_Shovel_01">
+          <Item name="FreeText">
+            <Item name="1">Якісний садовий інструмент.</Item>
+          </Item>
+          <Item name="Type">Садова лопата</Item>
+        </Item>
+        <Item name="CC_StunGun_01">
+          <Item name="FreeText">
+            <Item name="1">Фізично розслабить ціль незалежно</Item>
+            <Item name="2">від больової переносимості.</Item>
+          </Item>
+          <Item name="Type">Електрична м'язо-розладнуюча зброя</Item>
+        </Item>
+        <Item name="CC_Sword_Chinese_01">
+          <Item name="FreeText">
+            <Item name="1">Гарно оздоблений старовинний інструмент війни.</Item>
+          </Item>
+          <Item name="Type">Китайський меч</Item>
+        </Item>
+        <Item name="CC_Syringe_01">
+          <Item name="FreeText">
+            <Item name="1">Фізично розслабить ціль незалежно </Item>
+            <Item name="2">від больової переносимості.</Item>
+          </Item>
+          <Item name="Type">Сталевий картриджний шприц</Item>
+        </Item>
+        <Item name="Cigar">
+          <Item name="FreeText">
+            <Item name="1">Часто використовується російськими агентами КГБ</Item>
+            <Item name="2">Не користуйся цим!</Item>
+            <Item name="3">Це тобі зашкодить.</Item>
+          </Item>
+          <Item name="Type">М'яка і смачна</Item>
+        </Item>
+        <Item name="Food_Bottle_Milk_01">
+          <Item name="FreeText">
+            <Item name="1">Свіже молоко. Прямо від</Item>
+            <Item name="2">родючої корівки.</Item>
+          </Item>
+          <Item name="Type">Пляшка</Item>
+        </Item>
+        <Item name="Food_SakeCup_01">
+          <Item name="FreeText">
+            <Item name="1">Японський національний напій - саке, використовується</Item>
+            <Item name="2">на традиційних церемоніях і таємних зустрічах.</Item>
+          </Item>
+          <Item name="Type">Чашка саке</Item>
+        </Item>
+        <Item name="Food_Soup_01">
+          <Item name="FreeText">
+            <Item name="1">Апетитна на вигляд тарілка супу</Item>
+          </Item>
+          <Item name="Type">Суп</Item>
+        </Item>
+        <Item name="Gun_500Magnum_01">
+          <Item name="Caliber">Маgnuм</Item>
+          <Item name="Length">38,1 см</Item>
+          <Item name="Type">Самозарядний револьвер.</Item>
+          <Item name="Weight">2,055 кг</Item>
+        </Item>
+        <Item name="Gun_500Magnum_PICKUP">
+          <Item name="Caliber">Маgnuм</Item>
+          <Item name="Length">38,1 см</Item>
+          <Item name="Type">Самозарядні револьвери.</Item>
+          <Item name="Weight">2,055 кг</Item>
+        </Item>
+        <Item name="Gun_CZ-G2000_01">
+          <Item name="Caliber">9 мм</Item>
+          <Item name="Length">18,5 см</Item>
+          <Item name="Type">Напівавтоматичний пістолет.</Item>
+          <Item name="Weight">0,780 кг</Item>
+        </Item>
+        <Item name="Gun_CZ-G2000_PICKUP">
+          <Item name="Caliber">9 мм</Item>
+          <Item name="Length">18,5 см</Item>
+          <Item name="Type">Напівавтоматичні пістолети.</Item>
+          <Item name="Weight">0,780 кг</Item>
+        </Item>
+        <Item name="Gun_DesertEagle_01">
+          <Item name="Caliber">Маgnuм</Item>
+          <Item name="Length">26 см</Item>
+          <Item name="Type">Напівавтоматичний пістолет.</Item>
+          <Item name="Weight">1,897 кг</Item>
+        </Item>
+        <Item name="Gun_DesertEagle_PICKUP">
+          <Item name="Caliber">Маgnuм</Item>
+          <Item name="Length">26 см</Item>
+          <Item name="Type">Напівавтоматичні пістолети.</Item>
+          <Item name="Weight">1,897 кг</Item>
+        </Item>
+        <Item name="Gun_Glock18_01">
+          <Item name="Caliber">9 мм</Item>
+          <Item name="Length">18,6 см</Item>
+          <Item name="Type">Напівавтоматичний пістолет.</Item>
+          <Item name="Weight">0,625 кг</Item>
+        </Item>
+        <Item name="Gun_Glock18_PICKUP">
+          <Item name="Caliber">9 мм</Item>
+          <Item name="Length">18,6 см</Item>
+          <Item name="Type">Напівавтоматичні пістолети.</Item>
+          <Item name="Weight">0,625 кг</Item>
+        </Item>
+        <Item name="Gun_Hardballer_01">
+          <Item name="Caliber">.45 АСР</Item>
+          <Item name="Length">21,6 см</Item>
+          <Item name="Type">Напівавтоматичний пістолет.</Item>
+          <Item name="Weight">1,076 кг</Item>
+        </Item>
+        <Item name="Gun_Hardballer_PICKUP">
+          <Item name="Caliber">.45 АСР</Item>
+          <Item name="Length">21,6 см</Item>
+          <Item name="Type">Напівавтоматичні пістолети.</Item>
+          <Item name="Weight">1,076 кг</Item>
+        </Item>
+        <Item name="Gun_Hardballer_Silenced_01">
+          <Item name="Caliber">.45 АСР</Item>
+          <Item name="Length">41,6 см</Item>
+          <Item name="Type">Заглушений напівавтоматичний пістолет</Item>
+          <Item name="Weight">1,257 кг</Item>
+        </Item>
+        <Item name="Gun_Hardballer_Silenced_PICKUP">
+          <Item name="Caliber">.45 АСР</Item>
+          <Item name="Length">41,6 см</Item>
+          <Item name="Type">Заглушені напівавтоматичні пістолети</Item>
+          <Item name="Weight">1,257 кг</Item>
+        </Item>
+        <Item name="Gun_SawnOffShutgun_01">
+          <Item name="Caliber">12 калібр</Item>
+          <Item name="Length">65,4 см</Item>
+          <Item name="Type">Двоствольна рушниця 12 калібру</Item>
+          <Item name="Weight">2,8 кг</Item>
+        </Item>
+        <Item name="Gun_SawnOffShutgun_PICKUP">
+          <Item name="Caliber">12 калібр</Item>
+          <Item name="Length">65,4 см</Item>
+          <Item name="Type">Двоствольні рушниці 12 калібру</Item>
+          <Item name="Weight">2,8 кг</Item>
+        </Item>
+        <Item name="Gun_SIG-220_01">
+          <Item name="Caliber">9 мм</Item>
+          <Item name="Length">19,3 см</Item>
+          <Item name="Type">Заглушений напівавтоматичний пістолет</Item>
+          <Item name="Weight">0,72 кг</Item>
+        </Item>
+        <Item name="Gun_SIG-220_PICKUP">
+          <Item name="Caliber">9 мм</Item>
+          <Item name="Length">19,3 см</Item>
+          <Item name="Type">Заглушені напівавтоматичні пістолети</Item>
+          <Item name="Weight">0,72 кг</Item>
+        </Item>
+        <Item name="Item_Binoculars_01">
+          <Item name="FreeText">
+            <Item name="1">Високоякісний майже незруйновний бінокль.</Item>
+            <Item name="2">Широкодіапазонний механізм налаштування зорової зони</Item>
+            <Item name="3">Надає тактичні переваги.</Item>
+          </Item>
+          <Item name="Type">Бінокль</Item>
+        </Item>
+        <Item name="Item_Bottle_Carafe_01">
+          <Item name="FreeText">
+            <Item name="1">Ця карафа вікторіанської епохи, зроблена з</Item>
+            <Item name="2">високополірованого бразильського кварцу. </Item>
+            <Item name="3">Переживши багато поколінь Белдінґфордів, </Item>
+            <Item name="4">вона визнана родинною цінністю і була </Item>
+            <Item name="5">використана з нечестивою метою більше </Item>
+            <Item name="6">ніж один раз...</Item>
+          </Item>
+          <Item name="Type">Карафа</Item>
+        </Item>
+        <Item name="Item_Bottle_Laxitive_01">
+          <Item name="FreeText">
+            <Item name="1">Проносне збільшує рухливість великої кишки </Item>
+            <Item name="2">індукуванням перистальтичної активності.</Item>
+            <Item name="3">Може викликати різь і спазми живота.</Item>
+          </Item>
+          <Item name="Type">Пляшка проносного</Item>
+        </Item>
+        <Item name="Item_Bottle_Poison_01">
+          <Item name="FreeText">
+            <Item name="1">Цианід викликає гістотоксичну гипоксію, </Item>
+            <Item name="2">що припиняє клітинне дихання і, </Item>
+            <Item name="3">як результат, скору смерть клітини. </Item>
+            <Item name="4">Або клітиноцид серед непрофесіоналів.</Item>
+          </Item>
+          <Item name="Type">Отрута: Цианід</Item>
+        </Item>
+        <Item name="Item_Bottle_Scotch_01">
+          <Item name="FreeText">
+            <Item name="1">Це 15 річне, витримане в бочці </Item>
+            <Item name="2">односортове високогірне солодове віскі </Item>
+            <Item name="3">зіб'є з ніг твої носки, навіть без отрути.</Item>
+          </Item>
+          <Item name="Type">Пляшка віскі</Item>
+        </Item>
+        <Item name="Item_Container_Gasoline_01">
+          <Item name="FreeText">
+            <Item name="1">ОБЕРЕЖНО: Вміст цього контейнера </Item>
+            <Item name="2">пожежонебезпечний. Не використовуй </Item>
+            <Item name="3">поблизу відкритого вогню. Тримай подалі </Item>
+            <Item name="4">від осіб схильних до спонтанного </Item>
+            <Item name="5">самозагоряння.</Item>
+          </Item>
+          <Item name="Type">Каністра</Item>
+        </Item>
+        <Item name="Item_Container_Weedkiller_01">
+          <Item name="FreeText">
+            <Item name="1">Щербек Індастріз забезпечив тебе е</Item>
+            <Item name="2">відмінною зброєю проти докучливих </Item>
+            <Item name="3">рослин. Нова вдосконалена Застосуй </Item>
+            <Item name="4">і Дивись на Смерть формула ґарантує </Item>
+            <Item name="5">тобі задовільні результати кожного </Item>
+            <Item name="6">разу.</Item>
+          </Item>
+          <Item name="Type">Садовий помічник</Item>
+        </Item>
+        <Item name="Item_Envelope_Florist_01">
+          <Item name="FreeText">
+            <Item name="1">47,</Item>
+            <Item name="2">Спеціальна доставка для вас</Item>
+            <Item name="3">у Готель Флорист.</Item>
+            <Item name="4">Кілька мертвих розкішних троянд...</Item>
+            <Item name="5">Щиро ваша,</Item>
+            <Item name="6">Діана</Item>
+          </Item>
+          <Item name="Type">Записка від Діани</Item>
+        </Item>
+        <Item name="Item_Envelope_Frantz_01">
+          <Item name="FreeText">
+            <Item name="1">Любий брате Фріц!</Item>
+            <Item name="2">Яке це задоволення бути тут!</Item>
+            <Item name="3">Ти добре потурбувався про наш спадок у рентген-кабінеті.</Item>
+            <Item name="4">Я не дочекаюсь, щоб привітати тебе особисто, мій братику!</Item>
+            <Item name="5">Твій, Франц</Item>
+          </Item>
+          <Item name="Type">Записка від Франца</Item>
+        </Item>
+        <Item name="Item_Envelope_Fritz_01">
+          <Item name="FreeText">
+            <Item name="1">Брате Франц!</Item>
+            <Item name="2">Як безглуздо для мене забути, що рентген-кабінет закритий!</Item>
+            <Item name="3">Є лише один ключ. Я тримаю його поближче до мого серця.</Item>
+            <Item name="4">Я не хотів би передавати ключ нікому іншому крім тебе.</Item>
+            <Item name="5">Як тільки обставини дозволять, я віддам ключ сам у твої руки.</Item>
+            <Item name="6">Як і завжди, твій люблячий брат, Фріц</Item>
+          </Item>
+          <Item name="Type">Записка від Фріца</Item>
+        </Item>
+        <Item name="Item_Envelope_Pablo_01">
+          <Item name="FreeText">
+            <Item name="1">Брате Франц!</Item>
+            <Item name="2">Ми повинні уникнути зустрічей на видноті. Моє прикриття </Item>
+            <Item name="3">дантиста не може бути компрометоване. Без сумніву, </Item>
+            <Item name="4">ми зможемо знайти приховані шляхи один до одного.</Item>
+            <Item name="5">Чекаю на успішне здійснення наших планів,</Item>
+            <Item name="6">Твій люблячий брат, Фріц</Item>
+          </Item>
+          <Item name="Type">Записка від Фріца</Item>
+        </Item>
+        <Item name="Item_Envelope_Reporter_01">
+          <Item name="FreeText">
+            <Item name="1">Конверт з грошима</Item>
+          </Item>
+          <Item name="Type">Гроші</Item>
+        </Item>
+        <Item name="Item_FigureJade_01">
+          <Item name="FreeText">
+            <Item name="1">Ця старовинна китайська фігурка, зображає дракона. </Item>
+            <Item name="2">Згідно з китайською міфологією, дракони </Item>
+            <Item name="3">повинні приносити велике багатство.</Item>
+          </Item>
+          <Item name="Type">Статуетка</Item>
+        </Item>
+        <Item name="Item_Glass_Milk_01">
+          <Item name="FreeText">
+            <Item name="1">Висока склянка, може використовуватись як </Item>
+            <Item name="2">контейнер для більшості рідин.</Item>
+          </Item>
+          <Item name="Type">Склянка</Item>
+        </Item>
+        <Item name="Item_glass_vodka_01">
+          <Item name="FreeText">
+            <Item name="1">Широковживана товстоденна склянка.</Item>
+          </Item>
+          <Item name="Type">Склянка</Item>
+        </Item>
+        <Item name="Item_Glass_Whiskey_01">
+          <Item name="FreeText">
+            <Item name="1">Широковживана товстоденна склянка.</Item>
+          </Item>
+          <Item name="Type">Склянка</Item>
+        </Item>
+        <Item name="Item_Invitation_Brothel_01">
+          <Item name="FreeText">
+            <Item name="1">Запрошення відвідати бордель Лі Гонґа.</Item>
+          </Item>
+          <Item name="Type">Запрошення</Item>
+        </Item>
+        <Item name="Item_Key_Bike_01">
+          <Item name="FreeText">
+            <Item name="1">Це схоже на ключ до мотоцикла.</Item>
+          </Item>
+          <Item name="Type">Ключ</Item>
+        </Item>
+        <Item name="Item_Key_Car_01">
+          <Item name="FreeText">
+            <Item name="1">Це схоже на ключ до автомобіля.</Item>
+          </Item>
+          <Item name="Type">Ключ</Item>
+        </Item>
+        <Item name="Item_Key_Master_01">
+          <Item name="FreeText">
+            <Item name="1">Це майстер-ключ, має відкривати більшість дверей.</Item>
+          </Item>
+          <Item name="Type">Ключ</Item>
+        </Item>
+        <Item name="Item_Key_Paramedics_01">
+          <Item name="FreeText">
+            <Item name="1">Дає доступ до автомобіля парамедиків.</Item>
+          </Item>
+          <Item name="Type">Ключ швидкої</Item>
+        </Item>
+        <Item name="Item_Key_Stable_01">
+          <Item name="FreeText">
+            <Item name="1">Цей ключ належить конюху, </Item>
+            <Item name="2">він може дати доступ до </Item>
+            <Item name="3">чогось подібного на стайню.</Item>
+          </Item>
+          <Item name="Type">Залізний ключ</Item>
+        </Item>
+        <Item name="Item_Key_XrayRoom_01">
+          <Item name="FreeText">
+            <Item name="1">Судячи з літери Х нанесеної на ключ, він </Item>
+            <Item name="2">повинен підходити до дверей рентген-кабінету.</Item>
+          </Item>
+          <Item name="Type">Ключ</Item>
+        </Item>
+        <Item name="Item_KeyCard_Orthmeyer_01">
+          <Item name="FreeText">
+            <Item name="1">Ця ключ-картка схоже належить </Item>
+            <Item name="2">доктору Ортмеєру.</Item>
+          </Item>
+          <Item name="Type">Ключ-картка</Item>
+        </Item>
+        <Item name="Item_KeyCard_VIP_01">
+          <Item name="FreeText">
+            <Item name="1">Ця ключ-картка можливо використовується, </Item>
+            <Item name="2">щоб заходити в заборонену зону.</Item>
+          </Item>
+          <Item name="Type">Ключ-картка</Item>
+        </Item>
+        <Item name="Item_LockPick_01">
+          <Item name="FreeText">
+            <Item name="1">Відкриває майже всі двері.</Item>
+            <Item name="2">Не задіює металошукачі.</Item>
+          </Item>
+          <Item name="Type">Відмичка</Item>
+        </Item>
+        <Item name="Item_Megafon_01">
+          <Item name="FreeText">
+            <Item name="1">Використовується поліцією та іншими службами, </Item>
+            <Item name="2">щоб спілкуватися на відкритій місцевості.</Item>
+          </Item>
+          <Item name="Type">Мегафон</Item>
+        </Item>
+        <Item name="Item_NightvisionGoggles_01">
+          <Item name="FreeText">
+            <Item name="1">Вдосконалені окуляри темнобачення. </Item>
+            <Item name="2">Для ситуацій коли немає світла </Item>
+            <Item name="3">чи його дуже мало.</Item>
+          </Item>
+          <Item name="Type">Окуляри темнобачення</Item>
+        </Item>
+        <Item name="Item_Photos_01">
+          <Item name="FreeText">
+            <Item name="1">Знімки розваг голого шефа поліції і </Item>
+            <Item name="2">молодої жінки на задньому сидінні машини, </Item>
+            <Item name="3">це напевно не та публічність якої бажаєш. </Item>
+            <Item name="4">Особливо, коли хочеш стати мером.</Item>
+          </Item>
+          <Item name="Type">Фотографії</Item>
+        </Item>
+        <Item name="Item_Pillow_01">
+          <Item name="FreeText">
+            <Item name="1">Пухова подушка. Ґарантовано </Item>
+            <Item name="2">принесе незліченні години сну </Item>
+            <Item name="3">без жодного страхіття, монстра </Item>
+            <Item name="4">під ліжком чи вбивці, що підкрадається </Item>
+            <Item name="5">вночі.</Item>
+          </Item>
+          <Item name="Type">Пухова подушка</Item>
+        </Item>
+        <Item name="Item_RatPoison_01">
+          <Item name="FreeText">
+            <Item name="1">Окрім коаґулянтів, містить надійну </Item>
+            <Item name="2">суміш смертельних отрут. </Item>
+            <Item name="3">Впорскнувши в кров'яний тік, можна вбити </Item>
+            <Item name="4">щось набагато більше ніж звичайний щур.</Item>
+          </Item>
+          <Item name="Type">Отрута</Item>
+        </Item>
+        <Item name="Item_RubberDuck_01">
+          <Item name="FreeText">
+            <Item name="1">Ця яскрава жовта гумова качка </Item>
+            <Item name="2">видає гучний писк якщо її стиснути. </Item>
+            <Item name="3">Можливо, хтось поблизу загубив </Item>
+            <Item name="4">свою улюблену іграшку.</Item>
+          </Item>
+          <Item name="Type">Іграшка</Item>
+        </Item>
+        <Item name="Item_SafeCombination_01">
+          <Item name="FreeText">
+            <Item name="1">Ця, на вигляд, випадкова послідовність чисел, </Item>
+            <Item name="2">можливо є комбінацією до сейфу.</Item>
+            <Item name="3">Це дуже зручно.</Item>
+          </Item>
+          <Item name="Type">Записка</Item>
+        </Item>
+        <Item name="Item_Suitcase_BombChemical_01">
+          <Item name="FreeText">
+            <Item name="1">Спеціально спроектована валіза </Item>
+            <Item name="2">для носіння хімічних бомб.</Item>
+          </Item>
+          <Item name="Type">Валіза для хімічної бомби</Item>
+        </Item>
+        <Item name="Item_Suitcase_Sniper_01">
+          <Item name="FreeText">
+            <Item name="1">Валіза для снайперки зроблена з карбонового </Item>
+            <Item name="2">волокна для забезпечення маневреності.</Item>
+          </Item>
+          <Item name="Type">Валіза для снайперки</Item>
+        </Item>
+        <Item name="Item_Syringe_01">
+          <Item name="FreeText">
+            <Item name="1">Фізично розслабить ціль незалежно </Item>
+            <Item name="2">від больової переносимості.</Item>
+          </Item>
+          <Item name="Type">Сталевий картриджний шприц</Item>
+        </Item>
+        <Item name="KeyWarheads">
+          <Item name="FreeText" />
+          <Item name="Type">Ключ для активації ядерних боєголовок</Item>
+        </Item>
+        <Item name="Rifle_AK47_01">
+          <Item name="Caliber">5,56 мм</Item>
+          <Item name="Length">94 см</Item>
+          <Item name="Type">Штурмова гвинтівка</Item>
+          <Item name="Weight">3,3 кг</Item>
+        </Item>
+        <Item name="Rifle_AK47_Silenced_01">
+          <Item name="Caliber">5,56 мм</Item>
+          <Item name="Length">94 см</Item>
+          <Item name="Type">Заглушена штурмова гвинтівка</Item>
+          <Item name="Weight">3,3 кг</Item>
+        </Item>
+        <Item name="Rifle_M4A1_01">
+          <Item name="Caliber">5,56 мм</Item>
+          <Item name="Length">84 см</Item>
+          <Item name="Type">Штурмова гвинтівка-карабін</Item>
+          <Item name="Weight">2,54 кг</Item>
+        </Item>
+        <Item name="Rifle_M4A1_Silenced_01">
+          <Item name="Caliber">5,56 мм</Item>
+          <Item name="Length">84 см</Item>
+          <Item name="Type">Заглушена штурмова гвинтівка-карабін</Item>
+          <Item name="Weight">2,54 кг</Item>
+        </Item>
+        <Item name="Rifle_M60_01">
+          <Item name="Caliber">7,62 мм НАТО</Item>
+          <Item name="Length">110 см</Item>
+          <Item name="Type">Легкий кулемет</Item>
+          <Item name="Weight">10,5 кг</Item>
+        </Item>
+        <Item name="Rifle_Shotgun_01">
+          <Item name="Caliber">12 калібр</Item>
+          <Item name="Length">115,7 см</Item>
+          <Item name="Type">Двоствольна рушниця 12 калібру</Item>
+          <Item name="Weight">3,2 кг</Item>
+        </Item>
+        <Item name="Rifle_Sniper_Dragunov_01">
+          <Item name="Caliber">7,62 мм</Item>
+          <Item name="Length">125,5 см</Item>
+          <Item name="Type">Напівавтоматична снайперська гвинтівка</Item>
+          <Item name="Weight">4,31 кг</Item>
+        </Item>
+        <Item name="Rifle_Sniper_Enforcer_01">
+          <Item name="Caliber">7,62 мм НАТО</Item>
+          <Item name="Length">120,5 см</Item>
+          <Item name="Type">Снайперська гвинтівка з ручним затвором</Item>
+          <Item name="Weight">4,75 кг</Item>
+        </Item>
+        <Item name="Rifle_Sniper_PGM_01">
+          <Item name="Caliber">.338</Item>
+          <Item name="Length">129 см</Item>
+          <Item name="Type">Снайперська гвинтівка з ручним затвором</Item>
+          <Item name="Weight">6,6 кг</Item>
+        </Item>
+        <Item name="Rifle_Sniper_PGM_Silenced_01">
+          <Item name="Caliber">.338</Item>
+          <Item name="Length">129 см</Item>
+          <Item name="Type">Заглушена снайперська гвинтівка з ручним затвором</Item>
+          <Item name="Weight">6,6 кг</Item>
+        </Item>
+        <Item name="Rifle_Sniper_R93_01">
+          <Item name="Caliber">7,62 мм НАТО</Item>
+          <Item name="Length">119 см</Item>
+          <Item name="Type">Снайперська гвинтівка з ручним затвором</Item>
+          <Item name="Weight">4,8 кг</Item>
+        </Item>
+        <Item name="Rifle_Sniper_WaltherWA2000_01">
+          <Item name="Caliber">7,62 мм НАТО</Item>
+          <Item name="Length">90,5 см</Item>
+          <Item name="Type">Колекційна заглушена снайперська гвинтівка</Item>
+          <Item name="Weight">8,31 кг</Item>
+        </Item>
+        <Item name="Rifle_Sniper_WaltherWA2000_Silenced_01">
+          <Item name="Caliber">7,62 мм НАТО</Item>
+          <Item name="Length">90,5 см</Item>
+          <Item name="Type">Колекційна заглушена снайперська гвинтівка</Item>
+          <Item name="Weight">8,31 кг</Item>
+        </Item>
+        <Item name="Rifle_Spas12_01">
+          <Item name="Caliber">12 калібр</Item>
+          <Item name="Length">93 см</Item>
+          <Item name="Type">Бойова напівавтоматична рушниця</Item>
+          <Item name="Weight">4,2 кг</Item>
+        </Item>
+        <Item name="Smg_MP5-A3_01">
+          <Item name="Caliber">9 мм</Item>
+          <Item name="Length">66 см</Item>
+          <Item name="Type">Пістолетний кулемет</Item>
+          <Item name="Weight">2,88 кг</Item>
+        </Item>
+        <Item name="Smg_MP5-A3_Silenced_01">
+          <Item name="Caliber">9 мм</Item>
+          <Item name="Length">66 см</Item>
+          <Item name="Type">Заглушений пістолетний кулемет</Item>
+          <Item name="Weight">2,88 кг</Item>
+        </Item>
+        <Item name="Smg_RugerMP9 _01">
+          <Item name="Caliber">9 мм</Item>
+          <Item name="Length">55,6 см</Item>
+          <Item name="Type">Пістолетний кулемет</Item>
+          <Item name="Weight">3 кг</Item>
+        </Item>
+        <Item name="Smg_SteyrAug_01">
+          <Item name="Caliber">9 мм</Item>
+          <Item name="Length">66,5 см</Item>
+          <Item name="Type">Пістолетний кулемет</Item>
+          <Item name="Weight">3,3 кг</Item>
+        </Item>
+        <Item name="Smg_UziMicro_01">
+          <Item name="Caliber">9 мм</Item>
+          <Item name="Length">25 см</Item>
+          <Item name="Type">Пістолетний кулемет</Item>
+          <Item name="Weight">1,5 кг</Item>
+        </Item>
+        <Item name="Smg_UziMicro_PICKUP">
+          <Item name="Caliber">9 мм</Item>
+          <Item name="Length">25 см</Item>
+          <Item name="Type">Пістолетні кулемети</Item>
+          <Item name="Weight">1,5 кг</Item>
+        </Item>
+        <Item name="Smg_UziMicro_Silenced_01">
+          <Item name="Caliber">9 мм</Item>
+          <Item name="Length">34 см</Item>
+          <Item name="Type">Заглушений пістолетний кулемет</Item>
+          <Item name="Weight">1,75 кг</Item>
+        </Item>
+        <Item name="Smg_UziMicro_Silenced_PICKUP">
+          <Item name="Caliber">9 мм</Item>
+          <Item name="Length">34 см</Item>
+          <Item name="Type">Заглушені пістолетні кулемети</Item>
+          <Item name="Weight">1,75 кг</Item>
+        </Item>
+        <Item name="Spec_MiniGun_01">
+          <Item name="Caliber">7,62 мм НАТО</Item>
+          <Item name="Length">100 см</Item>
+          <Item name="Type">Кулемет Ґатлінґа з еклектрорушієм</Item>
+          <Item name="Weight">18,8 кг</Item>
+        </Item>
+      </Item>
+      <Item name="LongNames">
+        <Item name="Ammo12gauge">Набої 12 калібру</Item>
+        <Item name="Ammo45ACP">Набої .45 АСР</Item>
+        <Item name="Ammo556">Набої 5,56 мм</Item>
+        <Item name="Ammo762">Набої 7,62 мм</Item>
+        <Item name="AmmoBolt">Стріли для арбалета</Item>
+        <Item name="AmmoCal22">Набої .22</Item>
+        <Item name="AmmoCal50">Набої .50 саl</Item>
+        <Item name="AmmoChloroform">Дози хлороформу</Item>
+        <Item name="AmmoMagnum">Набої Маg.</Item>
+        <Item name="AmmoPistol">Набої для пістолета</Item>
+        <Item name="AmmoSmg">Набої для ПК</Item>
+        <Item name="AmmoSniper">Набої для снайперки</Item>
+        <Item name="AmmoSniperFake">Набої для снайперки</Item>
+        <Item name="BadgeHospital">Лікарняний ідентифікаційний бейдж</Item>
+        <Item name="Binoculars">Бінокль</Item>
+        <Item name="Bomb_Remote">Дистанційна бомба</Item>
+        <Item name="BombCar">Автомобільна бомба</Item>
+        <Item name="BombRemoteControl">Дистанційний пульт</Item>
+        <Item name="BombRemoteSmall">Дистанційна мінібомба</Item>
+        <Item name="BottleVodka">Горілка</Item>
+        <Item name="BowlSushi">Тарілка суші</Item>
+        <Item name="CameraPolaroid">Фотокамера</Item>
+        <Item name="CC_BoltGun_01">Забійна зброя</Item>
+        <Item name="CC_CardboardTube_01">Картонна труба</Item>
+        <Item name="CC_CueStick_01">Більярдний кий</Item>
+        <Item name="CC_FiberWire_01">Волокно</Item>
+        <Item name="CC_FirePoker_01">Коцюба</Item>
+        <Item name="CC_Knife_Kitchen_01">Кухонний ніж</Item>
+        <Item name="CC_MeatHook_01">М'ясний гак</Item>
+        <Item name="CC_Shovel_01">Садова лопата</Item>
+        <Item name="CC_StunGun_01">Шокова зброя</Item>
+        <Item name="CC_Sword_Chinese_01">Китайський меч</Item>
+        <Item name="CC_Syringe_01">Шприц</Item>
+        <Item name="Cheque">Чек</Item>
+        <Item name="ChocolateBox">Коробка шоколаду</Item>
+        <Item name="Cigar">Сигара</Item>
+        <Item name="copy_of_KeyDoor">Ключ до дверей</Item>
+        <Item name="CrateGrocery">Продукти</Item>
+        <Item name="DeliveryPackageLarge">Посилка</Item>
+        <Item name="DeliveryPackageMedium">Посилка</Item>
+        <Item name="DeliveryPackageSmall">Посилка</Item>
+        <Item name="DollarBills">Пачка грошей</Item>
+        <Item name="DrinkingGlassChampagne">Келих шампанського</Item>
+        <Item name="DrinkingGlassCocktail">Коктейль</Item>
+        <Item name="DrinkingGlassWater">Склянка води</Item>
+        <Item name="DustBroom">Мітла</Item>
+        <Item name="EquipBinoculars">Польовий бінокль</Item>
+        <Item name="FishFuguPoisonPiece">Отруйна частина Фугу</Item>
+        <Item name="Flashlight">Ліхтарик</Item>
+        <Item name="Food_Bottle_Milk_01">0,75 літрова молочна пляшка</Item>
+        <Item name="Food_SakeCup_01">Чашка саке</Item>
+        <Item name="Food_TeaCup_01">Чашка чаю</Item>
+        <Item name="GpsTransmitterMicro">GРS мікропередавач</Item>
+        <Item name="GuidanceSystem">Система наведення</Item>
+        <Item name="Gun_500Magnum_01">Маgnuм 500</Item>
+        <Item name="Gun_500Magnum_PICKUP">Два Маgnuм 500</Item>
+        <Item name="Gun_CZ-G2000_01">СZ2000</Item>
+        <Item name="Gun_CZ-G2000_PICKUP">Два СZ2000</Item>
+        <Item name="Gun_DesertEagle_01">Gоld Dеsеrт Еаglе</Item>
+        <Item name="Gun_DesertEagle_PICKUP">Два Gоld Dеsеrт Еаglе</Item>
+        <Item name="Gun_Glock18_01">GК17</Item>
+        <Item name="Gun_Glock18_PICKUP">Два GК17</Item>
+        <Item name="Gun_Hardballer_01">Sіlvеrваllеr</Item>
+        <Item name="Gun_Hardballer_PICKUP">Два Sіlvеrваllеr</Item>
+        <Item name="Gun_Hardballer_Silenced_01">Sіlvеrваllеr .S</Item>
+        <Item name="Gun_Hardballer_Silenced_PICKUP">Два Sіlvеrваllеr .S</Item>
+        <Item name="Gun_SawnOffShutgun_01">Обрізана рушниця</Item>
+        <Item name="Gun_SawnOffShutgun_PICKUP">Дві обрізані рушниці</Item>
+        <Item name="Gun_SIG-220_01">SG220 .S</Item>
+        <Item name="Gun_SIG-220_PICKUP">Два SG220 .S</Item>
+        <Item name="HackingDevice">Хакерський пристрій</Item>
+        <Item name="Item_Binoculars_01">Бінокль</Item>
+        <Item name="Item_Bottle_Carafe_01">0,75 літрова ємність</Item>
+        <Item name="Item_Bottle_Laxative_01">Пляшка проносного</Item>
+        <Item name="Item_Bottle_Poison_01">250 міліграм цианіду</Item>
+        <Item name="Item_Bottle_Scotch_01">Односолодове високогірне віскі</Item>
+        <Item name="Item_BusinessCard_Fuchs_01">ІД картка конференції</Item>
+        <Item name="Item_Container_Gasoline_01">5 літрова каністра</Item>
+        <Item name="Item_Container_WeedKiller_01">5 літрова каністра гербіциду</Item>
+        <Item name="Item_Glass_Milk_01">Склянка молока</Item>
+        <Item name="Item_glass_vodka_01">Склянка горілки</Item>
+        <Item name="Item_Glass_Whiskey_01">Склянка віскі</Item>
+        <Item name="Item_Key_Bike_01">Ключ до мотоцикла</Item>
+        <Item name="Item_Key_Car_01">Ключ до автомобіля</Item>
+        <Item name="Item_Key_HMRoom_01">Ключ до номеру 301</Item>
+        <Item name="Item_Key_Master_01">Майстер-ключ</Item>
+        <Item name="Item_Key_Paramedics_01">Ключ до медичного автомобіля</Item>
+        <Item name="Item_Key_Stable_01">Ключ до стійла стайні</Item>
+        <Item name="Item_Key_XrayRoom_01">Ключ до рентген-кабінета</Item>
+        <Item name="Item_KeyCard_Orthmeyer_01">Ключ-картка Ортмеєра</Item>
+        <Item name="Item_KeyCard_VIP_01">Ключ-картка важливої особи</Item>
+        <Item name="Item_LockPick_01">Відмичка</Item>
+        <Item name="Item_Megafon_01">Мегафон</Item>
+        <Item name="Item_NightvisionGoggles_01">Окуляри темнобачення</Item>
+        <Item name="Item_Photos_01">Фотографії</Item>
+        <Item name="Item_Pillow_01">Пухова подушка</Item>
+        <Item name="Item_RatPoison_01">Отрута для пацюків</Item>
+        <Item name="Item_RubberDuck_01">Яскрава жовта гумова качка</Item>
+        <Item name="Item_SafeCombination_01">Комбінація до сейфу</Item>
+        <Item name="Item_Suitcase_BombChemical_01">Валіза для хімічної бомби</Item>
+        <Item name="Item_Suitcase_Sniper_01">Валіза для снайперки</Item>
+        <Item name="Item_Towels_01">Рушники</Item>
+        <Item name="KeyCard">Ключ-картка</Item>
+        <Item name="KeyCardSpecial">Спеціальна ключ-картка</Item>
+        <Item name="KeyCarFerrari">Ключ до автомобіля</Item>
+        <Item name="KeyDoor">Ключ до дверей</Item>
+        <Item name="KeyLocker">Ключ до шафки</Item>
+        <Item name="KeyRoom">Ключ до номеру</Item>
+        <Item name="KeyWarheads">Ключ до боєголовок</Item>
+        <Item name="Lighter">Запальничка</Item>
+        <Item name="LockPick">Відмичка</Item>
+        <Item name="MapHospital">Мапа лікарні</Item>
+        <Item name="MapNukeLocation">Розташування боєголовок</Item>
+        <Item name="NightvisionGoggles">Окуляри темнобачення</Item>
+        <Item name="NoteAdmission">Пропуск</Item>
+        <Item name="Pager">Пейджер</Item>
+        <Item name="PartyInvitation">Запрошення на вечірку</Item>
+        <Item name="PhoneMobile">Мобільний телефон</Item>
+        <Item name="PillGlassPoison">Отрута</Item>
+        <Item name="Pizza">Коробка піци</Item>
+        <Item name="Rifle_AK47_01">Штурмова гвинтівка АК74</Item>
+        <Item name="Rifle_AK47_Silenced_01">Штурмова гвинтівка АК74 .S</Item>
+        <Item name="Rifle_M4A1_01">Штурмова гвинтівка-карабін М4</Item>
+        <Item name="Rifle_M4A1_Silenced_01">Штурмова гвинтівка-карабін М4 .S</Item>
+        <Item name="Rifle_M60_01">Легкий кулемет М60</Item>
+        <Item name="Rifle_Shotgun_01">Двоствольна рушниця</Item>
+        <Item name="Rifle_Sniper_Dragunov_01">Снайперська гвинтівка Драгунова</Item>
+        <Item name="Rifle_Sniper_Enforcer_01">Снайперська гвинтівка Еnfоrсеr</Item>
+        <Item name="Rifle_Sniper_PGM_01">Снайперська гвинтівка РGМ</Item>
+        <Item name="Rifle_Sniper_PGM_Silenced_01">Снайперська гвинтівка РGМ .S</Item>
+        <Item name="Rifle_Sniper_R93_01">Снайперська гвинтівка R93</Item>
+        <Item name="Rifle_Sniper_WaltherWA2000_01">Снайперська гвинтівка W2000</Item>
+        <Item name="Rifle_Sniper_WaltherWA2000_Silenced_01">Снайперська гвинтівка W2000 .S</Item>
+        <Item name="Rifle_Spas12_01">Рушниця Sраs 12</Item>
+        <Item name="SafeCombination">Комбінація до сейфу</Item>
+        <Item name="Sausages">Сосиска</Item>
+        <Item name="Smg_MP5-A3_01">Пістолет-кулемет Мр5</Item>
+        <Item name="Smg_MP5-A3_Silenced_01">Пістолет-кулемет Мр5 .S</Item>
+        <Item name="Smg_RugerMP9 _01">Пістолет-кулемет Мр9</Item>
+        <Item name="Smg_SteyrAug_01">Пістолет-кулемет Аug</Item>
+        <Item name="Smg_UziMicro_01">Два пістолет-кулемети Місrо Uzі</Item>
+        <Item name="Smg_UziMicro_PICKUP">Пістолет-кулемети Місrо Uzі</Item>
+        <Item name="Smg_UziMicro_Silenced_01">Пістолет-кулемет Місrо Uzі .S</Item>
+        <Item name="Smg_UziMicro_Silenced_PICKUP">Два пістолет-кулемети ПК Місrо Uzі .S</Item>
+        <Item name="Spec_MiniGun_01">Важкий кулемет</Item>
+        <Item name="Statue">Статуетка</Item>
+        <Item name="Stone">Камінь</Item>
+        <Item name="Suitcase">Валіза</Item>
+        <Item name="SwitchPower">Перемикач напруги</Item>
+        <Item name="Syringe">Шприц</Item>
+        <Item name="TravelBrochure">Туристична брошура</Item>
+        <Item name="TrayCocktail">Піднос</Item>
+        <Item name="WoodenSpoon_01">Дерев'яна ложка</Item>
+      </Item>
+      <Item name="ShortNames">
+        <Item name="12Gauge">12 калібр</Item>
+        <Item name="45ACP">.45 АСР</Item>
+        <Item name="Ammo12gauge">Набої 12 калібру</Item>
+        <Item name="Ammo380ACP">Набої .380 АСР</Item>
+        <Item name="Ammo45ACP">Набої .45 АСР</Item>
+        <Item name="Ammo556">Набої гвинтівки</Item>
+        <Item name="Ammo762">Набої 7,62 мм</Item>
+        <Item name="Ammo9mm">Набої 9 мм</Item>
+        <Item name="AmmoBolts">Стріли</Item>
+        <Item name="AmmoCal22">Набої .22</Item>
+        <Item name="AmmoCal50">Набої .50 саl</Item>
+        <Item name="AmmoChloroform">Хлороформ</Item>
+        <Item name="AmmoKnife" />
+        <Item name="AmmoMagnum">Набої Маg.</Item>
+        <Item name="AmmoMG">Набої кулемета</Item>
+        <Item name="AmmoPistol">Набої пістолета</Item>
+        <Item name="AmmoShotgun">Набої рушниці</Item>
+        <Item name="AmmoSMG">Набої ПК</Item>
+        <Item name="AmmoSniper">Набої снайперки</Item>
+        <Item name="AmmoSniperFake">Набої снайперки</Item>
+        <Item name="AmmoSyringe">Дози</Item>
+        <Item name="Appetizer">Закуска</Item>
+        <Item name="BadgeHospital">Бейдж</Item>
+        <Item name="Bomb_Remote">Бомба</Item>
+        <Item name="BombCar">Автобомба</Item>
+        <Item name="BombRemoteControl">Пульт бомби</Item>
+        <Item name="BombRemoteSmall">Мінібомба</Item>
+        <Item name="BottleVodka">Горілка</Item>
+        <Item name="BowlSushi">Тарілка суші</Item>
+        <Item name="CC_BoltGun_01">Забійник</Item>
+        <Item name="CC_CardboardTube_01">Труба</Item>
+        <Item name="CC_CueStick_01">Кий</Item>
+        <Item name="CC_FiberWire_01">Волокно</Item>
+        <Item name="CC_FirePoker_01">Коцюба</Item>
+        <Item name="CC_Knife_Hitman_01">Ніж</Item>
+        <Item name="CC_Knife_Kitchen_01">Кухонний ніж</Item>
+        <Item name="CC_Knife_MeatCleaver_01">Сікач</Item>
+        <Item name="CC_MeatHook_01">Гак</Item>
+        <Item name="CC_Shovel_01">Лопата</Item>
+        <Item name="CC_StunGun_01">Шокер</Item>
+        <Item name="CC_Sword_Chinese_01">Меч</Item>
+        <Item name="CC_Syringe_01">Шприц</Item>
+        <Item name="Cheque">Чек</Item>
+        <Item name="ChocolateBox">Шоколад</Item>
+        <Item name="Cigar">Сигара</Item>
+        <Item name="CrateGrocery">Продукти</Item>
+        <Item name="DeliveryPackageLarge">Посилка</Item>
+        <Item name="DeliveryPackageMedium">Посилка</Item>
+        <Item name="DeliveryPackageSmall">Посилка</Item>
+        <Item name="DollarBills">Гроші</Item>
+        <Item name="DrinkingGlassChampagne">Шампанське</Item>
+        <Item name="DrinkingGlassCocktail">Коктейль</Item>
+        <Item name="DrinkingGlassWater">Вода</Item>
+        <Item name="DustBroom">Мітла</Item>
+        <Item name="EquipBinoculars">Бінокль</Item>
+        <Item name="EquipFlashlight">Ліхтарик</Item>
+        <Item name="EquipLockPick">Відмичка</Item>
+        <Item name="EquipNightvisionGoggles">Темновізор</Item>
+        <Item name="EquipPager">Пейджер</Item>
+        <Item name="EquipPhoneMobile">Мобілка</Item>
+        <Item name="FishFugu">Риба фугу</Item>
+        <Item name="FishFuguPoisonPiece">Отруєна риба</Item>
+        <Item name="Flashlight">Ліхтарик</Item>
+        <Item name="FlowerBuket_01">Квіти</Item>
+        <Item name="Food_Bottle_Milk_01">Молоко</Item>
+        <Item name="Food_ChickenPlate_01">Курча</Item>
+        <Item name="Food_ChickenPlate_01_Empty">Тарілка</Item>
+        <Item name="Food_SakeCup_01">Саке</Item>
+        <Item name="Food_Soup_01">Суп</Item>
+        <Item name="Food_SoupPlate_01">Тарілка</Item>
+        <Item name="Food_TeaCup_01">Чай</Item>
+        <Item name="FoodSushi">Суші</Item>
+        <Item name="GpsTransmitterMicro">Передавач</Item>
+        <Item name="GuidanceSystem">Стеження</Item>
+        <Item name="Gun_500Magnum_01">Маgnuм 500</Item>
+        <Item name="Gun_500Magnum_PICKUP">Два Маgnuм 500</Item>
+        <Item name="Gun_CZ-G2000_01">СZ2000</Item>
+        <Item name="Gun_CZ-G2000_Dual_01">Два СZ2000</Item>
+        <Item name="Gun_CZ-G2000_PICKUP">Два СZ2000</Item>
+        <Item name="Gun_DesertEagle_01">Gоld Dеsеrт Еаglе</Item>
+        <Item name="Gun_DesertEagle_Dual_01">Два Dеsеrт Еаglе</Item>
+        <Item name="Gun_DesertEagle_PICKUP">Два Dеsеrт Еаglе</Item>
+        <Item name="Gun_Glock18_01">GК17</Item>
+        <Item name="Gun_Glock18_Dual">Два GК17</Item>
+        <Item name="Gun_Glock18_PICKUP">Два GК17</Item>
+        <Item name="Gun_Hardballer_01">Sіlvеrваllеr</Item>
+        <Item name="Gun_Hardballer_Dual_01">Два Sіlvеrваllеr</Item>
+        <Item name="Gun_Hardballer_PICKUP">Два Sіlvеrваllеr</Item>
+        <Item name="Gun_Hardballer_Silenced_01">Sіlvеrваllеr .S</Item>
+        <Item name="Gun_Hardballer_Silenced_Dual_01">Два Sіlvеrваllеr .S</Item>
+        <Item name="Gun_Hardballer_Silenced_PICKUP">Два Sіlvеrваllеr .S</Item>
+        <Item name="Gun_SawnOffShutgun_01">Обріз</Item>
+        <Item name="Gun_SawnOffShutgun_Dual">Два обрізи</Item>
+        <Item name="Gun_SawnOffShutgun_PICKUP">Два обрізи</Item>
+        <Item name="Gun_SIG-220_01">SG220 .S</Item>
+        <Item name="Gun_SIG-220_PICKUP">Два SG220 .S</Item>
+        <Item name="HackingDevice">Хакпристрій</Item>
+        <Item name="Item_AmuletRedDragon_01">Амулет</Item>
+        <Item name="Item_Binoculars_01">Бінокль</Item>
+        <Item name="Item_BloodyArm_01">Доказ</Item>
+        <Item name="Item_Bomb_Chemical_01">Хімбомба</Item>
+        <Item name="Item_Bomb_ControllerCard_01">Контролер</Item>
+        <Item name="Item_Bottle_Carafe_01">Карафа</Item>
+        <Item name="Item_Bottle_Laxitive_01">Проносне</Item>
+        <Item name="Item_Bottle_Poison_01">Отрута</Item>
+        <Item name="Item_Bottle_Poison_02">Отрута</Item>
+        <Item name="Item_Bottle_Scotch_01">Віскі</Item>
+        <Item name="Item_Bottle_Vodka_01">Горілка</Item>
+        <Item name="Item_BusinessCard_Fuchs_01">Картка ІД</Item>
+        <Item name="Item_Container_Gasoline_01">Бензин</Item>
+        <Item name="Item_Container_WeedKiller_01">Гербіцид</Item>
+        <Item name="Item_Crate_Grocery_01">Продукти</Item>
+        <Item name="Item_Envelope_Florist_01">Конверт Діани</Item>
+        <Item name="Item_Envelope_Frantz_01">Конверт Франца</Item>
+        <Item name="Item_Envelope_Fritz_01">Конверт Фріца</Item>
+        <Item name="Item_Envelope_Pablo_01">Конверт Фріца</Item>
+        <Item name="Item_Envelope_Reporter_01">Конверт</Item>
+        <Item name="Item_FigureJade_01">Статуетка</Item>
+        <Item name="Item_FlaskPocket_01">Фляжка</Item>
+        <Item name="Item_FlowerBox_01">Коробка</Item>
+        <Item name="Item_Glass_Milk_01">Молоко</Item>
+        <Item name="Item_glass_vodka_01">Горілка</Item>
+        <Item name="Item_Glass_Whiskey_01">Віскі</Item>
+        <Item name="Item_Invitation_Brothel_01">Запрошення</Item>
+        <Item name="Item_Invitation_VIP_01">Запрошення</Item>
+        <Item name="Item_Key_Apartment_01">Ключ</Item>
+        <Item name="Item_Key_Bike_01">Ключ</Item>
+        <Item name="Item_Key_Car_01">Ключ</Item>
+        <Item name="Item_Key_Chef_01">Ключ</Item>
+        <Item name="Item_Key_Fuchs_01">Ключ</Item>
+        <Item name="Item_Key_HMRoom_01">Ключ</Item>
+        <Item name="Item_Key_Master_01">Майстер-ключ</Item>
+        <Item name="Item_Key_Paramedics_01">Ключ</Item>
+        <Item name="Item_Key_Stable_01">Ключ</Item>
+        <Item name="Item_Key_Toilet_01">Ключ</Item>
+        <Item name="Item_Key_XrayRoom_01">Ключ</Item>
+        <Item name="Item_KeyCard_Orthmeyer_01">Ключ</Item>
+        <Item name="Item_KeyCard_TortureChamber_01">Ключ-картка</Item>
+        <Item name="Item_KeyCard_VIP_01">Ключ-картка</Item>
+        <Item name="Item_LockPick_01">Відмичка</Item>
+        <Item name="Item_Megafon_01">Мегафон</Item>
+        <Item name="Item_NightvisionGoggles_01">Темновізор</Item>
+        <Item name="Item_OpiumPipe_01">Люлька</Item>
+        <Item name="Item_Photos_01">Знімки</Item>
+        <Item name="Item_Pillow_01">Подушка</Item>
+        <Item name="Item_RatPoison_01">Отрута</Item>
+        <Item name="Item_RemoteDetonator_01">Детонатор</Item>
+        <Item name="Item_RubberDuck_01">Іграшка</Item>
+        <Item name="Item_SafeCombination_01">Комбінація</Item>
+        <Item name="Item_ServingTray_01">Піднос</Item>
+        <Item name="Item_Sign_DoNotDisturb_01">Знак</Item>
+        <Item name="Item_Suitcase_BombChemical_01">Валіза</Item>
+        <Item name="Item_Suitcase_Sniper_01">Валіза</Item>
+        <Item name="Item_ToolBox_01">Інструменти</Item>
+        <Item name="Item_Towels_01">Рушники</Item>
+        <Item name="Item_TrackingDevice_01">Трекер</Item>
+        <Item name="Item_VacumCleaner_01">Пилосос</Item>
+        <Item name="KeyCard">Ключ-картка</Item>
+        <Item name="KeyCardSpecial">Ключ-картка</Item>
+        <Item name="KeyCarFerrari">Ключ</Item>
+        <Item name="KeyChurchSecret">Ключ</Item>
+        <Item name="KeyDoor">Ключ</Item>
+        <Item name="KeyHouse">Ключ</Item>
+        <Item name="KeyLocker">Ключ</Item>
+        <Item name="KeyRoom">Ключ</Item>
+        <Item name="KeyWarheads">Ключ</Item>
+        <Item name="Lighter">Запальничка</Item>
+        <Item name="Magnum">МАGNUМ</Item>
+        <Item name="MainCourse">Головна страва</Item>
+        <Item name="MapHospital">Мапа лікарні</Item>
+        <Item name="MapNukeLocation">Координати</Item>
+        <Item name="MG">КУЛЕМЕТ</Item>
+        <Item name="NoteAdmission">Пропуск</Item>
+        <Item name="Pager">Пейджер</Item>
+        <Item name="PartyInvitation">Запрошення</Item>
+        <Item name="PhoneMobile">Мобілка</Item>
+        <Item name="PillGlassPoison">Отрута</Item>
+        <Item name="Pistol">ПІСТОЛЕТ</Item>
+        <Item name="Pizza">Піца</Item>
+        <Item name="Polaroid">Камера</Item>
+        <Item name="RateA">Нітмаn</Item>
+        <Item name="Rifle">ГВИНТІВКА</Item>
+        <Item name="Rifle_AK47_01">АК74</Item>
+        <Item name="Rifle_AK47_Silenced_01">АК74 .S</Item>
+        <Item name="Rifle_M4A1_01">М4</Item>
+        <Item name="Rifle_M4A1_Silenced_01">М4 .S</Item>
+        <Item name="Rifle_M60_01">М60</Item>
+        <Item name="Rifle_Shotgun_01">Рушниця</Item>
+        <Item name="Rifle_Sniper_Dragunov_01">Драгунов</Item>
+        <Item name="Rifle_Sniper_Enforcer_01">Еnfоrсеr</Item>
+        <Item name="Rifle_Sniper_PGM_01">РGМ</Item>
+        <Item name="Rifle_Sniper_PGM_Silenced_01">РGМ .S</Item>
+        <Item name="Rifle_Sniper_R93_01">R93</Item>
+        <Item name="Rifle_Sniper_WaltherWA2000_01">W2000</Item>
+        <Item name="Rifle_Sniper_WaltherWA2000_Silenced_01">W2000 .S</Item>
+        <Item name="Rifle_Spas12_01">Sраs 12</Item>
+        <Item name="SafeCombination">Комбінація</Item>
+        <Item name="Sausages">Сосиска</Item>
+        <Item name="SMG">ПК</Item>
+        <Item name="Smg_MP5-A3_01">Мр5</Item>
+        <Item name="Smg_MP5-A3_Silenced_01">Мр5 .S</Item>
+        <Item name="Smg_RugerMP9 _01">Мр9</Item>
+        <Item name="Smg_SteyrAug_01">Аug</Item>
+        <Item name="Smg_UziMicro_01">Місrо Uzі</Item>
+        <Item name="Smg_UziMicro_Dual_01">Два Місrо Uzі</Item>
+        <Item name="Smg_UziMicro_PICKUP">Два Місrо Uzі</Item>
+        <Item name="Smg_UziMicro_Silenced_01">Місrо Uzі .S</Item>
+        <Item name="Smg_UziMicro_Silenced_PICKUP">Два Місrо Uzі .S</Item>
+        <Item name="SmokeBomb">Димобомба</Item>
+        <Item name="Sniper">СНАЙПЕРКА</Item>
+        <Item name="Spec_MiniGun_01">Кулемет</Item>
+        <Item name="Statue">Статуетка</Item>
+        <Item name="Stone">Камінь</Item>
+        <Item name="Suitcase">Валізка</Item>
+        <Item name="SwitchPower">Перемикач</Item>
+        <Item name="Syringe">Шприц</Item>
+        <Item name="TravelBrochure">Брошура</Item>
+        <Item name="TrayCocktail">Піднос</Item>
+        <Item name="WoodenSpoon_01">Ложка</Item>
+      </Item>
+    </Item>
+    <Item name="JustInCase">
+      <Item name="MissionDetailsUpdated">Деталі місії оновлені.</Item>
+      <Item name="MissionInfoUpdated">Інформація місії оновлена.</Item>
+      <Item name="NewObjectiveAdded">Додано нове завдання.</Item>
+      <Item name="ObjectiveStatusChanged">Стан завдання оновлено, натисни $Вrіеfіng.</Item>
+      <Item name="ObjectiveStatusChanged_pc">Стан завдання оновлено, натисни $Вrіеfіng.</Item>
+      <Item name="ObjOk1">Перше завдання виконано</Item>
+      <Item name="ObjOk2">Друге завдання виконано</Item>
+      <Item name="ObjOk3">Третє завдання виконано</Item>
+      <Item name="WeaponsTaken">Зброю забрано.</Item>
+    </Item>
+    <Item name="Laptop">
+      <Item name="AdditionalFiles">Додаткові файли</Item>
+      <Item name="Complete">Завершено</Item>
+      <Item name="Continue">Продовжити</Item>
+      <Item name="Details">ДЕТАЛІ</Item>
+      <Item name="Incomplete">Не завершено</Item>
+      <Item name="Info">ІНФОРМАЦІЯ</Item>
+      <Item name="MissionBriefing">Інструкції місії</Item>
+      <Item name="MissionObjectives">ЗАВДАННЯ</Item>
+      <Item name="Quit">Вийти</Item>
+      <Item name="Repeat">Повторити</Item>
+      <Item name="Savegames">Місії</Item>
+      <Item name="Target">ЦІЛЬ</Item>
+      <Item name="View">Огляд</Item>
+    </Item>
+    <Item name="Statistics">
+      <Item name="Aggression">Агресія</Item>
+      <Item name="Alerts">Тривоги:</Item>
+      <Item name="Back">Назад</Item>
+      <Item name="CloseEncounters">Близькі контакти:</Item>
+      <Item name="Continue">Продовжити</Item>
+      <Item name="Difficulty">Складність:</Item>
+      <Item name="EnemiesHarmed">Ворогів поранено:</Item>
+      <Item name="EnemiesKilled">Ворогів убито:</Item>
+      <Item name="HeadShots">Пострілів у голову:</Item>
+      <Item name="InnocentsHarmed">Невинних поранено:</Item>
+      <Item name="InnocentsKilled">Невинних убито:</Item>
+      <Item name="MissionAccomplished">Місія завершена</Item>
+      <Item name="MissionFailed">Місія провалена</Item>
+      <Item name="Overall">Загально</Item>
+      <Item name="Rank">Найвищий ранг:</Item>
+      <Item name="Ranking">
+        <Item name="Amateur">Аматор</Item>
+        <Item name="Apprentice">Підмайстер</Item>
+        <Item name="Butcher">М'ясник</Item>
+        <Item name="ButtonMan">Кнопкодав</Item>
+        <Item name="Cleaner">Чистильник</Item>
+        <Item name="Executioner">Виконавець</Item>
+        <Item name="Expert">Експерт</Item>
+        <Item name="FFuchs">Ф. Фукс</Item>
+        <Item name="Fool">Дурень</Item>
+        <Item name="Ghost">Привид</Item>
+        <Item name="Goon">Бик</Item>
+        <Item name="HatchetMan">Рубака</Item>
+        <Item name="HenchMan">Поплічник</Item>
+        <Item name="HiredGun">Найманець</Item>
+        <Item name="Iceman">Льодівник</Item>
+        <Item name="KimBo">Кім Бо Кастекнів</Item>
+        <Item name="LaederBoessen">Лаедер Боссе</Item>
+        <Item name="LLKlauwn">Л. Л. Клоун</Item>
+        <Item name="MassMurderer">Масовий вбивця</Item>
+        <Item name="Moron">Баран</Item>
+        <Item name="Natural">Натурал</Item>
+        <Item name="NinjaExtraordinaire">Ніндзя незвичайний</Item>
+        <Item name="Postal">Листоноша</Item>
+        <Item name="Professional">Професіонал</Item>
+        <Item name="Prospect">Перспективний</Item>
+        <Item name="Psychopath">Психопат</Item>
+        <Item name="Retard">Відсталий</Item>
+        <Item name="Roulade">Рулет</Item>
+        <Item name="Shadow">Тінь</Item>
+        <Item name="SilentAssassin">Тихий вбивця</Item>
+        <Item name="Slaugtherer">Різник</Item>
+        <Item name="Slayer">Руйнівник</Item>
+        <Item name="Sloth">Лінивець</Item>
+        <Item name="Slowhand">Повільний</Item>
+        <Item name="Sociopath">Соціопат</Item>
+        <Item name="Specialist">Спеціаліст</Item>
+        <Item name="Thug">Головоріз</Item>
+        <Item name="Wannabe">Хотілка</Item>
+        <Item name="Wimp">Зануда</Item>
+      </Item>
+      <Item name="RateA">Хітман</Item>
+      <Item name="RateB">Убивця</Item>
+      <Item name="RateC">Хотілка</Item>
+      <Item name="RateD">Рембо</Item>
+      <Item name="Rating">Рейтинг</Item>
+      <Item name="Saves">Збереження:</Item>
+      <Item name="ShotsFired">Постріли:</Item>
+      <Item name="Stealth">Таємність</Item>
+      <Item name="Time">Час</Item>
+    </Item>
+    <Item name="Symbols">
+      <Item name="Complete">¶</Item>
+      <Item name="Incomplete">•</Item>
+    </Item>
+    <Item name="Titles">
+      <Item name="C00-1">Тренувальна зона</Item>
+      <Item name="C01-1">Втеча з притулку</Item>
+      <Item name="C01-2">Вечірка м'ясного короля</Item>
+      <Item name="C02-1">Бомба Бярхова</Item>
+      <Item name="C03-1">Маєток Белдінґфордів</Item>
+      <Item name="C06-1">Рандеву у Ротердамі</Item>
+      <Item name="C06-2">Смертельний вантаж</Item>
+      <Item name="C07-1">Традиції торгівлі</Item>
+      <Item name="C08-1">Вбивство дракона</Item>
+      <Item name="C08-2">Випадок у Ванґ Фу</Item>
+      <Item name="C08-3">Різанина у рибному ресторані</Item>
+      <Item name="C08-4">Вбивство Лі Гонґа</Item>
+      <Item name="C09-1">Мисливець і здобич</Item>
+      <Item name="GameCompleted">Гра завершена</Item>
+    </Item>
+  </MainPart>
+</HitmanLOC>
