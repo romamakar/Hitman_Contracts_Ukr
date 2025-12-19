@@ -259,6 +259,10 @@ namespace DeSerializator
             using (StringReader reader = new StringReader(mainXml))
             {
                 mainHitmanLOC = (HitmanLOC)mainSerializer.Deserialize(reader);
+                for (var i = 0; i < mainHitmanLOC.MainPart[0].Items.Count; i++)
+                {
+                    GoThrouClassToUTF(hitmanLOC.MainPart[0].Items[i]);
+                }
             }
 
             foreach (string xmlFile in xmlFiles)
@@ -271,7 +275,7 @@ namespace DeSerializator
                     hitmanLOC = (HitmanLOC)serializer.Deserialize(reader);
 
                     hitmanLOC.MainPart[0] = mainHitmanLOC.MainPart[0];
-                    for (var j = 0; j < hitmanLOC.MainPart.Count; j++)
+                    for (var j = 1; j < hitmanLOC.MainPart.Count; j++)
                     {
                         for (var i = 0; i < hitmanLOC.MainPart[j].Items.Count; i++)
                         {
