@@ -2,13 +2,12 @@
 
 namespace DeSerializator
 {
-    
 
     [XmlRoot("HitmanLOC")]
     public class HitmanLOC
     {
         [XmlElement("MainPart")]
-        public MainPart MainPart { get; set; }
+        public List<MainPart> MainPart { get; set; }
     }
 
     public class MainPart

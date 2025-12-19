@@ -1,0 +1,57 @@
+name: Build and Release Zip
+
+on:
+  push:
+    branches:
+      - "master"
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: "8.0.x"
+
+      - name: Install Inno Setup
+        run: choco install innosetup -y
+
+      - name: Restore dependencies
+        working-directory: tools/builder
+        run: dotnet restore
+
+      - name: Build the project
+        working-directory: tools/DeSerializator
+        run: dotnet build --configuration Release
+
+      - name: Run the program to generate the zip
+        run: .\tools\DeSerializator\DeSerializator\bin\Release\net8.0\DeSerializator.exe
+        shell: powershell
+
+      - name: Unzip file
+        run: |
+          Expand-Archive -Path "Hitman_Contracts_Ukr.zip" -DestinationPath "output" -Force
+
+      - name: Build installer (silent)
+        run: ISCC.exe "${{ github.workspace }}\installer\setup.iss"
+
+      - name: Upload installer
+        uses: softprops/action-gh-release@v2
+        with:
+          files: "D:\\a\\Hitman_Contracts_Ukr\\Hitman_Contracts_Ukr\\installer\\Output\\HitmanContracts_Ukr1_2.exe"
+          tag_name: "exe"  # Можна використовувати будь-який тег, якщо потрібно
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload release asset
+        uses: softprops/action-gh-release@v2
+        with:
+          files: "Hitman_Contracts_Ukr.zip"
+          tag_name: "zip"  # Можна використовувати будь-який тег, якщо потрібно
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

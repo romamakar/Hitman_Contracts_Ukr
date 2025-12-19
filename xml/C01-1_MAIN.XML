@@ -5,9 +5,9 @@
       <Item name="Activate">Активувати</Item>
       <Item name="BalconyJump">Стрибнути на балкон</Item>
       <Item name="Basement">Підвал</Item>
-      <Item name="CallAgency">Викликати аґенцію</Item>
-      <Item name="CallElevator">Викликати ліфт</Item>
-      <Item name="CallTrain">Викликати поїзд</Item>
+      <Item name="CallAgency">Визвати аґенцію</Item>
+      <Item name="CallElevator">Визвати ліфт</Item>
+      <Item name="CallTrain">Визвати поїзд</Item>
       <Item name="ChangeClothes">Змінити одяг</Item>
       <Item name="ClimbOverWall">Перелізти через стіну</Item>
       <Item name="ClimbThroughWindow">Перелізти через вікно</Item>
@@ -530,16 +530,16 @@
         </Item>
         <Item name="CheckIDSequence">
           <Item name="Male01">
-            <Item name="All_C_CIDS_Check01M1">Мені потрібно ваше посвідчення, пане.</Item>
-            <Item name="All_C_CIDS_Check02M1">Мені потрібне посвідчення, пане!</Item>
-            <Item name="All_C_CIDS_Check03M1">Кажу востаннє. Покажіть мені дійсне посвідчення!</Item>
-            <Item name="All_C_CIDS_CheckBadM1">Це посвідчення підроблене! Порушник!</Item>
+            <Item name="All_C_CIDS_Check01M1">Мені треба бачити якийсь ІД, пане.</Item>
+            <Item name="All_C_CIDS_Check02M1">Мені потрібен ІД, пане!</Item>
+            <Item name="All_C_CIDS_Check03M1">Кажу востаннє. Покажіть мені дійсний ІД!</Item>
+            <Item name="All_C_CIDS_CheckBadM1">Цей ІД підроблений! Порушник!</Item>
           </Item>
           <Item name="Male03">
-            <Item name="All_C_CIDS_Check01M3">Мені потрібно ваше посвідчення, пане.</Item>
-            <Item name="All_C_CIDS_Check02M3">Мені потрібно посвідчення, пане!</Item>
-            <Item name="All_C_CIDS_Check03M3">Кажу востаннє. Покажіть мені дійсне посвідчення!</Item>
-            <Item name="All_C_CIDS_CheckBadM3">Це посвідчення підроблене! Порушник!</Item>
+            <Item name="All_C_CIDS_Check01M3">Мені треба бачити якийсь ІД, пане.</Item>
+            <Item name="All_C_CIDS_Check02M3">Мені потрібен ІД, пане!</Item>
+            <Item name="All_C_CIDS_Check03M3">Кажу востаннє. Покажіть мені дійсний ІД!</Item>
+            <Item name="All_C_CIDS_CheckBadM3">Цей ІД підроблений! Порушник!</Item>
           </Item>
         </Item>
         <Item name="DontDoThat">
@@ -570,13 +570,13 @@
           <Item name="Male01">
             <Item name="All_C_DS_Door01M1">Вибачте, пане, входу немає.</Item>
             <Item name="All_C_DS_Door02M1">Як я вже казав, ви не можете пройти.</Item>
-            <Item name="All_C_DS_Door03M1">Досить! Забирайся до біса, клоун.</Item>
+            <Item name="All_C_DS_Door03M1">Досить! Забирайся к бісу, клоун.</Item>
             <Item name="All_C_DS_DoorOKM1">Вітаю, пане, ви можете зайти.</Item>
           </Item>
           <Item name="Male03">
             <Item name="All_C_DS_Door01M3">Вибачте, пане, входу немає.</Item>
             <Item name="All_C_DS_Door02M3">Як я вже казав, ви не можете пройти.</Item>
-            <Item name="All_C_DS_Door03M3">Досить! Забирайся до біса, клоун.</Item>
+            <Item name="All_C_DS_Door03M3">Досить! Забирайся к бісу, клоун.</Item>
             <Item name="All_C_DS_DoorOKM3">Вітаю, пане, ви можете зайти.</Item>
           </Item>
         </Item>
@@ -662,15 +662,15 @@
         </Item>
         <Item name="CheckIDSequence">
           <Item name="Male01">
-            <Item name="All_D_CIDS_Check01M1">Мені потрібно ваше посвідчення, пане.</Item>
-            <Item name="All_D_CIDS_Check02M1">Мені потрібен посвідчення, пане!</Item>
-            <Item name="All_D_CIDS_Check03M1">Кажу востаннє. Покажіть мені дійсне посвідчення!</Item>
+            <Item name="All_D_CIDS_Check01M1">Мені треба бачити якийсь ІД, пане.</Item>
+            <Item name="All_D_CIDS_Check02M1">Мені потрібен ІД, пане!</Item>
+            <Item name="All_D_CIDS_Check03M1">Кажу востаннє. Покажіть мені дійсний ІД!</Item>
           </Item>
           <Item name="Male02">
-            <Item name="All_D_CIDS_Check01M2">Мені потрібно ваше посвідчення, пане.</Item>
-            <Item name="All_D_CIDS_Check02M2">Мені потрібно посвідчення, пане!</Item>
-            <Item name="All_D_CIDS_Check03M2">Кажу востаннє. Покажіть мені дійсне посвідчення!</Item>
-            <Item name="All_D_CIDS_CheckBadM2">Це посвідчення підроблене! Порушник!</Item>
+            <Item name="All_D_CIDS_Check01M2">Мені треба бачити якийсь ІД, пане.</Item>
+            <Item name="All_D_CIDS_Check02M2">Мені потрібен ІД, пане!</Item>
+            <Item name="All_D_CIDS_Check03M2">Кажу востаннє. Покажіть мені дійсний ІД!</Item>
+            <Item name="All_D_CIDS_CheckBadM2">Цей ІД підроблений! Порушник!</Item>
           </Item>
         </Item>
         <Item name="DontDoThat">
@@ -691,13 +691,13 @@
           <Item name="Male01">
             <Item name="All_D_DS_Door01M1">Вибачте, пане, входу немає.</Item>
             <Item name="All_D_DS_Door02M1">Як я вже казав, ви не можете пройти.</Item>
-            <Item name="All_D_DS_Door03M1">Досить! Забирайся до біса, клоун.</Item>
+            <Item name="All_D_DS_Door03M1">Досить! Забирайся к бісу, клоун.</Item>
             <Item name="All_D_DS_DoorOKM1">Вітаю, пане, ви можете зайти.</Item>
           </Item>
           <Item name="Male02">
             <Item name="All_D_DS_Door01M2">Вибачте, пане, входу немає.</Item>
             <Item name="All_D_DS_Door02M2">Як я вже казав, ви не можете пройти.</Item>
-            <Item name="All_D_DS_Door03M2">Досить! Забирайся до біса, клоун.</Item>
+            <Item name="All_D_DS_Door03M2">Досить! Забирайся к бісу, клоун.</Item>
             <Item name="All_D_DS_DoorOKM2">Вітаю, пане, ви можете зайти.</Item>
           </Item>
         </Item>
@@ -753,15 +753,15 @@
         </Item>
         <Item name="CheckIDSequence">
           <Item name="Male02">
-            <Item name="All_E_CIDS_Check01M2">Мені потрібно ваше посвідчення, пане.</Item>
-            <Item name="All_E_CIDS_Check02M2">Мені потрібно посвідчення, пане!</Item>
-            <Item name="All_E_CIDS_Check03M2">Кажу востаннє. Покажіть мені дійсне посвідчення!</Item>
+            <Item name="All_E_CIDS_Check01M2">Мені треба бачити якийсь ІД, пане.</Item>
+            <Item name="All_E_CIDS_Check02M2">Мені потрібен ІД, пане!</Item>
+            <Item name="All_E_CIDS_Check03M2">Кажу востаннє. Покажіть мені дійсний ІД!</Item>
           </Item>
           <Item name="Male03">
-            <Item name="All_E_CIDS_Check01M3">Мені потрібно ваше посвідчення, пане.</Item>
-            <Item name="All_E_CIDS_Check02M3">Мені потрібно посвідчення, пане!</Item>
-            <Item name="All_E_CIDS_Check03M3">Кажу востаннє. Покажіть мені дійсне посвідчення!</Item>
-            <Item name="All_E_CIDS_CheckBadM3">Це посвідчення підроблене! Порушник!</Item>
+            <Item name="All_E_CIDS_Check01M3">Мені треба бачити якийсь ІД, пане.</Item>
+            <Item name="All_E_CIDS_Check02M3">Мені потрібен ІД, пане!</Item>
+            <Item name="All_E_CIDS_Check03M3">Кажу востаннє. Покажіть мені дійсний ІД!</Item>
+            <Item name="All_E_CIDS_CheckBadM3">Цей ІД підроблений! Порушник!</Item>
           </Item>
         </Item>
         <Item name="DontDoThat">
@@ -787,13 +787,13 @@
           <Item name="Male02">
             <Item name="All_E_DS_Door01M2">Вибачте, пане, входу немає.</Item>
             <Item name="All_E_DS_Door02M2">Як я вже казав, ви не можете пройти.</Item>
-            <Item name="All_E_DS_Door03M2">Досить! Забирайся до біса, клоун.</Item>
+            <Item name="All_E_DS_Door03M2">Досить! Забирайся к бісу, клоун.</Item>
             <Item name="All_E_DS_DoorOKM2">Вітаю, пане, ви можете зайти.</Item>
           </Item>
           <Item name="Male03">
             <Item name="All_E_DS_Door01M3">Вибачте, пане, входу немає.</Item>
             <Item name="All_E_DS_Door02M3">Як я вже казав, ви не можете пройти.</Item>
-            <Item name="All_E_DS_Door03M3">Досить! Забирайся до біса, клоун.</Item>
+            <Item name="All_E_DS_Door03M3">Досить! Забирайся к бісу, клоун.</Item>
             <Item name="All_E_DS_DoorOKM3">Вітаю, пане, ви можете зайти.</Item>
           </Item>
         </Item>
@@ -838,10 +838,10 @@
         </Item>
         <Item name="CheckIDSequence">
           <Item name="Male01">
-            <Item name="All_F_CIDS_Check01M1">Мені потрібно ваше посвідчення, пане.</Item>
-            <Item name="All_F_CIDS_Check02M1">Мені потрібно посвідчення, пане!</Item>
-            <Item name="All_F_CIDS_Check03M1">Кажу востаннє. Покажіть мені дійсне посвідчення!</Item>
-            <Item name="All_F_CIDS_CheckBadM1">Це посвідчення підроблене! Порушник!</Item>
+            <Item name="All_F_CIDS_Check01M1">Мені треба бачити якийсь ІД, пане.</Item>
+            <Item name="All_F_CIDS_Check02M1">Мені потрібен ІД, пане!</Item>
+            <Item name="All_F_CIDS_Check03M1">Кажу востаннє. Покажіть мені дійсний ІД!</Item>
+            <Item name="All_F_CIDS_CheckBadM1">Цей ІД підроблений! Порушник!</Item>
           </Item>
         </Item>
         <Item name="DontDoThat">
@@ -947,14 +947,14 @@
         </Item>
         <Item name="CheckIDSequence">
           <Item name="Male01">
-            <Item name="All_H_CIDS_Check01M1">Мені потрібно ваше посвідчення, пане.</Item>
-            <Item name="All_H_CIDS_Check02M1">Мені потрібно посвідчення, пане!</Item>
-            <Item name="All_H_CIDS_Check03M1">Кажу востаннє. Покажіть мені дійсне посвідчення!</Item>
+            <Item name="All_H_CIDS_Check01M1">Мені треба бачити якийсь ІД, пане.</Item>
+            <Item name="All_H_CIDS_Check02M1">Мені потрібен ІД, пане!</Item>
+            <Item name="All_H_CIDS_Check03M1">Кажу востаннє. Покажіть мені дійсний ІД!</Item>
           </Item>
           <Item name="Male02">
-            <Item name="All_H_CIDS_Check01M2">Мені потрібно ваше посвідчення, пане.</Item>
-            <Item name="All_H_CIDS_Check02M2">Мені потрібно посвідчення, пане!</Item>
-            <Item name="All_H_CIDS_Check03M2">Кажу востаннє. Покажіть мені дійсне посвідчення!</Item>
+            <Item name="All_H_CIDS_Check01M2">Мені треба бачити якийсь ІД, пане.</Item>
+            <Item name="All_H_CIDS_Check02M2">Мені потрібен ІД, пане!</Item>
+            <Item name="All_H_CIDS_Check03M2">Кажу востаннє. Покажіть мені дійсний ІД!</Item>
           </Item>
         </Item>
         <Item name="DontDoThat">
@@ -977,13 +977,13 @@
           <Item name="Male01">
             <Item name="All_H_DS_Door01M1">Вибачте, пане, входу немає.</Item>
             <Item name="All_H_DS_Door02M1">Як я вже казав, ви не можете пройти.</Item>
-            <Item name="All_H_DS_Door03M1">Досить! Забирайся до біса, клоун.</Item>
+            <Item name="All_H_DS_Door03M1">Досить! Забирайся к бісу, клоун.</Item>
             <Item name="All_H_DS_DoorOKM1">Вітаю, пане, ви можете зайти.</Item>
           </Item>
           <Item name="Male02">
             <Item name="All_H_DS_Door01M2">Вибачте, пане, входу немає.</Item>
             <Item name="All_H_DS_Door02M2">Як я вже казав, ви не можете пройти.</Item>
-            <Item name="All_H_DS_Door03M2">Досить! Забирайся до біса, клоун.</Item>
+            <Item name="All_H_DS_Door03M2">Досить! Забирайся к бісу, клоун.</Item>
             <Item name="All_H_DS_DoorOKM2">Вітаю, пане, ви можете зайти.</Item>
           </Item>
         </Item>
@@ -1038,7 +1038,7 @@
         </Item>
         <Item name="CheckIDSequence">
           <Item name="Male01">
-            <Item name="All_Rum_CIDS_Check01M1">Мені потрібно ваше посвідчення, пане.</Item>
+            <Item name="All_Rum_CIDS_Check01M1">Мені треба бачити якийсь ІД, пане.</Item>
           </Item>
         </Item>
         <Item name="DontDoThat">
@@ -1054,7 +1054,7 @@
           <Item name="Male01">
             <Item name="All_Rum_DS_Door01M1">Вибачте, пане, входу немає.</Item>
             <Item name="All_Rum_DS_Door02M1">Як я вже казав, ви не можете пройти.</Item>
-            <Item name="All_Rum_DS_Door03M1">Досить! Забирайся до біса, клоун.</Item>
+            <Item name="All_Rum_DS_Door03M1">Досить! Забирайся к бісу, клоун.</Item>
             <Item name="All_Rum_DS_DoorOKM1">Вітаю, пане, ви можете зайти.</Item>
           </Item>
         </Item>
@@ -1089,14 +1089,14 @@
         </Item>
         <Item name="CheckIDSequence">
           <Item name="Male01">
-            <Item name="All_R_CIDS_Check01M1">Мені потрібно ваше посвідчення, пане.</Item>
-            <Item name="All_R_CIDS_Check02M1">Мені потрібно посвідчення, пане!</Item>
-            <Item name="All_R_CIDS_Check03M1">Кажу востаннє. Покажіть мені дійсне посвідчення!</Item>
+            <Item name="All_R_CIDS_Check01M1">Мені треба бачити якийсь ІД, пане.</Item>
+            <Item name="All_R_CIDS_Check02M1">Мені потрібен ІД, пане!</Item>
+            <Item name="All_R_CIDS_Check03M1">Кажу востаннє. Покажіть мені дійсний ІД!</Item>
           </Item>
           <Item name="Male02">
-            <Item name="All_R_CIDS_Check01M2">Мені потрібно ваше посвідчення, пане.</Item>
-            <Item name="All_R_CIDS_Check02M2">Мені потрібно посвідчення, пане!</Item>
-            <Item name="All_R_CIDS_Check03M2">Кажу востаннє. Покажіть мені дійсне посвідчення!</Item>
+            <Item name="All_R_CIDS_Check01M2">Мені треба бачити якийсь ІД, пане.</Item>
+            <Item name="All_R_CIDS_Check02M2">Мені потрібен ІД, пане!</Item>
+            <Item name="All_R_CIDS_Check03M2">Кажу востаннє. Покажіть мені дійсний ІД!</Item>
           </Item>
         </Item>
         <Item name="DontDoThat">
@@ -1117,13 +1117,13 @@
           <Item name="Male01">
             <Item name="All_R_DS_Door01M1">Вибачте, пане, входу немає.</Item>
             <Item name="All_R_DS_Door02M1">Як я вже казав, ви не можете пройти.</Item>
-            <Item name="All_R_DS_Door03M1">Досить! Забирайся до біса, клоун.</Item>
+            <Item name="All_R_DS_Door03M1">Досить! Забирайся к бісу, клоун.</Item>
             <Item name="All_R_DS_DoorOKM1">Вітаю, пане, ви можете зайти.</Item>
           </Item>
           <Item name="Male02">
             <Item name="All_R_DS_Door01M2">Вибачте, пане, входу немає.</Item>
             <Item name="All_R_DS_Door02M2">Як я вже казав, ви не можете пройти.</Item>
-            <Item name="All_R_DS_Door03M2">Досить! Забирайся до біса, клоун.</Item>
+            <Item name="All_R_DS_Door03M2">Досить! Забирайся к бісу, клоун.</Item>
             <Item name="All_R_DS_DoorOKM2">Вітаю, пане, ви можете зайти.</Item>
           </Item>
         </Item>
@@ -1176,7 +1176,7 @@
       </Item>
     </Item>
     <Item name="Info">
-      <Item name="BombHasBeenArmed">Бомба була активована</Item>
+      <Item name="BombHasBeenArmed">Бомба була озброєна</Item>
       <Item name="BonusSave">Тебе нагородили додатковим збереженням</Item>
       <Item name="CanNotUnpackSniper">Не можна розпаковувати снайперку в цьому місці</Item>
       <Item name="CivilianHasWarnedGuards">Цивільний попередив охоронця</Item>
@@ -1213,7 +1213,7 @@
         <Item name="MeatKing_01">Охорона знайшла труп м'ясного короля</Item>
         <Item name="MeatKingBrother_01">Охорона знайшла труп брата м'ясного короля</Item>
         <Item name="MeatKingLawyer_01">Охорона знайшла труп адвоката</Item>
-        <Item name="MeiLing">Охорона знайшла труп Мей Лінґ</Item>
+        <Item name="MeiLing">Охорона знайшла труп Меі Лінґ</Item>
         <Item name="OpiumWaiter_01">Охорона знайшла труп розносника опію</Item>
         <Item name="RussianAgent_01">Охорона знайшла труп цивільного</Item>
         <Item name="RussianSoldierArctic_01">Охорона знайшла труп солдата</Item>
@@ -1227,7 +1227,7 @@
       <Item name="GuardsAlert">Охоронці попереджені</Item>
       <Item name="HeadForExit">Прямуй до точки виходу</Item>
       <Item name="Hint">Порада</Item>
-      <Item name="HotelAccessGranted">Охоронець прийняв посвідчення</Item>
+      <Item name="HotelAccessGranted">Охоронець прийняв картку ІД</Item>
       <Item name="Information">Інформація</Item>
       <Item name="KeyReceived">Отримано ключ до номеру 301</Item>
       <Item name="MapUpdated">Мапу оновлено. Натисни $Мар.</Item>
@@ -1344,7 +1344,7 @@
 Ви впевнені?</Item>
       <Item name="Continue">Продовжити</Item>
       <Item name="ControlSetup">Керування</Item>
-      <Item name="Credits">Автори</Item>
+      <Item name="Credits">Кредити</Item>
       <Item name="CreditsText">&lt;WІDТН 320&gt;&lt;СОLОR ffffff&gt;
 Нітмаn Соnтrастs був продукований
 (в алфавітному порядку)
@@ -2725,7 +2725,7 @@
         <Item name="Item_Bottle_Laxative_01">Пляшка проносного</Item>
         <Item name="Item_Bottle_Poison_01">250 міліграм цианіду</Item>
         <Item name="Item_Bottle_Scotch_01">Односолодове високогірне віскі</Item>
-        <Item name="Item_BusinessCard_Fuchs_01">ІД картка Фукса</Item>
+        <Item name="Item_BusinessCard_Fuchs_01">ІД картка конференції</Item>
         <Item name="Item_Container_Gasoline_01">5 літрова каністра</Item>
         <Item name="Item_Container_WeedKiller_01">5 літрова каністра гербіциду</Item>
         <Item name="Item_Glass_Milk_01">Склянка молока</Item>
@@ -2912,7 +2912,7 @@
         <Item name="Item_Bottle_Poison_02">Отрута</Item>
         <Item name="Item_Bottle_Scotch_01">Віскі</Item>
         <Item name="Item_Bottle_Vodka_01">Горілка</Item>
-        <Item name="Item_BusinessCard_Fuchs_01">Картка ІД Фукса</Item>
+        <Item name="Item_BusinessCard_Fuchs_01">Картка ІД</Item>
         <Item name="Item_Container_Gasoline_01">Бензин</Item>
         <Item name="Item_Container_WeedKiller_01">Гербіцид</Item>
         <Item name="Item_Crate_Grocery_01">Продукти</Item>
@@ -3137,6 +3137,186 @@
       <Item name="C08-4">Вбивство Лі Гонґа</Item>
       <Item name="C09-1">Мисливець і здобич</Item>
       <Item name="GameCompleted">Гра завершена</Item>
+    </Item>
+  </MainPart>
+  <MainPart name="C01-1">
+    <Item name="Actions">
+      <Item name="CloseCabinet">Закрити шафу</Item>
+      <Item name="Escape">Втекти</Item>
+      <Item name="GiveRubberDuck">Дати гумову качку</Item>
+      <Item name="GiveSyringe">Дати шприц</Item>
+      <Item name="JumpDown">Стрибнути вниз</Item>
+      <Item name="OpenCabinet">Відкрити шафу</Item>
+    </Item>
+    <Item name="Dialog">
+      <Item name="GiveSyringe">
+        <Item name="C01-1_GS_01Madman">Допоможіть, пане, будь ласка. Я не можу перестати тремтіти, прош вас!</Item>
+        <Item name="C01-1_GS_02HM">Я не можу допомогти вам.</Item>
+        <Item name="C01-1_GS_03Madman">Ви можете! У вас є голка, пане, дайте її мені. Ви допоможете мені а я допоможу вам, пане.</Item>
+        <Item name="C01-1_GS_04HM">Ось, тримай.</Item>
+        <Item name="C01-1_GS_05Madman">Дякую, пане! А ви, ви тримайте це...</Item>
+      </Item>
+      <Item name="SwatCommander">
+        <Item name="C01-1_SC_00_IC01Commander">Ця штука працює?</Item>
+        <Item name="C01-1_SC_00_IC02Asst">Так, пане... Просто поверніть цей тумблер...</Item>
+        <Item name="C01-1_SC_00_IC03Commander">Увага! Це командир Белу румунських спеціальних сил.</Item>
+        <Item name="C01-1_SC_01Commander">Територія під наглядом а будинок оточено. Здавайтесь мирно і ніякого насилля не буде.</Item>
+        <Item name="C01-1_SC_02Commander">Ще не пізно здатися. Я ґарантую вашу безпеку.</Item>
+        <Item name="C01-1_SC_03Commander">Втеча не можлива. Виходьте зараз або ми зайдемо всередину по вас.</Item>
+        <Item name="C01-1_SC_04Commander">Це останнє попередження. Покладіть зброю і виходьте або я не ґарантую вашу безпеку.</Item>
+        <Item name="C01-1_SC_05Commander">Броня вас не захистить від наших куль! Все, ви труп.</Item>
+      </Item>
+    </Item>
+    <Item name="Info">
+      <Item name="AmmoReceived">Отримано набої.</Item>
+      <Item name="ExitHint">Зелені знаки ведуть до виходу.</Item>
+      <Item name="Madman_Suit_warning">SWАТ атакує кожного озброєного.</Item>
+      <Item name="NeedCarKey">Потрібен ключ до авто.</Item>
+      <Item name="SaveHint">Ти можеш зберегтися в ігровому меню, натисни $Меnu.</Item>
+      <Item name="SWAT_Suit_warning">Уніформа SWАТ забезпечує відмінний захист.</Item>
+      <Item name="SwatsNearby">Не можна йти - SWАТ поряд.</Item>
+      <Item name="ViewMap">Мапа допоможе знайти шлях до виходу. Натисни $Мар.</Item>
+      <Item name="ViewMap_pc">Мапа допоможе знайти шлях до виходу. Натисни $Мар.</Item>
+    </Item>
+    <Item name="Map">
+      <Item name="1stFloor">Поверх 1</Item>
+      <Item name="2ndFloor">Поверх 2</Item>
+      <Item name="3rdFloor">Поверх 3</Item>
+      <Item name="Basement">Підвал</Item>
+      <Item name="Outside">Зовні</Item>
+    </Item>
+    <Item name="MissionObjectives">
+      <Item name="Details1">SWАТ
+Остерігайся поліцейський SWАТ. Їхнє обладнання включає броню, зброю великого калібру і GРS трекер, який дозволяє команді SWАТ відстежувати кожного члена загону.
+
+ПЕРСОНАЛ САНАТОРІЮ
+Пам'ятай, що персонал санаторію все ще шукає тебе. Вони мають шокери, тому прибирай їх з відстані.
+
+МАПА
+Перевір мапу на ТОЧКИ ІНТЕРЕСУ (жовті знаки оклику).
+
+Більше деталей немає - далі ти сам по собі.</Item>
+      <Item name="Info1">Санаторій оточений поліцейським SWАТ. Або пробий шлях назовні або спробуй втекти непомітно.
+
+Перевір мапу на ТОЧКИ ВИХОДУ або поглянь ДЕТАЛІ для більшої інформації.</Item>
+      <Item name="Objective1">Втекти з санаторію</Item>
+    </Item>
+    <Item name="Training">
+      <Item name="crouch">Ти можеш повзти через отвір. Натисни $Сrоuсн.</Item>
+      <Item name="Deadclones">Ти можеш підбирати корисні предмети з мертвих клонів.</Item>
+      <Item name="fiberwire">Підкрадися і застосуй волокно, ніж чи заспокійливе.</Item>
+      <Item name="keyhole">Поглянь через отвір замка.</Item>
+      <Item name="killGuard">Вбий охоронця через вікно.</Item>
+      <Item name="sedate">Спробуй заспокоїти божевільного хірурга.</Item>
+      <Item name="Sneak">Прокрадись повз пораненого клона. Натисни $Snеак.</Item>
+      <Item name="sniper">Використай снайперську гвинтівку щоб вбити охоронця в холі.</Item>
+    </Item>
+    <Item name="Yell">
+      <Item name="Madmen">
+        <Item name="C01-1_M_01Madmen">Ти маєш робити як наказує отець. Ти маєш слухати. Слухай!</Item>
+        <Item name="C01-1_M_02Madmen">Це так боляче, будь ласка... заради бога, припини це - вбий мене, вбий мене зараз!</Item>
+        <Item name="C01-1_M_03Madmen">Я так тебе люблю, мамусю, чому ти мене не любиш? Чому, мамусю? Я ще поганий?</Item>
+        <Item name="C01-1_M_04Madmen">Тут не можна ні з ким побалакати, вони всі схиблені, вони божевільні, втратили розум. А я впливова людина, мені треба вибратися звідси.</Item>
+        <Item name="C01-1_M_05Madmen">Я не божевільний, вони тримають цих близнюків у підвалі, вони роблять їх наче машини - ти повинен повірити мені!</Item>
+        <Item name="C01-1_M_06Madmen">Відійди. Не торкайся мене. Я недоторканий. У мене особлива шкіра.</Item>
+        <Item name="C01-1_M_07Madmen">Я бачу твої рухи. Таак.</Item>
+        <Item name="C01-1_M_08Madmen">Одна людина виглядає як інша, і він схожий на нього, але там їх багато і всі вони мертві.</Item>
+        <Item name="C01-1_M_09Madmen">Брудний, огидний, відразливий - я нечистий, нечистий!</Item>
+        <Item name="C01-1_M_10Madmen">Стій виродок - не підходь або я стрибну.</Item>
+        <Item name="C01-1_M_11Madmen">Я серйозно - я стрибну!!!</Item>
+        <Item name="C01-1_M_12Madmen">Ааагггххх!</Item>
+        <Item name="MadmenSurgery">
+          <Item name="C01-1_MMS_01Madmen">Тут багато поганих труб. Нам треба підрізати труби і замінити запобіжники. Це важко без медсестер.</Item>
+          <Item name="C01-1_MMS_02Madmen">У нього поганий карбюратор. Я полагоджу. Також, я заміню йому мастило.</Item>
+          <Item name="C01-1_MMS_03Madmen">Я не думаю що він хороший лікар.</Item>
+          <Item name="C01-1_MMS_04Madmen">Що це за запах?</Item>
+          <Item name="C01-1_MMS_05Madmen">Можливо лікар допоможе мені?</Item>
+        </Item>
+        <Item name="MadmenWhereIsSyringe">
+          <Item name="C01-1_MMWIS_01Madmen">Де моя голка? Хто взяв мою голку? Вона мені потрібна! О боже, зараз же! ЗАРАЗ!</Item>
+        </Item>
+      </Item>
+      <Item name="Random">
+        <Item name="C01-1_Rand_02Madman">Я не боюсь...</Item>
+        <Item name="C01-1_Rand_04Madman">Маленький павучок видерся по водостоку...</Item>
+        <Item name="C01-1_Rand_07SWAT">Проклята робота...</Item>
+      </Item>
+      <Item name="SanitariumGuards">
+        <Item name="C01-1_SG_01SGuard">Тут ніби поле бою, забирайся.</Item>
+        <Item name="C01-1_SG_02SGuard">Я не хочу помирати. Будь ласка, боже, не дай мені вмерти...</Item>
+        <Item name="C01-1_SG_03SGuard">Ти не один з нас.</Item>
+        <Item name="C01-1_SG_04SGuard">Геть, геть, геть!</Item>
+        <Item name="C01-1_SG_05SGuard">Вони вб'ють всіх нас, їм все одно, мій боже, вони вб'ють нас!</Item>
+        <Item name="C01-1_SG_06SGuard">Спитай мене, хлопця що намагається сховатися від поліції у такому місці, він дійсно там де треба.</Item>
+      </Item>
+      <Item name="SmallTalk">
+        <Item name="GuardMadman">
+          <Item name="C01-1_ST_GM_01Guard">Спокійно. Все буде добре.</Item>
+          <Item name="C01-1_ST_GM_02Madman">Ти завжди це кажеш і це ніколи не так--ніколи!</Item>
+          <Item name="C01-1_ST_GM_03Guard">Стій спокійно або дам під зад.</Item>
+        </Item>
+        <Item name="SurgeryConversation">
+          <Item name="C01-1_ST_SC_01Madman">Що ти робиш зараз?</Item>
+          <Item name="C01-1_ST_SC_02MadDoc">Тепер я перевіряю рlurівus unuм пацієнта.</Item>
+          <Item name="C01-1_ST_SC_03Madman">Ти дуже мудрий.</Item>
+        </Item>
+        <Item name="TwoGuards">
+          <Item name="C01-1_ST_TG_01Guard1">Вони нас повбивають!</Item>
+          <Item name="C01-1_ST_TG_02Guard2">Їм немає діла до нас, їм потрібен лисий псих.</Item>
+          <Item name="C01-1_ST_TG_03Guard1">Але якщо пацієнти розкажуть...</Item>
+          <Item name="C01-1_ST_TG_04Guard2">Ха! Хто буде слухати цих лунатиків?</Item>
+        </Item>
+      </Item>
+      <Item name="SWATs">
+        <Item name="Command">
+          <Item name="C01-1_SC_01SWAT">У нас очі в небі. Повторюю. У нас очі в небі.</Item>
+          <Item name="C01-1_SC_02SWAT">Командування групі Альфа, доповідайте статус.</Item>
+          <Item name="C01-1_SC_03SWAT">Командування групі Браво, доповідайте статус.</Item>
+          <Item name="C01-1_SC_04SWAT">Командування групі Чарлі, доповідайте статус.</Item>
+          <Item name="C01-1_SC_05SWAT">Командування, периметр взятий під охорону.</Item>
+          <Item name="C01-1_SC_06SWAT">Тримати стрій. Тримати стрій.</Item>
+          <Item name="C01-1_SC_07SWAT">Нам потрібна підтримка снайпера на даху. Повторюю, нам потрібна підтримка снайпера на даху.</Item>
+          <Item name="C01-1_SC_08SWAT">Командування, надсилаєм підкріплення.</Item>
+          <Item name="C01-1_SC_09SWAT">Командування всім снайперам, стріляти без наказу. Повторюю, стріляти без наказу.</Item>
+          <Item name="C01-1_SC_10SWAT">Ціль одягнена в наше спорядження. Повторюю, ціль одягнена як один з нас. Стріляти без наказу. Спершу стріляти, а потім запитувати.</Item>
+        </Item>
+        <Item name="HitmanInvolved">
+          <Item name="C01-1_SHI_01SWAT">Двох поранено, запит негайної підтримки.</Item>
+          <Item name="C01-1_SHI_02SWAT">Ціль озброєна, повторюю, Ціль озброєна.</Item>
+          <Item name="C01-1_SHI_03SWAT">Ціль знайдено!</Item>
+          <Item name="C01-1_SHI_04SWAT">Ціль втекла, повторюю, ціль втекла.</Item>
+          <Item name="C01-1_SHI_05SWAT">Кинь зброю!</Item>
+          <Item name="C01-1_SHI_06SWAT">Людину поранено, запит евакуації.</Item>
+          <Item name="C01-1_SHI_07SWAT">Троє людей поранено, повторюю, троє поранено... де моя підтримка?</Item>
+          <Item name="C01-1_SHI_08SWAT">Здавайся!</Item>
+          <Item name="C01-1_SHI_09SWAT">В мене попали, боже, попали...</Item>
+          <Item name="C01-1_SHI_10SWAT">Людину поранено!</Item>
+          <Item name="C01-1_SHI_11SWAT">Іди в лабораторію і чекай!</Item>
+        </Item>
+        <Item name="Radio">
+          <Item name="C01-1_SR_01SWAT">Група Альфа доповідає - контакту немає.</Item>
+          <Item name="C01-1_SR_02SWAT">Група Браво доповідає - контакту немає.</Item>
+          <Item name="C01-1_SR_03SWAT">Група Чарлі доповідає - контакту немає.</Item>
+          <Item name="C01-1_SR_04SWAT">Ціль рухається - ми на його хвості.</Item>
+          <Item name="C01-1_SR_05SWAT">Ісусе, я поранений, я тяжко поранений...</Item>
+          <Item name="C01-1_SR_06SWAT">Група Альфа просувається.</Item>
+          <Item name="C01-1_SR_07SWAT">Ми можем вивести цих мешканців звідси?</Item>
+          <Item name="C01-1_SR_08SWAT">Альфа - чисто!</Item>
+          <Item name="C01-1_SR_09SWAT">Браво - чисто!</Item>
+          <Item name="C01-1_SR_10SWAT">Чарлі - чисто!</Item>
+          <Item name="C01-1_SR_11SWAT">Прикрий мене!</Item>
+          <Item name="C01-1_SR_12SWAT">Я позаду.</Item>
+          <Item name="C01-1_SR_13SWAT">Ціль встановлена... зайняти позиції... нічого, хибна тривога.</Item>
+          <Item name="C01-1_SR_14SWAT">Вперед, вперед!</Item>
+          <Item name="C01-1_SR_15SWAT">Альфа лідер, де ваш Браво?</Item>
+          <Item name="C01-1_SR_16SWAT">Група Чарлі, займає кут... Чисто.</Item>
+          <Item name="C01-1_SR_17SWAT">Група Браво, ми зайняли коридор.</Item>
+          <Item name="C01-1_SR_18SWAT">Брово до Чарлі, це були ви?</Item>
+          <Item name="C01-1_SR_19SWAT">Група Альфа переміщується.</Item>
+          <Item name="C01-1_SR_20SWAT">Ціль досягнуто.</Item>
+          <Item name="C01-1_SR_21SWAT">Перевірка.</Item>
+        </Item>
+      </Item>
     </Item>
   </MainPart>
 </HitmanLOC>

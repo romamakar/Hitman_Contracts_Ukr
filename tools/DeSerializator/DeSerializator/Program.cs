@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO.Compression;
+using System.Reflection.Emit;
 using System.Text;
 using System.Xml;
 using System.Xml.Serialization;
@@ -51,22 +53,23 @@ namespace DeSerializator
         static void Main(string[] args)
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
-            LocToXML();
+            //  LocToXML();
             XmlToLoc();
+            UpdateZip();
             return;
-            LocToXML();
+            //LocToXML();
 
-            var xml = File.ReadAllText("MainMenu.XML", Encoding.UTF8);
-            XmlSerializer serializer = new XmlSerializer(typeof(HitmanLOC));
-            using (StringReader reader = new StringReader(xml))
-            {
-                HitmanLOC hitmanLOC = (HitmanLOC)serializer.Deserialize(reader);
-                Console.WriteLine(hitmanLOC.MainPart.Name);
-                Console.WriteLine(hitmanLOC.MainPart.Items[0].Name);
-                Console.WriteLine(hitmanLOC.MainPart.Items[0].Value);
-                Console.WriteLine(hitmanLOC.MainPart.Items[0].SubItems[0].Name);
-                Console.WriteLine(hitmanLOC.MainPart.Items[0].SubItems[0].Value);
-            }
+            //var xml = File.ReadAllText("MainMenu.XML", Encoding.UTF8);
+            //XmlSerializer serializer = new XmlSerializer(typeof(HitmanLOC));
+            //using (StringReader reader = new StringReader(xml))
+            //{
+            //    HitmanLOC hitmanLOC = (HitmanLOC)serializer.Deserialize(reader);
+            //    Console.WriteLine(hitmanLOC.MainPart.Name);
+            //    Console.WriteLine(hitmanLOC.MainPart.Items[0].Name);
+            //    Console.WriteLine(hitmanLOC.MainPart.Items[0].Value);
+            //    Console.WriteLine(hitmanLOC.MainPart.Items[0].SubItems[0].Name);
+            //    Console.WriteLine(hitmanLOC.MainPart.Items[0].SubItems[0].Value);
+            //}
         }
 
         static void LocToXML()
@@ -125,12 +128,15 @@ namespace DeSerializator
                 {
 
                     hitmanLOC = (HitmanLOC)serializer.Deserialize(reader);
-                    for (var i = 0; i < hitmanLOC.MainPart.Items.Count; i++)
+                    for (var j = 0; j < hitmanLOC.MainPart.Count; j++)
                     {
-                        GoThrouClass(hitmanLOC.MainPart.Items[i]);
+                        for (var i = 0; i < hitmanLOC.MainPart[j].Items.Count; i++)
+                        {
+                            GoThrouClass(hitmanLOC.MainPart[j].Items[i]);
+                        }
                     }
                 }
-               var nexXml =  Path.GetFileName(xmlFile);
+                var nexXml = Path.GetFileName(xmlFile);
                 using (StreamWriter writer = new StreamWriter(xmlDirectory + "2\\" + nexXml, false, Encoding.UTF8))
                 {
                     serializer.Serialize(writer, hitmanLOC);
@@ -138,16 +144,123 @@ namespace DeSerializator
             }
         }
 
+        static void UpdateZip()
+        {
+            string sourceFolder = localPath + @"\loc"; // Папка з .loc файлами
+            string archiveFolder = localPath + @"\release-sources";  // Папка з архівами
+
+            if (!Directory.Exists(sourceFolder) || !Directory.Exists(archiveFolder))
+            {
+                Console.WriteLine("Одна з директорій не існує.");
+                return;
+            }
+            
+            foreach (string filePath in Directory.GetFiles(archiveFolder, "*.zip", SearchOption.AllDirectories))
+            {
+                string fileName = Path.GetFileNameWithoutExtension(filePath);
+                string archivePath = filePath, entryPath;
+
+                if (fileName.Contains("_"))
+                {
+                    var parts = fileName.Split('_');
+                    string level = parts[0];
+                    string desc = string.Join("_", parts.Skip(1));
+                    string subfolder = Path.Combine("SCENES", level);
+                    //archivePath = Path.Combine(archiveFolder, "Scenes", level, $"{level}_{desc}.zip");
+                    entryPath = Path.Combine(subfolder, fileName + ".LOC");
+                }
+                else if (filePath.Contains("AllLevels"))
+                {
+                    entryPath = Path.Combine("SCENES/AllLevels", fileName + ".LOC");
+                }
+                else
+                {
+                    // archivePath = Path.Combine(archiveFolder, "Scenes", $"{fileName}.zip");
+                    entryPath = Path.Combine("SCENES", fileName + ".LOC");
+                }
+
+                entryPath = entryPath.Replace("\\", "/");
+
+                if (!File.Exists(archivePath))
+                {
+                    continue;
+                }
+
+                using (var archive = ZipFile.Open(archivePath, ZipArchiveMode.Update))
+                {
+                    var existingEntry = archive.GetEntry(entryPath);
+                    if (existingEntry != null)
+                    {
+                        existingEntry?.Delete();
+
+                        var sourceFile = Path.Combine(sourceFolder, fileName + ".loc");
+                        sourceFile = File.Exists(sourceFile)? sourceFile : Path.Combine(sourceFolder, "main.loc");
+                        archive.CreateEntryFromFile(sourceFile, entryPath, CompressionLevel.Optimal);
+                    }
+                }
+
+                Console.WriteLine($"Файл {entryPath} додано до архіву {archivePath}");
+            }
+
+            if (File.Exists("Hitman_Contracts_Ukr.zip"))
+            {
+                File.Delete("Hitman_Contracts_Ukr.zip");
+            }
+
+            using (FileStream zipToCreate = new FileStream("Hitman_Contracts_Ukr.zip", FileMode.Create))
+            using (ZipArchive archive = new ZipArchive(zipToCreate, ZipArchiveMode.Create))
+            {
+                var scenesFolder = archiveFolder + "\\Scenes";
+                string rootFolderName = Path.GetFileName(scenesFolder.TrimEnd(Path.DirectorySeparatorChar));
+
+                // Додаємо всі файли з папки до архіву разом із папкою
+                foreach (string file in Directory.GetFiles(scenesFolder, "*", SearchOption.AllDirectories))
+                {
+                    Console.WriteLine($"Processing - {file}");
+                    string relativePath = Path.GetRelativePath(scenesFolder, file);
+                    string entryScene = Path.Combine(rootFolderName, relativePath).Replace("\\", "/"); // Відносний шлях у архіві
+                    archive.CreateEntryFromFile(file, entryScene);
+                }
+
+
+                string additionalFile = archiveFolder + "\\d3d8.dll";
+                archive.CreateEntryFromFile(additionalFile, "d3d8.dll");
+
+                additionalFile = archiveFolder + "\\h3.ini";
+                archive.CreateEntryFromFile(additionalFile, "h3.ini");
+
+                additionalFile = archiveFolder + "\\h3w.dll";
+                archive.CreateEntryFromFile(additionalFile, "h3w.dll");
+
+                additionalFile = archiveFolder + "\\HitmanContracts.ini";
+                archive.CreateEntryFromFile(additionalFile, "HitmanContracts.ini");
+
+            }
+
+            Console.WriteLine("Архів успішно створено!");
+        }
+
         static void XmlToLoc()
         {
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
-            string xmlDirectory = localPath + @"\xml2";
-            string locDirectory = localPath + @"\loc2";
+            string xmlDirectory = localPath + @"\xml";
+            string locDirectory = localPath + @"\loc";
             if (!Directory.Exists(locDirectory))
             {
                 Directory.CreateDirectory(locDirectory);
             }
+
+
             string[] xmlFiles = Directory.GetFiles(xmlDirectory, "*.xml");
+            var mainXmlFile = xmlFiles.FirstOrDefault(x => x.Contains("main.xml", StringComparison.InvariantCultureIgnoreCase));
+            var mainXml = File.ReadAllText(mainXmlFile, Encoding.UTF8);
+            XmlSerializer mainSerializer = new XmlSerializer(typeof(HitmanLOC));
+            HitmanLOC mainHitmanLOC;
+            using (StringReader reader = new StringReader(mainXml))
+            {
+                mainHitmanLOC = (HitmanLOC)mainSerializer.Deserialize(reader);
+            }
+
             foreach (string xmlFile in xmlFiles)
             {
                 var xml = File.ReadAllText(xmlFile, Encoding.UTF8);
@@ -155,11 +268,15 @@ namespace DeSerializator
                 HitmanLOC hitmanLOC;
                 using (StringReader reader = new StringReader(xml))
                 {
-
                     hitmanLOC = (HitmanLOC)serializer.Deserialize(reader);
-                    for (var i = 0; i < hitmanLOC.MainPart.Items.Count; i++)
+
+                    hitmanLOC.MainPart[0] = mainHitmanLOC.MainPart[0];
+                    for (var j = 0; j < hitmanLOC.MainPart.Count; j++)
                     {
-                        GoThrouClassToUTF(hitmanLOC.MainPart.Items[i]);
+                        for (var i = 0; i < hitmanLOC.MainPart[j].Items.Count; i++)
+                        {
+                            GoThrouClassToUTF(hitmanLOC.MainPart[j].Items[i]);
+                        }
                     }
                 }
 
@@ -204,7 +321,7 @@ namespace DeSerializator
                     Console.WriteLine($"Error: {error1}");
                 process.Kill();
             }
-
+            
         }
 
         private static void GoThrouClassToUTF(Item root)
@@ -224,7 +341,7 @@ namespace DeSerializator
                         current.Value = current.Value.Replace(ukrpair.Value, ukrpair.Key);//TranslateText(current.value, current.name);
                     }
 
-                   // Console.WriteLine(current.Value);
+                    // Console.WriteLine(current.Value);
                 }
 
                 if (current.SubItems != null)
@@ -257,7 +374,7 @@ namespace DeSerializator
                         current.Value = current.Value.Replace(ukrpair.Key, ukrpair.Value);//TranslateText(current.value, current.name);
                     }
 
-                  //  Console.WriteLine(current.Value);
+                    //  Console.WriteLine(current.Value);
                 }
 
                 if (current.SubItems != null)
