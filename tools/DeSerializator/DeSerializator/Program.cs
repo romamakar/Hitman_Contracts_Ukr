@@ -261,7 +261,7 @@ namespace DeSerializator
                 mainHitmanLOC = (HitmanLOC)mainSerializer.Deserialize(reader);
                 for (var i = 0; i < mainHitmanLOC.MainPart[0].Items.Count; i++)
                 {
-                    GoThrouClassToUTF(hitmanLOC.MainPart[0].Items[i]);
+                    GoThrouClassToUTF(mainHitmanLOC.MainPart[0].Items[i]);
                 }
             }
 
