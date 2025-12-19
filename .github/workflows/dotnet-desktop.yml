@@ -22,7 +22,7 @@ jobs:
         run: choco install innosetup -y
 
       - name: Restore dependencies
-        working-directory: tools/builder
+        working-directory: tools/DeSerializator
         run: dotnet restore
 
       - name: Build the project
