@@ -30,12 +30,12 @@ jobs:
           Expand-Archive -Path "Hitman_Contracts_Ukr.zip" -DestinationPath "output" -Force
 
       - name: Build installer (silent)
-        run: ISCC.exe "${{ github.workspace }}\installer\setup.iss"
+        run: C:\Program Files (x86)\Inno Setup 6\ISCC.exe "${{ github.workspace }}\installer\setup.iss"
 
       - name: Upload installer
         uses: softprops/action-gh-release@v2
         with:
-          files: "D:\\a\\Hitman_Contracts_Ukr\\Hitman_Contracts_Ukr\\installer\\Output\\HitmanContracts_Ukr1_2.exe"
+          files: "C:\\actions-runner\\_work\\Hitman_Contracts_Ukr\\Hitman_Contracts_Ukr\\installer\\Output\\HitmanContracts_Ukr1_2.exe"
           tag_name: "exe"  # Можна використовувати будь-який тег, якщо потрібно
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
