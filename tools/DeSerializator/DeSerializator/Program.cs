@@ -245,10 +245,15 @@ namespace DeSerializator
         {
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
             string xmlDirectory = localPath + @"\xml";
+            string newXmplDirectory = localPath + @"\xml2";
             string locDirectory = localPath + @"\loc";
             if (!Directory.Exists(locDirectory))
             {
                 Directory.CreateDirectory(locDirectory);
+            }
+            if (!Directory.Exists(newXmplDirectory))
+            {
+                Directory.CreateDirectory(newXmplDirectory);
             }
 
 
@@ -290,13 +295,14 @@ namespace DeSerializator
                     serializer.Serialize(writer, hitmanLOC);
                 }
 
+                string fileName = Path.GetFileName(xmlFile);
                 string[] lines = File.ReadAllLines(xmlFile, Encoding.UTF8);
                 if (lines.Length > 0)
                 {
                     lines[0] = "<?xml version=\"1.0\" encoding=\"windows-1251\" standalone=\"no\"?>";
-                    File.WriteAllLines(xmlFile, lines, Encoding.UTF8);
+                    File.WriteAllLines($"{newXmplDirectory}\\{fileName}", lines, Encoding.UTF8);
                 }
-                string fileName = Path.GetFileName(xmlFile);
+                
                 string outputLocFile = Path.ChangeExtension(fileName, ".loc");
 
                 Process process = new Process()
@@ -304,7 +310,7 @@ namespace DeSerializator
                     StartInfo = new ProcessStartInfo
                     {
                         FileName = "loctool.exe",
-                        Arguments = $"c {xmlDirectory}\\{fileName} {locDirectory}\\{outputLocFile}",
+                        Arguments = $"c {newXmplDirectory}\\{fileName} {locDirectory}\\{outputLocFile}",
                         RedirectStandardOutput = true,
                         RedirectStandardError = true,
                         UseShellExecute = false,

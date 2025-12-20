@@ -7,19 +7,11 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: self-hosted
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Setup .NET
-        uses: actions/setup-dotnet@v3
-        with:
-          dotnet-version: "8.0.x"
-
-      - name: Install Inno Setup
-        run: choco install innosetup -y
+        uses: actions/checkout@v4      
 
       - name: Restore dependencies
         working-directory: tools/DeSerializator
