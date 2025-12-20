@@ -30,7 +30,8 @@ jobs:
           Expand-Archive -Path "Hitman_Contracts_Ukr.zip" -DestinationPath "output" -Force
 
       - name: Build installer (silent)
-        run: "C:\\Program Files (x86)\\Inno Setup 6\\ISCC.exe ${{ github.workspace }}\\installer\\setup.iss"
+        shell: cmd
+        run: '"C:\Program Files (x86)\Inno Setup 6\ISCC.exe" "%GITHUB_WORKSPACE%\installer\setup.iss"'
 
       - name: Upload installer
         uses: softprops/action-gh-release@v2
