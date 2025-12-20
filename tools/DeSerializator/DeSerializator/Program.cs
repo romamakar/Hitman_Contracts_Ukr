@@ -53,6 +53,7 @@ namespace DeSerializator
         static void Main(string[] args)
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
+            Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
             //  LocToXML();
             XmlToLoc();
             UpdateZip();
@@ -252,7 +253,7 @@ namespace DeSerializator
 
 
             string[] xmlFiles = Directory.GetFiles(xmlDirectory, "*.xml");
-            var mainXmlFile = xmlFiles.FirstOrDefault(x => x.Contains("main.xml", StringComparison.InvariantCultureIgnoreCase));
+            var mainXmlFile = xmlFiles.FirstOrDefault(x => string.Equals(Path.GetFileName(x), "main.xml", StringComparison.InvariantCultureIgnoreCase));
             var mainXml = File.ReadAllText(mainXmlFile, Encoding.UTF8);
             XmlSerializer mainSerializer = new XmlSerializer(typeof(HitmanLOC));
             HitmanLOC mainHitmanLOC;
@@ -284,7 +285,7 @@ namespace DeSerializator
                     }
                 }
 
-                using (StreamWriter writer = new StreamWriter(xmlFile))
+                using (StreamWriter writer = new StreamWriter(xmlFile, false, Encoding.UTF8))
                 {
                     serializer.Serialize(writer, hitmanLOC);
                 }
